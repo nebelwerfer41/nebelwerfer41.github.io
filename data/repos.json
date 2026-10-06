@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-10-06",
+  "repositories": [
+    {
+      "name": "41weather",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "MeteoAM weather forecasts with location search, daily summaries, hourly charts and marine data.",
+      "language": "JavaScript",
+      "homepage": "https://nebelwerfer41.github.io/41weather/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "bluetooth-controller-ios-test",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "Log keyboard, mouse, pointer and gamepad events exposed by the browser for iOS input testing.",
+      "language": "HTML",
+      "homepage": "https://nebelwerfer41.github.io/bluetooth-controller-ios-test/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "flash-callsheet-msr-template",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "MSR report template for Movie Magic Scheduling, with illustrated export instructions for Flash Suite.",
+      "language": "",
+      "homepage": "",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "flashBack",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "Crew and department call-time editor with text import/export.",
+      "language": "JavaScript",
+      "homepage": "https://nebelwerfer41.github.io/flashBack/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "flashSCHM",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "Actor preparation scheduler for costume, hair and makeup, with timeline and Excel import/export.",
+      "language": "JavaScript",
+      "homepage": "https://nebelwerfer41.github.io/flashSCHM/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "flashSides",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "Select, reorder and merge separate scene PDFs into one document in the browser.",
+      "language": "JavaScript",
+      "homepage": "https://nebelwerfer41.github.io/flashSides/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "flashwatermark",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "Create recipient-specific PDF watermarks in the browser and download the copies as a ZIP.",
+      "language": "JavaScript",
+      "homepage": "https://nebelwerfer41.github.io/flashwatermark/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    },
+    {
+      "name": "stripboard-studio",
+      "owner": {
+        "login": "nebelwerfer41"
+      },
+      "private": false,
+      "description": "Browser tool to view and edit Movie Magic Scheduling stripboards, with local MSD and MMSX import/export.",
+      "language": "JavaScript",
+      "homepage": "https://nebelwerfer41.github.io/stripboard-studio/",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "spdx_id": "MIT"
+      }
+    }
+  ]
+}
