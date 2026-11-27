@@ -106,6 +106,9 @@ def parse_pdf(path):
                 "vertical_strategy": "lines", "horizontal_strategy": "lines",
                 "snap_tolerance": 3, "intersection_tolerance": 4
             })
+            if index == 95:
+                print("DEBUG_PAGE_TEXT", repr(text[:900]))
+                print("DEBUG_PAGE_FIRST_TABLE", repr(tables[:1])[:600])
             for table in tables:
                 for cells in table:
                     if not cells or len(cells) < 7:
