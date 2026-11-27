@@ -34,4 +34,6 @@ jobs:
             exit 0
           fi
           git commit -m "data: geolocate Roma nidi from 2019 official SC6 positions"
+          git fetch origin main
+          git rebase origin/main
           git push
