@@ -51,6 +51,11 @@
   .result{border:1px solid transparent;border-radius:11px;padding:10px 12px;margin:3px 5px 6px 0;background:#fff;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:9px;transition:background .15s,border .15s}
   .result:hover{border-color:#d7e7e8;background:#f7fbfc}.result.active{background:#edf8f6;border-color:#c8e9e3}
   .result-name{font-weight:730;font-size:13px;color:#20343d;line-height:1.3}.result-meta{color:#687f88;font-size:11px;margin:5px 0 0}
+  .unlocated-section{margin:12px 6px 6px 0;padding:10px 12px;border-top:1px solid #e6eaed;background:#f8fafb;color:#556b73;font-size:12px}
+  .unlocated-section b{color:#344d55;font-size:12px}
+  .unlocated-section small{display:block;color:#697b82;font-size:11px;margin-top:3px}
+  .result.no-position{background:#fafbfc;border-color:#edf0f3}
+  .result.no-position .result-name{color:#506772}
   .pill{display:inline-block;vertical-align:middle;border-radius:5px;padding:1px 5px;font-size:10px;font-weight:750;margin-right:5px;background:#eaf0ff;color:#2f5cab}
   .pill.ponte{background:#f2eaff;color:#7c43b3}.pill.spazio{background:#fff4db;color:#a56c16}
   .distance{text-align:right;font-size:12px;font-weight:740;color:#078479;white-space:nowrap}.unlocated{color:#9aa9af;font-size:11px;font-weight:600}
@@ -174,9 +179,9 @@ function inRadius(r){const g=coordFor(r);return !!(center&&g&&hav(center,g)<=rad
 function filteredRecords(){
  const query=$('quickSearch').value.trim().toLocaleLowerCase('it'),mun=$('munSelect').value,ty=$('typeSelect').value,gst=$('gestSelect').value;
  let all=STRUCTURES.filter(r=>(!mun||String(r.municipio)===mun)&&(!ty||r.tipo===ty)&&(!gst||r.gestione.startsWith(gst))&&(!query||[r.nome,r.indirizzo,r.codice,r.comune||''].some(s=>s.toLocaleLowerCase('it').includes(query))));
- if(center)all=all.filter(inRadius);
- if(center){all.sort((a,b)=>{const ca=coordFor(a),cb=coordFor(b);if(ca&&!cb)return -1;if(!ca&&cb)return 1;return ca&&cb?hav(center,ca)-hav(center,cb):a.municipio-b.municipio||a.nome.localeCompare(b.nome,'it')})}
- else all.sort((a,b)=>a.municipio-b.municipio||a.nome.localeCompare(b.nome,'it'));
+ if(center)all=all.filter(r=>inRadius(r)||!coordFor(r));
+ if(center){all.sort((a,b)=>{const ca=coordFor(a),cb=coordFor(b);if(ca&&!cb)return -1;if(!ca&&cb)return 1;return ca&&cb?hav(center,ca)-hav(center,cb):a.nome.localeCompare(b.nome,'it')})}
+ else all.sort((a,b)=>{const ca=coordFor(a),cb=coordFor(b);if(ca&&!cb)return -1;if(!ca&&cb)return 1;return a.municipio-b.municipio||a.nome.localeCompare(b.nome,'it')});
  return all;
 }
 function updateProgress(){
@@ -284,16 +289,27 @@ function renderMarkers(){
  if(source)source.setData({type:'FeatureCollection',features});
 }
 function renderList(){
- currentFiltered=filteredRecords();const count=currentFiltered.length, located=STRUCTURES.filter(coordFor).length, pending=TOTAL-located;
- $('resultCount').textContent=center?count+' '+(count===1?'nido':'nidi')+' entro '+formatDist(radius()):count+' '+(count===1?'struttura':'strutture');
- $('filtersCompact').textContent=center?count+' '+(count===1?'nido':'nidi')+' · '+formatDist(radius()):'Apri per cercare e filtrare';
- $('distanceLegend').textContent=center?pending+' senza coordinate':$('munSelect').value?(Number($('munSelect').value)===0?'Provincia':'Municipio '+municipi[Number($('munSelect').value)]):'Elenco completo';
+ currentFiltered=filteredRecords();const count=currentFiltered.length;
+ const inArea=center?currentFiltered.filter(inRadius).length:0;
+ const missing=currentFiltered.filter(r=>!coordFor(r)).length;
+ $('resultCount').textContent=center?inArea+' '+(inArea===1?'nido':'nidi')+' entro '+formatDist(radius()):count+' '+(count===1?'struttura':'strutture');
+ $('filtersCompact').textContent=center?inArea+' '+(inArea===1?'nido':'nidi')+' · '+formatDist(radius()):'Apri per cercare e filtrare';
+ $('distanceLegend').textContent=center?missing+' da verificare':missing?'Localizzati prima · '+missing+' da verificare':'Elenco completo';
  const viewport=$('resultScroll');viewport.replaceChildren();
-  if(!count){const e=document.createElement('div');e.className='empty';e.textContent=center&&pending?'Nessun nido localizzato entro questo raggio. Aumentalo oppure premi “Rimuovi” per vedere tutti i nidi.':'Nessuna struttura corrisponde ai filtri.';viewport.append(e);return}
+  if(!count){const e=document.createElement('div');e.className='empty';e.textContent='Nessuna struttura corrisponde ai filtri.';viewport.append(e);return}
+ if(center&&!inArea){const msg=document.createElement('div');msg.className='empty';msg.textContent='Nessun nido geolocalizzato entro '+formatDist(radius())+'. I nidi senza coordinate sono elencati di seguito.';viewport.append(msg)}
  const fragment=document.createDocumentFragment();
+ let missingSectionAdded=false;
  for(const r of currentFiltered.slice(0,showCount)){
   const g=coordFor(r),m=center&&g?hav(center,g):null;
-  const card=document.createElement('article');card.className='result'+(activeId===r.id?' active':'');
+  if(!g&&!missingSectionAdded){
+   missingSectionAdded=true;
+   const section=document.createElement('div');section.className='unlocated-section';
+   const label=document.createElement('b');label.textContent='Posizione da verificare · '+missing+' '+(missing===1?'struttura':'strutture');
+   const note=document.createElement('small');note.textContent='Questi nidi non sono conteggiati nel raggio. Per cercare l’indirizzo seleziona il nome.';
+   section.append(label,note);fragment.append(section);
+  }
+  const card=document.createElement('article');card.className='result'+(activeId===r.id?' active':'')+(!g?' no-position':'');
   const main=document.createElement('button');main.type='button';
   const title=document.createElement('div');title.className='result-name';title.textContent=r.nome;main.append(title);
   const sub=document.createElement('div');sub.className='result-meta';
