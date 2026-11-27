@@ -1,0 +1,561 @@
+{
+  "provider": "OpenStreetMap Nominatim",
+  "source": "https://nominatim.openstreetmap.org/",
+  "originalMunicipalCoordinates": 316,
+  "newVerifiedAddresses": 22,
+  "attempted": 132,
+  "rejected": [
+    {
+      "name": "UN FIUME DI EMOZIONI",
+      "address": "PIAZZALE DEI PARTIGIANI, 2",
+      "town": "Roma"
+    },
+    {
+      "name": "A. CADLOLO",
+      "address": "VIA DELLA RONDINELLA, 2",
+      "town": "Roma"
+    },
+    {
+      "name": "LUIGI PIANCIANI",
+      "address": "VIA GIORDANO BRUNO, 2",
+      "town": "Roma"
+    },
+    {
+      "name": "RUGGERO BONGHI",
+      "address": "VIA RUGGERO BONGHI, 30",
+      "town": "Roma"
+    },
+    {
+      "name": "MICRONIDO CASA DEGLI GNOMI",
+      "address": "VIA UMBERTO BOCCIONI, 14",
+      "town": "Roma"
+    },
+    {
+      "name": "PRINCIPESSA MAFALDA",
+      "address": "VIA LOVANIO, 13",
+      "town": "Roma"
+    },
+    {
+      "name": "SEZIONE PONTE DEI COLORI",
+      "address": "VIA STAMIRA, 55",
+      "town": "Roma"
+    },
+    {
+      "name": "IL CASTELLO",
+      "address": "VIA DI CASTEL GIUBILEO, 33",
+      "town": "Roma"
+    },
+    {
+      "name": "PICCOLO BLU E PICCOLO GIALLO",
+      "address": "LARGO PORTO SAN GIORGIO, 5",
+      "town": "Roma"
+    },
+    {
+      "name": "TANALIBERAMONDO",
+      "address": "VIA CAVRIGLIA, 8",
+      "town": "Roma"
+    },
+    {
+      "name": "COMANO - ADA CHINI",
+      "address": "VIA COMANO, 9",
+      "town": "Roma"
+    },
+    {
+      "name": "MONTE MASSICO",
+      "address": "VIA GIOVANNI CONTI, 58",
+      "town": "Roma"
+    },
+    {
+      "name": "SORELLE TETRAZZINI",
+      "address": "VIA SORELLE TETRAZZINI, 55",
+      "town": "Roma"
+    },
+    {
+      "name": "NANNA BELLA",
+      "address": "VIA TIBURTINA, 1231",
+      "town": "Roma"
+    },
+    {
+      "name": "POPPEA SABINA",
+      "address": "VIA POPPEA SABINA, 73",
+      "town": "Roma"
+    },
+    {
+      "name": "CECCHINA AGUZZANO PROGETTO PONTE",
+      "address": "VIA CARTESIO, 3",
+      "town": "Roma"
+    },
+    {
+      "name": "BECCADELLI",
+      "address": "PIAZZA GIUSEPPE CARDINALI, 3",
+      "town": "Roma"
+    },
+    {
+      "name": "CHICCHI D'ORO",
+      "address": "VIA RIOFREDDO, 30",
+      "town": "Roma"
+    },
+    {
+      "name": "GOGHLIGO SPENCER",
+      "address": "VIA HERBERT SPENCER, 82",
+      "town": "Roma"
+    },
+    {
+      "name": "L'ALBERO AZZURRO",
+      "address": "VIA DELLE MANDRAGORE, SNC",
+      "town": "Roma"
+    },
+    {
+      "name": "L'ALLEGRA COMPAGNIA DEI BAMBINI",
+      "address": "VIA ANDREA NOALE, 331",
+      "town": "Roma"
+    },
+    {
+      "name": "PRAMPOLINI",
+      "address": "VIA ALFREDO COVELLI, 24",
+      "town": "Roma"
+    },
+    {
+      "name": "ROSALBA CARRIERA",
+      "address": "VIA ROSALBA CARRIERA, 25",
+      "town": "Roma"
+    },
+    {
+      "name": "GUGLIELMO MARCONI",
+      "address": "VIALE ALESSANDRINO, 390",
+      "town": "Roma"
+    },
+    {
+      "name": "IL GIARDINO DEI COLORI",
+      "address": "VIALE DELLA VENEZIA GIULIA, 72",
+      "town": "Roma"
+    },
+    {
+      "name": "LA CASETTA DELLE ARTI E DEI GIOCHI",
+      "address": "VIA TRANQUILLO CREMONA, 22",
+      "town": "Roma"
+    },
+    {
+      "name": "ACERO ROSSO",
+      "address": "VIA LUIGI CROCCO, 2",
+      "town": "Roma"
+    },
+    {
+      "name": "AVVENTURA DI CRESCERE",
+      "address": "VIA MONTAGANO, 13",
+      "town": "Roma"
+    },
+    {
+      "name": "CRESCERE INSIEME 2",
+      "address": "VIA DI TOR BELLA MONACA, 475",
+      "town": "Roma"
+    },
+    {
+      "name": "CRESCERE INSIEME-VIA MALVAGNA",
+      "address": "VIA MALVAGNA, 13",
+      "town": "Roma"
+    },
+    {
+      "name": "FIORI DI MELOGRANO",
+      "address": "VIA OSCAR ARNULFO ROMERO, 91",
+      "town": "Roma"
+    },
+    {
+      "name": "IL CESTO DEI TESORI",
+      "address": "VIA ROCCALUMERA, 80",
+      "town": "Roma"
+    },
+    {
+      "name": "IL NIDO DELLA TARTARUGA",
+      "address": "VIA LICATA, 20",
+      "town": "Roma"
+    },
+    {
+      "name": "LA CASA DEI BAMBINI",
+      "address": "VIA ANDRIA, 43",
+      "town": "Roma"
+    },
+    {
+      "name": "LA FATA BUFFA",
+      "address": "VIA SANTA MARIA DI LICODIA, 46",
+      "town": "Roma"
+    },
+    {
+      "name": "MICRONIDO MONDOLANDIA",
+      "address": "VIA DELLA TENUTA DI TORRENOVA, 134",
+      "town": "Roma"
+    },
+    {
+      "name": "PICCOLO NIDO",
+      "address": "VIA DEI CORIBANTI , 42",
+      "town": "Roma"
+    },
+    {
+      "name": "POLO 0/6 LA TARTARUGA",
+      "address": "VIA DON PRIMO MAZZOLARI, 79",
+      "town": "Roma"
+    },
+    {
+      "name": "AGRIASILO",
+      "address": "VIA DI TOR VERGATA, 319",
+      "town": "Roma"
+    },
+    {
+      "name": "GREGNA S. ANDREA",
+      "address": "VIA ALESSANDRO DELLA SETA, 8",
+      "town": "Roma"
+    },
+    {
+      "name": "IL CAMPO DI FRAGOLE",
+      "address": "VIA VITTORIO RAGUSA, 100",
+      "town": "Roma"
+    },
+    {
+      "name": "IL GERMOGLIO VERDE",
+      "address": "VIA ADRIA, 15",
+      "town": "Roma"
+    },
+    {
+      "name": "IL GIRASOLE",
+      "address": "VIA MACEDONIA, 17",
+      "town": "Roma"
+    },
+    {
+      "name": "NIDI NEL VERDE - VIA R. SALVATORI - ANAGNINA 2",
+      "address": "VIA RENATO SALVATORI, 81",
+      "town": "Roma"
+    },
+    {
+      "name": "PAN DI ZUCCHERO",
+      "address": "VIA DEPORTATI DEL QUADRARO, 15",
+      "town": "Roma"
+    },
+    {
+      "name": "STELLA STELLINA",
+      "address": "VIA GIUSEPPE GREGORACI, 64",
+      "town": "Roma"
+    },
+    {
+      "name": "CENTRONI",
+      "address": "VIA DEL FOSSO DI S. ANDREA, 67",
+      "town": "Roma"
+    },
+    {
+      "name": "GIUSEPPE GARIBALDI",
+      "address": "VIA MONDOVI', 16",
+      "town": "Roma"
+    },
+    {
+      "name": "CAMELOT",
+      "address": "VIA LUCA ANTONIO CRACAS, 3",
+      "town": "Roma"
+    },
+    {
+      "name": "ARMONIA",
+      "address": "VIA DEI GRANAI DI NERVA, 18",
+      "town": "Roma"
+    },
+    {
+      "name": "FIABE E COLORI",
+      "address": "VIA DI GROTTA PERFETTA, 607",
+      "town": "Roma"
+    },
+    {
+      "name": "IL PICCOLO COSMO DI SIRO",
+      "address": "VIA GIANA ANGUISSOLA, 102",
+      "town": "Roma"
+    },
+    {
+      "name": "L'ISOLA DI PETER PAN",
+      "address": "VIA DELLA VILLA DI LUCINA, SNC",
+      "town": "Roma"
+    },
+    {
+      "name": "PICCOLI MONELLI",
+      "address": "VIA GIUSEPPE CASALINUOVO, 1",
+      "town": "Roma"
+    },
+    {
+      "name": "IL CASTAGNO",
+      "address": "VIA ANDREA DEL CASTAGNO, 175",
+      "town": "Roma"
+    },
+    {
+      "name": "BACCHETTA MAGICA",
+      "address": "VIA GIAN GASPARE NAPOLITANO, 3",
+      "town": "Roma"
+    },
+    {
+      "name": "FIABA...CONTINUA",
+      "address": "VIA MAROCCO, 22",
+      "town": "Roma"
+    },
+    {
+      "name": "IL GIARDINO DELLE STELLE",
+      "address": "LARGO GIANNI DE LUCA, 8",
+      "town": "Roma"
+    },
+    {
+      "name": "IL GIARDINO FATATO",
+      "address": "VIA DEL COLLE DELLA STREGA, 34",
+      "town": "Roma"
+    },
+    {
+      "name": "LA FIABA NEL BOSCO",
+      "address": "VIA DI VALLERANO, 162",
+      "town": "Roma"
+    },
+    {
+      "name": "LA TANA DEI MONELLI",
+      "address": "VIA DELLE TESTUGGINI, 9",
+      "town": "Roma"
+    },
+    {
+      "name": "NIDO CECCHIGNOLA",
+      "address": "VIA LINDA MALNATI, SNC",
+      "town": "Roma"
+    },
+    {
+      "name": "PICCOLO PANDA",
+      "address": "VIA MARCELLO CONVERSI, 39",
+      "town": "Roma"
+    },
+    {
+      "name": "PRIMAVERA DEL CAMPUS",
+      "address": "VIA REGDO SCODRO, 35",
+      "town": "Roma"
+    },
+    {
+      "name": "TAPPETO VOLANTE",
+      "address": "VIA VINICIO CORTESE, 61",
+      "town": "Roma"
+    },
+    {
+      "name": "GIRASOLI",
+      "address": "VIA CESARE MACCARI, SNC",
+      "town": "Roma"
+    },
+    {
+      "name": "IL CASTELLO DI PICCOLE SCINTILLE",
+      "address": "VIA GIUSEPPE NICOLINI, 84",
+      "town": "Roma"
+    },
+    {
+      "name": "IL COLIBRI'",
+      "address": "VIA MARTINO MARTINI, 91/93",
+      "town": "Roma"
+    },
+    {
+      "name": "LA MAGNOLIA",
+      "address": "VIA DI DRAGONE, 97",
+      "town": "Roma"
+    },
+    {
+      "name": "L'ALBERO DELLE GIRANDOLE",
+      "address": "VIA SUOR CESARINA D'ANGELO, 82",
+      "town": "Roma"
+    },
+    {
+      "name": "L'AURORA NIDI",
+      "address": "VIA TOMMASO TRAETTA, 68",
+      "town": "Roma"
+    },
+    {
+      "name": "POLO 0/6 ARGENTOVIVO",
+      "address": "VIA MONVALLE, 61",
+      "town": "Roma"
+    },
+    {
+      "name": "POLO 0/6 MARIE CURIE",
+      "address": "VIA DEI GRADENIGO, SNC",
+      "town": "Roma"
+    },
+    {
+      "name": "POLO 0/6 NIDO LO SCARABOCCHIO",
+      "address": "VIA DOMENICO LUPATELLI, 5",
+      "town": "Roma"
+    },
+    {
+      "name": "POLO 0/6 VACCARI",
+      "address": "VIALE DI VIGNA PIA, 120",
+      "town": "Roma"
+    },
+    {
+      "name": "ELENA GIANINI BELOTTI (EX SAN MARCELLO PISTOIESE)",
+      "address": "VIA SAN MARCELLO PISTOIESE, SNC",
+      "town": "Roma"
+    },
+    {
+      "name": "MASSIMINA",
+      "address": "VIA FRANCESCO AQUILANTI, 31",
+      "town": "Roma"
+    },
+    {
+      "name": "NIDO BRAVETTA",
+      "address": "VIA DI BRAVETTA, 413",
+      "town": "Roma"
+    },
+    {
+      "name": "ABRACADABRA",
+      "address": "VIA BRA, 39",
+      "town": "Roma"
+    },
+    {
+      "name": "GIANBURRASCA",
+      "address": "VIA ANTONIO MAGLIO, 21",
+      "town": "Roma"
+    },
+    {
+      "name": "LA PUNTA",
+      "address": "VIA PIETRO DE FRANCISCI, 737",
+      "town": "Roma"
+    },
+    {
+      "name": "BUBU SETTETE",
+      "address": "VIA DELLA TENUTA DI S. AGATA, 8",
+      "town": "Roma"
+    },
+    {
+      "name": "IL MAGO DI OZ",
+      "address": "VIA CASSIA, KM 17.200",
+      "town": "Roma"
+    },
+    {
+      "name": "L'ISOLA DEI MONELLI",
+      "address": "VIA BRUNO SEROTINI, 49",
+      "town": "Roma"
+    },
+    {
+      "name": "NIDO - VIA MONTE CREMASCO",
+      "address": "VIA MONTE CREMASCO, 10",
+      "town": "Roma"
+    },
+    {
+      "name": "THE GIVING TREE",
+      "address": "VIA ORIOLO ROMANO, 240",
+      "town": "Roma"
+    },
+    {
+      "name": "MERELLI",
+      "address": "VIA GIACOMO MALVANO, 20",
+      "town": "Roma"
+    },
+    {
+      "name": "PARCO DI VEIO",
+      "address": "VIA FOSSO DEL FONTANILETTO, 29",
+      "town": "Roma"
+    },
+    {
+      "name": "BABY CLUB - I BAMBINI DEL CIRCO MASSIMO",
+      "address": "Via del Circo Massimo, 9",
+      "town": "Roma"
+    },
+    {
+      "name": "SCARABOCCHIANDO",
+      "address": "Via Luigi Luciani, 6/A",
+      "town": "Roma"
+    },
+    {
+      "name": "LA SCATOLA MAGICA",
+      "address": "Via Alfredo Catalani, 31/35",
+      "town": "Roma"
+    },
+    {
+      "name": "LA CASA DI MAYA / CASA DELL'APE MAIA",
+      "address": "Via Alessandro Scarlatti, 9/A",
+      "town": "Roma"
+    },
+    {
+      "name": "C'ERA UNA VOLTA IL CIELO",
+      "address": "Via Levanna, 15",
+      "town": "Roma"
+    },
+    {
+      "name": "GOCCIA DOPO GOCCIA",
+      "address": "Via Nomentana, 905",
+      "town": "Roma"
+    },
+    {
+      "name": "SHERAZADE",
+      "address": "Via Dino Frescobaldi, 7",
+      "town": "Roma"
+    },
+    {
+      "name": "I BIMBI TRA GLI ULIVI",
+      "address": "Via Pietraferrazzana, 22/26",
+      "town": "Roma"
+    },
+    {
+      "name": "IL GIARDINO DI VALENTINA",
+      "address": "Via Vetulonia, 61/A",
+      "town": "Roma"
+    },
+    {
+      "name": "LA MAISONETTE",
+      "address": "Via del Monte Oppio, 7",
+      "town": "Roma"
+    },
+    {
+      "name": "IL RANOCCHIO",
+      "address": "Via Duca degli Abruzzi, 1",
+      "town": "Anguillara Sabazia"
+    },
+    {
+      "name": "L'ISOLA DEI TESORI",
+      "address": "Via Anguillarese, 50",
+      "town": "Anguillara Sabazia"
+    },
+    {
+      "name": "IL GIARDINO DELLE MERAVIGLIE",
+      "address": "Via Comunale di San Francesco, 380",
+      "town": "Anguillara Sabazia"
+    },
+    {
+      "name": "IL PICCOLO RICCIO",
+      "address": "Via Olmata Tre Cancelli, 7C",
+      "town": "Bracciano"
+    },
+    {
+      "name": "ASILO NIDO BRACCIANO",
+      "address": "Via San Celso, 8",
+      "town": "Bracciano"
+    },
+    {
+      "name": "ASILO NIDO SENSORY",
+      "address": "Via Luisiana, 5",
+      "town": "Ladispoli"
+    },
+    {
+      "name": "ASILO NIDO GINO STRADA",
+      "address": "Via S. Ferretti, snc",
+      "town": "Cerveteri"
+    },
+    {
+      "name": "IL GIRASOLE",
+      "address": "Via Giuseppe Fontana, 27",
+      "town": "Fiumicino"
+    },
+    {
+      "name": "IL PARGOLETTO",
+      "address": "Via Mar Libico, 6",
+      "town": "Pomezia"
+    },
+    {
+      "name": "NIDO COCCOLANDIA",
+      "address": "Via Veneto, 26",
+      "town": "Civitavecchia"
+    },
+    {
+      "name": "ASILO NIDO BAMBI",
+      "address": "Via Quintilio Gentili",
+      "town": "Campagnano di Roma"
+    },
+    {
+      "name": "AGRINIDO IL GIROTONDO",
+      "address": "Via Portuense, 1983",
+      "town": "Fiumicino"
+    }
+  ],
+  "errors": [],
+  "matchingRule": "Same municipality, matching street, exact house number (or exact named POI for addresses without number)"
+}

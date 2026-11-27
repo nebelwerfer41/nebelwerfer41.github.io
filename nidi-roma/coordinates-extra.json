@@ -1,0 +1,178 @@
+{
+  "ROMA | VIA DI GESU' E MARIA, 28": {
+    "lat": 41.9083063,
+    "lng": 12.478424,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "28, Via di Gesù e Maria, Campo Marzio, Municipio Roma I, Roma, Lazio, 00187, Italia",
+    "checkedAddress": "VIA DI GESU' E MARIA, 28"
+  },
+  "ROMA | VIA GALVANI, 4": {
+    "lat": 41.8781959,
+    "lng": 12.4783286,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "Palazzina A, 4, Via Galvani, Testaccio, Municipio Roma I, Roma, Lazio, 00153, Italia",
+    "checkedAddress": "VIA GALVANI, 4"
+  },
+  "ROMA | VIA MELIZZANO, 2/4": {
+    "lat": 41.8907282,
+    "lng": 12.6299902,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "2, Via Melizzano, Torre Angela, Municipio Roma VI, Colle Prenestino, Roma, Lazio, 00132, Italia",
+    "checkedAddress": "VIA MELIZZANO, 2/4"
+  },
+  "ROMA | VIA FERDINANDO UGHELLI, 55": {
+    "lat": 41.8688807,
+    "lng": 12.5161429,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "55, Via Ferdinando Ughelli, Municipio Roma VII, Roma, Lazio, 00183, Italia",
+    "checkedAddress": "VIA FERDINANDO UGHELLI, 55"
+  },
+  "ROMA | VIA ADRIA, 19": {
+    "lat": 41.8780099,
+    "lng": 12.5206758,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "19, Via Adria, Municipio Roma VII, Roma, Lazio, 00181, Italia",
+    "checkedAddress": "VIA ADRIA, 19"
+  },
+  "ROMA | VIALE GIUSTINIANO IMPERATORE, 147": {
+    "lat": 41.8562178,
+    "lng": 12.4837646,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "147, Viale Giustiniano Imperatore, San Paolo, Municipio Roma VIII, Roma, Lazio, 00145, Italia",
+    "checkedAddress": "VIALE GIUSTINIANO IMPERATORE, 147"
+  },
+  "ROMA | VIALE ALDO BALLARIN, 102": {
+    "lat": 41.8382849,
+    "lng": 12.4951842,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "VIII Gruppo Tintoretto Polizia Locale Roma Capitale, 102, Viale Aldo Ballarin, Municipio Roma VIII, Roma, Lazio, 00142, Italia",
+    "checkedAddress": "VIALE ALDO BALLARIN, 102"
+  },
+  "ROMA | VIA ANTONIO MANNUCCI, 20": {
+    "lat": 41.8650124,
+    "lng": 12.4900168,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "20, Via Antonio Mannucci, Garbatella, Municipio Roma VIII, Roma, Lazio, 00154, Italia",
+    "checkedAddress": "VIA ANTONIO MANNUCCI, 20"
+  },
+  "ROMA | VIA DELL'ACCADEMIA DEL CIMENTO, 28": {
+    "lat": 41.8536768,
+    "lng": 12.4956603,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "28, Via dell'Accademia del Cimento, Tor Marancia, Municipio Roma VIII, Roma, Lazio, 00147, Italia",
+    "checkedAddress": "VIA DELL'ACCADEMIA DEL CIMENTO, 28"
+  },
+  "ROMA | VIA ANDREA MANTEGNA, 130": {
+    "lat": 41.8526585,
+    "lng": 12.4965979,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "Precise House Mantegna Roma, 130, Via Andrea Mantegna, Tor Marancia, Municipio Roma VIII, Roma, Lazio, 00147, Italia",
+    "checkedAddress": "VIA ANDREA MANTEGNA, 130"
+  },
+  "ROMA | VIA TULLIO LEVI CIVITA, 20": {
+    "lat": 41.8559947,
+    "lng": 12.4732109,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "20, Via Tullio Levi Civita, San Paolo, Municipio Roma VIII, Roma, Lazio, 00146, Italia",
+    "checkedAddress": "VIA TULLIO LEVI CIVITA, 20"
+  },
+  "ROMA | VIA CRISTOFORO COLOMBO, 588": {
+    "lat": 41.8305076,
+    "lng": 12.4685963,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "588, Via Cristoforo Colombo, E.U.R., Municipio Roma IX, Roma, Lazio, 00144, Italia",
+    "checkedAddress": "VIA CRISTOFORO COLOMBO, 588"
+  },
+  "ROMA | VIA COSTANZO CASANA, 222": {
+    "lat": 41.7384688,
+    "lng": 12.2673045,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "222, Via Costanzo Casana, Municipio Roma X, Lido di Ostia, Roma, Lazio, 00121, Italia",
+    "checkedAddress": "VIA COSTANZO CASANA, 222"
+  },
+  "ROMA | VIA DEL SAGITTARIO, 14": {
+    "lat": 41.7261033,
+    "lng": 12.295653,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "Asilo nido comunale Cavalluccio marino, 14, Via del Sagittario, Lido di Ostia Levante, Municipio Roma X, Lido di Ostia, Roma, Lazio, 00122, Italia",
+    "checkedAddress": "VIA DEL SAGITTARIO, 14"
+  },
+  "ROMA | VIA ULDERICO SACCHETTO, 12": {
+    "lat": 41.7315767,
+    "lng": 12.2864159,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "In fondo al mar, 12, Via Ulderico Sacchetto, Lido di Ostia Levante, Municipio Roma X, Lido di Ostia, Roma, Lazio, 00122, Italia",
+    "checkedAddress": "VIA ULDERICO SACCHETTO, 12"
+  },
+  "ROMA | VIA DEI LUCILII, 14": {
+    "lat": 41.7297371,
+    "lng": 12.2820208,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "14, Via dei Lucilii, Lido di Ostia Levante, Municipio Roma X, Lido di Ostia, Roma, Lazio, 00122, Italia",
+    "checkedAddress": "VIA DEI LUCILII, 14"
+  },
+  "ROMA | VIA FRANCESCO MENZIO, 299": {
+    "lat": 41.7754862,
+    "lng": 12.3766822,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "Asilo nido comunale \"Le ginestre\" e Scuola dell'Infanzia comunale \"Pegaso\", 299, Via Francesco Menzio, Acilia Sud, Municipio Roma X, Malafede, Roma, Lazio, 00125, Italia",
+    "checkedAddress": "VIA FRANCESCO MENZIO, 299"
+  },
+  "ROMA | VIALE DEI ROMAGNOLI, 515": {
+    "lat": 41.7467889,
+    "lng": 12.2856896,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "Cineland, 515, Viale dei Romagnoli, Municipio Roma X, Lido di Ostia, Roma, Lazio, 00121, Italia",
+    "checkedAddress": "VIALE DEI ROMAGNOLI, 515"
+  },
+  "ROMA | VIA DOMENICO BAFFIGO, 165": {
+    "lat": 41.7399179,
+    "lng": 12.2542002,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "La Gabbianella al Porto, 165, Via Domenico Baffigo, Municipio Roma X, Lido di Ostia, Roma, Lazio, 00121, Italia",
+    "checkedAddress": "VIA DOMENICO BAFFIGO, 165"
+  },
+  "ROMA | VIA SFORZA PALLAVICINI, 1": {
+    "lat": 41.9050921,
+    "lng": 12.4632241,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "1, Via Sforza Pallavicini, Prati, Municipio Roma I, Roma, Lazio, 00193, Italia",
+    "checkedAddress": "Via Sforza Pallavicini, 1"
+  },
+  "ROMA | VIA ROGHUDI, 19": {
+    "lat": 41.8176406,
+    "lng": 12.6197133,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "19, Via Roghudi, Municipio Roma VII, Centroni, Roma, Lazio, 00118, Italia",
+    "checkedAddress": "Via Roghudi, 19"
+  },
+  "CIAMPINO | VIA ROMANA VECCHIA, 20": {
+    "lat": 41.7938427,
+    "lng": 12.6172106,
+    "quality": "osm-house-number-verified",
+    "source": "OpenStreetMap Nominatim",
+    "displayAddress": "20, Via Romana Vecchia, Acqua Acetosa, Valle Copella, Ciampino, Roma, Lazio, 00043, Italia",
+    "checkedAddress": "Via Romana Vecchia, 20"
+  }
+}
