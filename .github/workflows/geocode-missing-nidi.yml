@@ -1,0 +1,37 @@
+name: Complete missing nursery coordinates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/geocode-missing-nidi.yml"
+      - "tools/geocode_missing_nidi.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Geocode missing addresses with strict validation
+        run: python -u tools/geocode_missing_nidi.py
+      - name: Commit additional validated points
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nidi-roma/coordinates-extra.json nidi-roma/coordinates-extra-report.json
+          if git diff --cached --quiet; then
+            echo "No coordinates changed"
+            exit 0
+          fi
+          git commit -m "data: geolocate additional nursery addresses from OpenStreetMap"
+          git fetch origin main
+          git rebase origin/main
+          git push
