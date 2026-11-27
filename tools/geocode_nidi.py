@@ -106,14 +106,11 @@ def parse_pdf(path):
                 "vertical_strategy": "lines", "horizontal_strategy": "lines",
                 "snap_tolerance": 3, "intersection_tolerance": 4
             })
-            if index == 95:
-                print("DEBUG_PAGE_TEXT", repr(text[:900]))
-                print("DEBUG_PAGE_FIRST_TABLE", repr(tables[:1])[:600])
             for table in tables:
                 for cells in table:
                     if not cells or len(cells) < 7:
                         continue
-                    v = [" ".join(str(x or "").split()) for x in cells]
+                    v = [" ".join(str(x or "").split()) for x in cells if str(x or "").strip()]
                     # Some tables contain extra empty columns.
                     at = next((i for i, x in enumerate(v) if x.strip() == "SC6"), -1)
                     if at < 0 or at < 1 or at + 5 >= len(v):
