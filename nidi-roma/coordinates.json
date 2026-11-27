@@ -1,0 +1,2846 @@
+{
+  "ROMA | CIRCONVALLAZIONE CLODIA, 133": {
+    "lat": 41.919239,
+    "lng": 12.456679,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "815",
+    "sourceName": "Assonido Clodia",
+    "sourceAddress": "Circonvallazione Clodia, 133"
+  },
+  "ROMA | VIA NOVENIO BUCCHI, 2": {
+    "lat": 41.923163,
+    "lng": 12.457638,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "612",
+    "sourceName": "Il Maggiolino",
+    "sourceAddress": "Via Novenio Bucchi, 2"
+  },
+  "ROMA | VIA ANGELO EMO, 13": {
+    "lat": 41.906198,
+    "lng": 12.449205,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "613",
+    "sourceName": "Il Nido di Iqbal",
+    "sourceAddress": "Via Angelo Emo, 13"
+  },
+  "ROMA | VIA GOFFREDO MAMELI, 31": {
+    "lat": 41.889284,
+    "lng": 12.467621,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "616",
+    "sourceName": "Mameli",
+    "sourceAddress": "Via Goffredo Mameli, 31"
+  },
+  "ROMA | VIA SILVIO PELLICO, 9": {
+    "lat": 41.913208,
+    "lng": 12.458882,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "617",
+    "sourceName": "Micronido Colombo",
+    "sourceAddress": "Via Silvio Pellico, 9"
+  },
+  "ROMA | PIAZZALE DEGLI EROI, 12": {
+    "lat": 41.908793,
+    "lng": 12.447628,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "618",
+    "sourceName": "Pinocchio",
+    "sourceAddress": "Piazzale degli Eroi, 12"
+  },
+  "ROMA | VIA DEL MONTE OPPIO, 34": {
+    "lat": 41.892045,
+    "lng": 12.493,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "610",
+    "sourceName": "Coccole & Co",
+    "sourceAddress": "Via Del Monte Oppio, 34"
+  },
+  "ROMA | VIA NICOLA ZABAGLIA, 27": {
+    "lat": 41.876627,
+    "lng": 12.477025,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "611",
+    "sourceName": "I Coccetti",
+    "sourceAddress": "Via Nicola Zabaglia, 27"
+  },
+  "ROMA | VIA BIXIO, 87": {
+    "lat": 41.892071,
+    "lng": 12.506615,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "614",
+    "sourceName": "La Porta Magica",
+    "sourceAddress": "Via Bixio, 87"
+  },
+  "ROMA | VIA MENTANA, 1": {
+    "lat": 41.90698,
+    "lng": 12.503187,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "615",
+    "sourceName": "L'angolo dei Piccoli",
+    "sourceAddress": "Via Mentana, 1"
+  },
+  "ROMA | SALITA DI S. GREGORIO, 3": {
+    "lat": 41.885967,
+    "lng": 12.491573,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "619",
+    "sourceName": "San Gregorio al Celio",
+    "sourceAddress": "Salita di S. Gregorio, 3"
+  },
+  "ROMA | VIA DI VILLA NARDUCCI, SNC": {
+    "lat": 41.910581,
+    "lng": 12.526109,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "620",
+    "sourceName": "Grillo Jo",
+    "sourceAddress": "Via di Villa Narducci"
+  },
+  "ROMA | VIA NOMENTANA, 2": {
+    "lat": 41.909791,
+    "lng": 12.503053,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "590",
+    "sourceName": "I Cuccioli",
+    "sourceAddress": "Via Nomentana, 2"
+  },
+  "ROMA | VIA BOLIVIA, 3": {
+    "lat": 41.932327,
+    "lng": 12.476842,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "621",
+    "sourceName": "Il Mondo Incantato",
+    "sourceAddress": "Via Bolivia, 3"
+  },
+  "ROMA | VIA ADIGRAT, 2": {
+    "lat": 41.927426,
+    "lng": 12.517322,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "622",
+    "sourceName": "Il Piccolo Principe",
+    "sourceAddress": "Via Adigrat, 2"
+  },
+  "ROMA | VIALE ARRIGO BOITO, 47": {
+    "lat": 41.937203,
+    "lng": 12.513267,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "623",
+    "sourceName": "J. Mirò",
+    "sourceAddress": "Viale Arrigo Boito, 47"
+  },
+  "ROMA | VIA VENEZUELA, 40": {
+    "lat": 41.93188,
+    "lng": 12.476681,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "624",
+    "sourceName": "L'arca",
+    "sourceAddress": "Via Venezuela, 40"
+  },
+  "ROMA | VIA DEI SABELLI, 88": {
+    "lat": 41.896911,
+    "lng": 12.515541,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "625",
+    "sourceName": "Lucignolo e Pinocchio",
+    "sourceAddress": "Via dei Sabelli, 88"
+  },
+  "ROMA | VIA FLAMINIA, 225": {
+    "lat": 41.923123,
+    "lng": 12.470888,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "626",
+    "sourceName": "Luna Crescente",
+    "sourceAddress": "Via Flaminia, 225"
+  },
+  "ROMA | VIA NOMENTANA, 54": {
+    "lat": 41.913153,
+    "lng": 12.507395,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "819",
+    "sourceName": "Montessori",
+    "sourceAddress": "Via Nomentana, 54"
+  },
+  "ROMA | VIA CIRENAICA, 5": {
+    "lat": 41.929046,
+    "lng": 12.519522,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "627",
+    "sourceName": "Piccolo Pinocchio",
+    "sourceAddress": "Via Cirenaica, 5"
+  },
+  "ROMA | VIA FRANCESCO GAI, 9": {
+    "lat": 41.931592,
+    "lng": 12.464955,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "628",
+    "sourceName": "Pollicina",
+    "sourceAddress": "Via Francesco Gai, 9"
+  },
+  "ROMA | VIA NOMENTANA, 341": {
+    "lat": 41.921818,
+    "lng": 12.517678,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "820",
+    "sourceName": "Primi Passi",
+    "sourceAddress": "Via Nomentana, 341"
+  },
+  "ROMA | VIA DEI CAMPANI, 75": {
+    "lat": 41.895137,
+    "lng": 12.515717,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "821",
+    "sourceName": "Regina Margherita",
+    "sourceAddress": "Via dei Campani, 75"
+  },
+  "ROMA | VIA DEI SARDI, 35": {
+    "lat": 41.897845,
+    "lng": 12.515895,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "629",
+    "sourceName": "Sardi",
+    "sourceAddress": "Via dei Sardi, 35"
+  },
+  "ROMA | VIA DI PONTE SALARIO, 99": {
+    "lat": 41.935056,
+    "lng": 12.500188,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "630",
+    "sourceName": "Villa Ada",
+    "sourceAddress": "Via di Ponte Salario, 99"
+  },
+  "ROMA | VIA NICOLO' PICCINNI, 60": {
+    "lat": 41.934067,
+    "lng": 12.517419,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "631",
+    "sourceName": "Villa Chigi",
+    "sourceAddress": "Via Nicolò Piccinni, 60"
+  },
+  "ROMA | VIA TRIPOLI, 64": {
+    "lat": 41.928011,
+    "lng": 12.521424,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "568",
+    "sourceName": "Pan di Zucchero",
+    "sourceAddress": "Via Tripoli, 64"
+  },
+  "ROMA | VIA CARMELO MARAVIGNA, SNC": {
+    "lat": 41.982846,
+    "lng": 12.561085,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "632",
+    "sourceName": "A Piccoli Passi",
+    "sourceAddress": "Via Carmelo Maravigna"
+  },
+  "ROMA | VIA DELLE ISOLE CURZOLANE, 69": {
+    "lat": 41.948447,
+    "lng": 12.531924,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "633",
+    "sourceName": "Arcobaleno",
+    "sourceAddress": "Via delle Isole Curzolane, 69"
+  },
+  "ROMA | VIA FERRUCCIO AMENDOLA, 50": {
+    "lat": 41.96787,
+    "lng": 12.534185,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "822",
+    "sourceName": "Bimbo Sereno",
+    "sourceAddress": "Via Ferruccio Amendola, 50"
+  },
+  "ROMA | VIA ENZO CERUSICO, SNC": {
+    "lat": 41.98606,
+    "lng": 12.50654,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "634",
+    "sourceName": "Castello di Gelsomina",
+    "sourceAddress": "Via Enzo Cerusico"
+  },
+  "ROMA | VIA DELLA BUFALOTTA, 395": {
+    "lat": 41.957049,
+    "lng": 12.544928,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "635",
+    "sourceName": "Castello Incantato",
+    "sourceAddress": "Via Della Bufalotta, 395"
+  },
+  "ROMA | VIA DELLA CECCHINA, 30": {
+    "lat": 41.947266,
+    "lng": 12.541827,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "636",
+    "sourceName": "Cecchina",
+    "sourceAddress": "Via della Cecchina, 30"
+  },
+  "ROMA | VIA CLELIA BERTINI ATTILJ, SNC": {
+    "lat": 41.941656,
+    "lng": 12.544563,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "637",
+    "sourceName": "Cocco-Drilli e Company",
+    "sourceAddress": "Via Clelia Bertini Attilj"
+  },
+  "ROMA | VIA MONTE RESEGONE, SNC": {
+    "lat": 41.953059,
+    "lng": 12.532943,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "638",
+    "sourceName": "Eureka",
+    "sourceAddress": "Via Monte Resegone"
+  },
+  "ROMA | VIA TASMANIA, 18": {
+    "lat": 41.97078,
+    "lng": 12.550108,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "823",
+    "sourceName": "Gli Scoiattoli",
+    "sourceAddress": "Via Tasmania, 18"
+  },
+  "ROMA | VIA ANNIBALE MARIA DI FRANCIA, 4": {
+    "lat": 41.970082,
+    "lng": 12.506697,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "824",
+    "sourceName": "I Colori Del Mondo - Villa Spada",
+    "sourceAddress": "Via Annibale Maria di Francia, 4"
+  },
+  "ROMA | VIA AUGUSTO PIERANTONI, 30": {
+    "lat": 41.950388,
+    "lng": 12.519183,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "825",
+    "sourceName": "Istituto Santa Teresa",
+    "sourceAddress": "Via Augusto Pierantoni, 30"
+  },
+  "ROMA | VIA GIOVANNI CONTI, 40": {
+    "lat": 41.952397,
+    "lng": 12.5301,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "639",
+    "sourceName": "La Casa dei Bambini",
+    "sourceAddress": "Via Giovanni Conti, 40"
+  },
+  "ROMA | VIALE GOTTARDO, 117": {
+    "lat": 41.931842,
+    "lng": 12.535948,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "826",
+    "sourceName": "La Casa sull'Albero",
+    "sourceAddress": "Viale Gottardo, 117"
+  },
+  "ROMA | VIA GIULIO PASQUATI, 45": {
+    "lat": 41.960639,
+    "lng": 12.532321,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "640",
+    "sourceName": "La Contea degli Hobbit",
+    "sourceAddress": "Via Giulio Pasquati, 45"
+  },
+  "ROMA | VIA VALLARSA, 28": {
+    "lat": 41.935279,
+    "lng": 12.530613,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "827",
+    "sourceName": "Lilliput",
+    "sourceAddress": "Via Vallarsa, 28"
+  },
+  "ROMA | VIA PETRITOLI, 51": {
+    "lat": 41.981709,
+    "lng": 12.512789,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "828",
+    "sourceName": "L'isola Che Non C’è",
+    "sourceAddress": "Via Petritoli, 51"
+  },
+  "ROMA | VIA FRANCESCO PAIS SERRA, 11": {
+    "lat": 41.9604,
+    "lng": 12.52375,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "829",
+    "sourceName": "Paradiso d'infanzia",
+    "sourceAddress": "Via Francesco Pais Serra, 11"
+  },
+  "ROMA | VIA DARIO NICCODEMI, 95": {
+    "lat": 41.956714,
+    "lng": 12.548758,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "643",
+    "sourceName": "Piccoli Talenti",
+    "sourceAddress": "Via Dario Niccodemi, 95"
+  },
+  "ROMA | VIA DI MONTE SACRO, 17": {
+    "lat": 41.932207,
+    "lng": 12.534928,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "642",
+    "sourceName": "Pianeta Infanzia",
+    "sourceAddress": "Via di Monte Sacro, 17"
+  },
+  "ROMA | VIA UGO OJETTI, 385": {
+    "lat": 41.947282,
+    "lng": 12.554433,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "644",
+    "sourceName": "Principe Ranocchio",
+    "sourceAddress": "Via Ugo Ojetti, 385"
+  },
+  "ROMA | VIA DON GIUSTINO MARIA RUSSOLILLO, 47": {
+    "lat": 41.970978,
+    "lng": 12.517548,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "645",
+    "sourceName": "Sophia",
+    "sourceAddress": "Via Don Giustino Maria Russolillo, 47"
+  },
+  "ROMA | VIA DI VALLE MELAINA, 57": {
+    "lat": 41.947163,
+    "lng": 12.525069,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "646",
+    "sourceName": "Spazio Bimbo",
+    "sourceAddress": "Via di Valle Melaina, 57"
+  },
+  "ROMA | VIA DOMENICO COMPARETTI, 55": {
+    "lat": 41.941869,
+    "lng": 12.550962,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "831",
+    "sourceName": "Un'Isola Per Te",
+    "sourceAddress": "Via Domenico Comparetti, 55"
+  },
+  "ROMA | VIA LATERINA, 15": {
+    "lat": 41.973341,
+    "lng": 12.516096,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "569",
+    "sourceName": "Aladino",
+    "sourceAddress": "Via Laterina, 15"
+  },
+  "ROMA | VIA LANFRANCO CIGALA, 41": {
+    "lat": 41.942359,
+    "lng": 12.624063,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "832",
+    "sourceName": "Amigos",
+    "sourceAddress": "Via Lanfranco Cigala ,41"
+  },
+  "ROMA | VIA SEBASTIANO SATTA, 80": {
+    "lat": 41.902895,
+    "lng": 12.551258,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "833",
+    "sourceName": "Baby 2000",
+    "sourceAddress": "Via Sebastiano Satta, 80"
+  },
+  "ROMA | VIA DELLA MORTELLA, 35": {
+    "lat": 41.911205,
+    "lng": 12.547718,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "834",
+    "sourceName": "Bimbi & Blues",
+    "sourceAddress": "Via della Mortella, 35"
+  },
+  "ROMA | VIA PESCOSOLIDO, 130": {
+    "lat": 41.918884,
+    "lng": 12.561579,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "648",
+    "sourceName": "Bolle di Sapone",
+    "sourceAddress": "Via Pescosolido, 130"
+  },
+  "ROMA | VIALE DELLA TORRE DI PRATOLUNGO, SNC": {
+    "lat": 41.943739,
+    "lng": 12.607681,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "649",
+    "sourceName": "Casetta Gianni",
+    "sourceAddress": "Viale della Torre di Pratolungo"
+  },
+  "ROMA | VIA DELLA TENUTA DEL CAVALIERE, 80": {
+    "lat": 41.935894,
+    "lng": 12.653891,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "836",
+    "sourceName": "Dodò",
+    "sourceAddress": "Via della Tenuta del Cavaliere, 80"
+  },
+  "ROMA | VIA VERTUMNO, 60": {
+    "lat": 41.913312,
+    "lng": 12.549058,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "650",
+    "sourceName": "Elefanti e Topolini",
+    "sourceAddress": "Via Vertumno, 60"
+  },
+  "ROMA | VIA FLORA, SNC": {
+    "lat": 41.918827,
+    "lng": 12.550871,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "808",
+    "sourceName": "Flora",
+    "sourceAddress": "Via Flora"
+  },
+  "ROMA | PIAZZALE HEGEL, 6": {
+    "lat": 41.936893,
+    "lng": 12.561046,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "837",
+    "sourceName": "Giocolando",
+    "sourceAddress": "Piazzale Hegel, 6"
+  },
+  "ROMA | VIA FEDERICO MILLOSEVICH, 18": {
+    "lat": 41.920521,
+    "lng": 12.544917,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "652",
+    "sourceName": "I Bambini dell'albero Azzurro",
+    "sourceAddress": "Via Federico Millosevich, 18"
+  },
+  "ROMA | VIA ERNESTO ROSSI, 29": {
+    "lat": 41.911172,
+    "lng": 12.567512,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "653",
+    "sourceName": "Il Nostro Girotondo",
+    "sourceAddress": "Via Ernesto Rossi, 29"
+  },
+  "ROMA | VIA VITTORIO ZINCONE, 1": {
+    "lat": 41.908275,
+    "lng": 12.555641,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "592",
+    "sourceName": "Il Casello dei Piccoli",
+    "sourceAddress": "Via Vittorio Zincone, 1"
+  },
+  "ROMA | VIALE RATTO DELLE SABINE, 5": {
+    "lat": 41.946129,
+    "lng": 12.601486,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "839",
+    "sourceName": "Il Dirigibile",
+    "sourceAddress": "Viale Ratto delle Sabine, 5"
+  },
+  "ROMA | VIA GUGLIELMO IOZZIA, SNC": {
+    "lat": 41.931289,
+    "lng": 12.633848,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "654",
+    "sourceName": "Il Giardino degli Aranci",
+    "sourceAddress": "Via Guglielmo Iozzia"
+  },
+  "ROMA | VIA GIOVANNI ZANARDINI, 109": {
+    "lat": 41.936764,
+    "lng": 12.552416,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "655",
+    "sourceName": "Il Girasole Giallo",
+    "sourceAddress": "Via Giovanni Zanardini, 109"
+  },
+  "ROMA | PIAZZA DI S. MARIA DELL'OLIVO, 1": {
+    "lat": 41.939167,
+    "lng": 12.622197,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "656",
+    "sourceName": "Insieme con un Sorriso",
+    "sourceAddress": "Piazza di S. Maria dell'Olivo, 1"
+  },
+  "ROMA | VIA PERGOLA, 14": {
+    "lat": 41.938823,
+    "lng": 12.581513,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "657",
+    "sourceName": "La Coccinella Gialla",
+    "sourceAddress": "Via Pergola, 14"
+  },
+  "ROMA | VIA SILVIO NEGRO, 39": {
+    "lat": 41.905503,
+    "lng": 12.549026,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "658",
+    "sourceName": "La Giostra",
+    "sourceAddress": "Via Silvio Negro 39"
+  },
+  "ROMA | VIA DEL PODERE ROSA, 116": {
+    "lat": 41.940411,
+    "lng": 12.564304,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "659",
+    "sourceName": "La Girandola",
+    "sourceAddress": "Via del Podere Rosa, 116"
+  },
+  "ROMA | VIALE BATTISTA BARDANZELLU, 34": {
+    "lat": 41.914637,
+    "lng": 12.573745,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "660",
+    "sourceName": "La Mongolfiera Magica",
+    "sourceAddress": "Viale Battista Bardanzellu, 34"
+  },
+  "ROMA | VIA ALBERTO POLLIO, SNC": {
+    "lat": 41.898428,
+    "lng": 12.532686,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "661",
+    "sourceName": "L'altalena",
+    "sourceAddress": "Via Alberto Pollio"
+  },
+  "ROMA | VIA RIVISONDOLI, 6": {
+    "lat": 41.923722,
+    "lng": 12.574732,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "662",
+    "sourceName": "L'aquilone Rosso",
+    "sourceAddress": "Via Rivisondoli, 6"
+  },
+  "ROMA | VIA DEL FRANTOIO, 52": {
+    "lat": 41.910837,
+    "lng": 12.561461,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "663",
+    "sourceName": "L'elefantino Elmer",
+    "sourceAddress": "Via del Frantoio, 52"
+  },
+  "ROMA | VIA NAZARENO GIANNI, 9": {
+    "lat": 41.945835,
+    "lng": 12.607131,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "841",
+    "sourceName": "L'isola di Niki",
+    "sourceAddress": "Via Nazareno Gianni, 9"
+  },
+  "ROMA | VIA NINO TAMASSIA, 33": {
+    "lat": 41.944601,
+    "lng": 12.585955,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "664",
+    "sourceName": "Lo Scarabocchio Blu",
+    "sourceAddress": "Via Nino Tamassia, 33"
+  },
+  "ROMA | VIA DEI MONTI TIBURTINI, 385": {
+    "lat": 41.920852,
+    "lng": 12.540059,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "591",
+    "sourceName": "Asl RmB",
+    "sourceAddress": "Via dei Monti Tiburtini, 385"
+  },
+  "ROMA | VIA BONVESIN DE LA RIVA, 85": {
+    "lat": 41.962552,
+    "lng": 12.60287,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "838",
+    "sourceName": "Goghligo",
+    "sourceAddress": "Via Bonvesin de La Riva, 85"
+  },
+  "ROMA | VIALE ATTILIO BERTOLUCCI, 9": {
+    "lat": 41.943374,
+    "lng": 12.629421,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "562",
+    "sourceName": "Settecamini-Nidi nel Verde",
+    "sourceAddress": "Viale Attilio Bertolucci, 9"
+  },
+  "ROMA | VIA DEL CASALE DI S. BASILIO, 236": {
+    "lat": 41.935866,
+    "lng": 12.582005,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "844",
+    "sourceName": "Winni Pooh",
+    "sourceAddress": "Via del Casale di S. Basilio, 236"
+  },
+  "ROMA | VIA PRENESTINA, 41": {
+    "lat": 41.891465,
+    "lng": 12.523097,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "594",
+    "sourceName": "Atac Prenestina",
+    "sourceAddress": "Via Prenestina, 41"
+  },
+  "ROMA | VIA PRENESTINA, 607": {
+    "lat": 41.894274,
+    "lng": 12.583819,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "595",
+    "sourceName": "Baby Bus",
+    "sourceAddress": "Via Prenestina, 607"
+  },
+  "ROMA | VIALE DELLA PRIMAVERA, 304": {
+    "lat": 41.8785,
+    "lng": 12.558457,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "665",
+    "sourceName": "Fata Primavera",
+    "sourceAddress": "Viale della Primavera, 304"
+  },
+  "ROMA | VIA DEI PLATANI, 29": {
+    "lat": 41.881528,
+    "lng": 12.563134,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "666",
+    "sourceName": "Ghirigò",
+    "sourceAddress": "Via dei Platani, 29"
+  },
+  "ROMA | VIA CASILINA, 931": {
+    "lat": 41.873595,
+    "lng": 12.572132,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "845",
+    "sourceName": "Happy Hyppo",
+    "sourceAddress": "Via Casilina, 931"
+  },
+  "ROMA | VIA GAETANO SALVEMINI, 60": {
+    "lat": 41.87425,
+    "lng": 12.547792,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "667",
+    "sourceName": "I Bimbi dell'Arcobaleno",
+    "sourceAddress": "Via Gaetano Salvemini, 60"
+  },
+  "ROMA | VIA PRENESTINA VECCHIA, 490": {
+    "lat": 41.894491,
+    "lng": 12.571685,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "668",
+    "sourceName": "I Giocosi Anatroccoli",
+    "sourceAddress": "Via Prenestina Vecchia, 490"
+  },
+  "ROMA | VIA GENTILE DA MOGLIANO, 109": {
+    "lat": 41.88922,
+    "lng": 12.533062,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "669",
+    "sourceName": "Il Bosco Incantato",
+    "sourceAddress": "Via Gentile da Mogliano, 109"
+  },
+  "ROMA | VIA LORENZO DELLEANI, 21": {
+    "lat": 41.900145,
+    "lng": 12.589012,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "670",
+    "sourceName": "Il Giardino di Rosati",
+    "sourceAddress": "Via Lorenzo Delleani, 21"
+  },
+  "ROMA | VIA DELIA, 52": {
+    "lat": 41.916577,
+    "lng": 12.611135,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "671",
+    "sourceName": "Il Melograno",
+    "sourceAddress": "Via Delia, 52"
+  },
+  "ROMA | VIALE GIOVANNI BATTISTA VALENTE, 142": {
+    "lat": 41.898867,
+    "lng": 12.567083,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "672",
+    "sourceName": "Il Pettirosso",
+    "sourceAddress": "Viale Giovanni Battista Valente, 142"
+  },
+  "ROMA | VIA MONTONA, 1": {
+    "lat": 41.896288,
+    "lng": 12.550485,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "673",
+    "sourceName": "Il Piccolo Giardino dei Colori",
+    "sourceAddress": "Via Montona, 1"
+  },
+  "ROMA | VIA DEL CAMPO, 48": {
+    "lat": 41.876847,
+    "lng": 12.579367,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "674",
+    "sourceName": "Il Sole e la Luna",
+    "sourceAddress": "Via del Campo, 48"
+  },
+  "ROMA | VIA DI CENTOCELLE, 236": {
+    "lat": 41.869824,
+    "lng": 12.54968,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "675",
+    "sourceName": "Il Sole Nido",
+    "sourceAddress": "Via di Centocelle, 236"
+  },
+  "ROMA | VIA ANAGNI, 26": {
+    "lat": 41.889715,
+    "lng": 12.555152,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "676",
+    "sourceName": "La Casa dello Scarabocchio",
+    "sourceAddress": "Via Anagni, 26"
+  },
+  "ROMA | VIALE TELESE, 64": {
+    "lat": 41.891344,
+    "lng": 12.548393,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "677",
+    "sourceName": "La Cometa",
+    "sourceAddress": "Viale Telese, 64"
+  },
+  "ROMA | VIA DI VILLA LAURICELLA, 22": {
+    "lat": 41.89092,
+    "lng": 12.537157,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "846",
+    "sourceName": "La Freccia Azzurra",
+    "sourceAddress": "Via di Villa Lauricella, 22"
+  },
+  "ROMA | PIAZZA DEI CONDOTTIERI, 34": {
+    "lat": 41.887343,
+    "lng": 12.534488,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "678",
+    "sourceName": "La Magnolia",
+    "sourceAddress": "Piazza dei Condottieri, 34"
+  },
+  "ROMA | VIA POLICASTRO, 45": {
+    "lat": 41.883221,
+    "lng": 12.5454,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "679",
+    "sourceName": "La Piccola Impronta",
+    "sourceAddress": "Via Policastro, 45"
+  },
+  "ROMA | VIA DELLE SUSINE, 76": {
+    "lat": 41.88029,
+    "lng": 12.578652,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "848",
+    "sourceName": "L'altraluna",
+    "sourceAddress": "Via delle Susine, 76"
+  },
+  "ROMA | VIA GIORGIO PERLASCA, 59": {
+    "lat": 41.901075,
+    "lng": 12.572383,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "681",
+    "sourceName": "L'Ape Birichina",
+    "sourceAddress": "Via Giorgio Perlasca, 59"
+  },
+  "ROMA | VIA DELLE RESEDE, 1": {
+    "lat": 41.887007,
+    "lng": 12.563295,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "682",
+    "sourceName": "L'isola che non c’è",
+    "sourceAddress": "Via delle Resede, 1"
+  },
+  "ROMA | LARGO APPIO CHIEREGATTI, 8": {
+    "lat": 41.887431,
+    "lng": 12.589034,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "683",
+    "sourceName": "Maramao",
+    "sourceAddress": "Largo Appio Chieregatti, 8"
+  },
+  "ROMA | VIA MOLFETTA, 30": {
+    "lat": 41.889494,
+    "lng": 12.577022,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "849",
+    "sourceName": "Oltre il Giardino",
+    "sourceAddress": "Via Molfetta, 30"
+  },
+  "ROMA | VIA DELLE NESPOLE, 68": {
+    "lat": 41.878232,
+    "lng": 12.582192,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "850",
+    "sourceName": "Piccole Pesti Crescono",
+    "sourceAddress": "Via delle Nespole, 68"
+  },
+  "ROMA | VIA ISIDORO DI CARACE, 50": {
+    "lat": 41.884619,
+    "lng": 12.537814,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "684",
+    "sourceName": "Riccioli d'oro",
+    "sourceAddress": "Via Isidoro Di Carace, 50"
+  },
+  "ROMA | VIA MONTELPARO, 22": {
+    "lat": 41.916433,
+    "lng": 12.728526,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "851",
+    "sourceName": "Aladino",
+    "sourceAddress": "Via Montelparo, 22"
+  },
+  "ROMA | VIA DELLA POIANA, 35": {
+    "lat": 41.870467,
+    "lng": 12.596641,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "852",
+    "sourceName": "Archimede",
+    "sourceAddress": "Via della Poiana,35"
+  },
+  "ROMA | VIA BATTISTA PANZERA, 23": {
+    "lat": 41.873783,
+    "lng": 12.627416,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "686",
+    "sourceName": "Arcobaleno",
+    "sourceAddress": "Via Battista Panzera, 23"
+  },
+  "ROMA | VIA PIETRO BELON, 94": {
+    "lat": 41.869377,
+    "lng": 12.591115,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "687",
+    "sourceName": "Baby Briciola",
+    "sourceAddress": "Via Pietro Belon, 94"
+  },
+  "ROMA | VIA LUIGI ROSSINI, 1": {
+    "lat": 41.859501,
+    "lng": 12.605867,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "688",
+    "sourceName": "Bambi",
+    "sourceAddress": "Via Luigi Rossini, 1"
+  },
+  "ROMA | VIA ROCCA DI CAMBIO, 16": {
+    "lat": 41.916739,
+    "lng": 12.677159,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "853",
+    "sourceName": "Camomilla",
+    "sourceAddress": "Via Rocca di Cambio, 16"
+  },
+  "ROMA | VIA DELL' OSTERIA DEL FINOCCHIO, 35": {
+    "lat": 41.861386,
+    "lng": 12.683763,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "854",
+    "sourceName": "Campo di Tulipani",
+    "sourceAddress": "Via dell'Osteria del Finocchio, 35"
+  },
+  "ROMA | LARGO ROTELLO, 1": {
+    "lat": 41.917198,
+    "lng": 12.683119,
+    "quality": "storico-ufficiale-via-e-nome-senza-civico",
+    "sourceYear": 2019,
+    "sourceId": "809",
+    "sourceName": "Castelverde",
+    "sourceAddress": "Largo Rotello"
+  },
+  "ROMA | VIA AGOSTINO MITELLI, 8": {
+    "lat": 41.882958,
+    "lng": 12.628484,
+    "quality": "storico-ufficiale-via-e-nome-senza-civico",
+    "sourceYear": 2019,
+    "sourceId": "689",
+    "sourceName": "Cento Colori",
+    "sourceAddress": "Via Agostino Mitelli"
+  },
+  "ROMA | VIA CAPACI, 37": {
+    "lat": 41.86416,
+    "lng": 12.685486,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "690",
+    "sourceName": "Collina Verde",
+    "sourceAddress": "Via Capaci, 37"
+  },
+  "ROMA | VIA ATLANTE, 210": {
+    "lat": 41.881987,
+    "lng": 12.615541,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "857",
+    "sourceName": "Dindolò",
+    "sourceAddress": "Via Atlante, 210"
+  },
+  "ROMA | VIA SICULIANA, 237": {
+    "lat": 41.87838,
+    "lng": 12.648776,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "858",
+    "sourceName": "Giocareducando",
+    "sourceAddress": "Via Siculiana, 237"
+  },
+  "ROMA | VIA ARAGONA, 69": {
+    "lat": 41.868344,
+    "lng": 12.653811,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "859",
+    "sourceName": "Gli Orsetti Del Cuore",
+    "sourceAddress": "Via Aragona, 69"
+  },
+  "ROMA | VIA ROCCA FIORITA, 210": {
+    "lat": 41.879273,
+    "lng": 12.649096,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "860",
+    "sourceName": "Gli Orsetti Del Cuore 2",
+    "sourceAddress": "Via Rocca Fiorita, 210"
+  },
+  "ROMA | VIA SICULIANA, 188": {
+    "lat": 41.875532,
+    "lng": 12.651081,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "861",
+    "sourceName": "Green Garden",
+    "sourceAddress": "Via Siculiana, 188"
+  },
+  "ROMA | VIA ACERRA, 27": {
+    "lat": 41.893312,
+    "lng": 12.632,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "863",
+    "sourceName": "I Colori Del Mondo Via Acerra",
+    "sourceAddress": "Via Acerra, 27"
+  },
+  "ROMA | VIA AVOLA, 119": {
+    "lat": 41.883399,
+    "lng": 12.659329,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "862",
+    "sourceName": "I Colori Del Mondo - Via Avola",
+    "sourceAddress": "Via Avola, 119"
+  },
+  "ROMA | VIA ROCCA D'EVANDRO, 22": {
+    "lat": 41.893201,
+    "lng": 12.631596,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "864",
+    "sourceName": "I Colori Del Mondo Via Rocca d'Evandro",
+    "sourceAddress": "Via Rocca d'Evandro, 22"
+  },
+  "ROMA | VIA MILLET, 10": {
+    "lat": 41.861515,
+    "lng": 12.651197,
+    "quality": "storico-ufficiale-via-e-nome-senza-civico",
+    "sourceYear": 2019,
+    "sourceId": "691",
+    "sourceName": "I Primi Passi",
+    "sourceAddress": "Via Millet"
+  },
+  "ROMA | VIA GIUSEPPE MARIA MORETTI, 38": {
+    "lat": 41.868133,
+    "lng": 12.628741,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "865",
+    "sourceName": "Il Bosco dei Folletti",
+    "sourceAddress": "Via Giuseppe Maria Moretti, 38"
+  },
+  "ROMA | VIA MONOPOLI, 18": {
+    "lat": 41.885067,
+    "lng": 12.617599,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "866",
+    "sourceName": "Il Bosco dei Folletti Due",
+    "sourceAddress": "Via Monopoli, 18"
+  },
+  "ROMA | VIA TROINA, 15": {
+    "lat": 41.866333,
+    "lng": 12.652602,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "692",
+    "sourceName": "Il Bruco",
+    "sourceAddress": "Via Troina, 15"
+  },
+  "ROMA | VIA GIACOMO FILIPPO PISONI, 2": {
+    "lat": 41.8505,
+    "lng": 12.625796,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "868",
+    "sourceName": "Il Pinguino",
+    "sourceAddress": "Via Giacomo Filippo Pisoni, 2"
+  },
+  "ROMA | VIA SANT'ELPIDIO A MARE, 164": {
+    "lat": 41.920268,
+    "lng": 12.724631,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "869",
+    "sourceName": "La Banda Bassotti",
+    "sourceAddress": "Via Sant'Elpidio a Mare, 164"
+  },
+  "ROMA | VIA ACQUARONI, 53": {
+    "lat": 41.867292,
+    "lng": 12.644443,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "693",
+    "sourceName": "L'anatroccolo",
+    "sourceAddress": "Via Acquaroni, 53"
+  },
+  "ROMA | VIA ORICOLA, 57": {
+    "lat": 41.894883,
+    "lng": 12.681453,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "871",
+    "sourceName": "Latte e Biscotti",
+    "sourceAddress": "Via Oricola, 57"
+  },
+  "ROMA | VIA LUCIANO CONTI, 63": {
+    "lat": 41.909958,
+    "lng": 12.659372,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "696",
+    "sourceName": "Le Api Laboriose",
+    "sourceAddress": "Via Luciano Conti, 63"
+  },
+  "ROMA | VIA MICHELE DE MARCO, 53": {
+    "lat": 41.861731,
+    "lng": 12.589731,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "697",
+    "sourceName": "Le Nostre Orme",
+    "sourceAddress": "Via Michele De Marco, 53"
+  },
+  "ROMA | VIA SERVILIA, 22": {
+    "lat": 41.818392,
+    "lng": 12.616307,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "699",
+    "sourceName": "Accademia dei Cuccioli",
+    "sourceAddress": "Via Servilia, 22"
+  },
+  "ROMA | VIA APPIA NUOVA, 889": {
+    "lat": 41.843496,
+    "lng": 12.552064,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "873",
+    "sourceName": "Anghingò",
+    "sourceAddress": "Via Appia Nuova, 889"
+  },
+  "ROMA | VIA TUSCOLANA, 1377": {
+    "lat": 41.831365,
+    "lng": 12.618887,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "875",
+    "sourceName": "Bimbi all'Opera",
+    "sourceAddress": "Via Tuscolana, 1377"
+  },
+  "ROMA | VIA S. ANTONIO MARIA GIANELLI, 32": {
+    "lat": 41.883319,
+    "lng": 12.525651,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "876",
+    "sourceName": "Giangioco",
+    "sourceAddress": "Via S. Antonio Maria Gianelli, 32"
+  },
+  "ROMA | VIA S. DOMENICO SAVIO, 25": {
+    "lat": 41.876335,
+    "lng": 12.529038,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "702",
+    "sourceName": "Giromondo",
+    "sourceAddress": "Via S. Domenico Savio, 25"
+  },
+  "ROMA | VIA APPIA PIGNATELLI, 381": {
+    "lat": 41.838432,
+    "lng": 12.547563,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "877",
+    "sourceName": "I Giochi dell'Arte",
+    "sourceAddress": "Via Appia Pignatelli, 381"
+  },
+  "ROMA | VIA DELLA TENUTA DEL CASALOTTO, SNC": {
+    "lat": 41.815698,
+    "lng": 12.611393,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "704",
+    "sourceName": "I Piccoli Artisti",
+    "sourceAddress": "Via della Tenuta del Casalotto"
+  },
+  "ROMA | VIA ENRICO FERRI, 8": {
+    "lat": 41.851029,
+    "lng": 12.599131,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "879",
+    "sourceName": "Il Campo di Girasoli",
+    "sourceAddress": "Via Enrico Ferri, 8"
+  },
+  "ROMA | VIA FABRIZIO LUSCINO, 57": {
+    "lat": 41.855234,
+    "lng": 12.557566,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "705",
+    "sourceName": "Il Cestino dei Tesori",
+    "sourceAddress": "Via Fabrizio Luscino, 57"
+  },
+  "ROMA | VIA FILIPPO SERAFINI, SNC": {
+    "lat": 41.861139,
+    "lng": 12.572308,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "707",
+    "sourceName": "Il Giardino di Susanna",
+    "sourceAddress": "Via Filippo Serafini"
+  },
+  "ROMA | VIA DEL QUADRARO, SNC": {
+    "lat": 41.859342,
+    "lng": 12.553618,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "708",
+    "sourceName": "Il Melograno",
+    "sourceAddress": "Via del Quadraro"
+  },
+  "ROMA | VIA CARFIZZI, 30": {
+    "lat": 41.83475,
+    "lng": 12.565033,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "709",
+    "sourceName": "Il Trenino",
+    "sourceAddress": "Via Carfizzi, 30"
+  },
+  "ROMA | VIA FARSALO, 2": {
+    "lat": 41.88255,
+    "lng": 12.504051,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "710",
+    "sourceName": "La Chiocciola",
+    "sourceAddress": "Via Farsalo, 2"
+  },
+  "ROMA | VIA DELLA TENUTA DEL CASALOTTO, 54": {
+    "lat": 41.816256,
+    "lng": 12.612187,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "881",
+    "sourceName": "La Città del Sole",
+    "sourceAddress": "Via della Tenuta del Casalotto, 54"
+  },
+  "ROMA | VIA SALVATORE BARZILAI, 46": {
+    "lat": 41.840393,
+    "lng": 12.601179,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "711",
+    "sourceName": "La Mimosa",
+    "sourceAddress": "Via Salvatore Barzilai, 46"
+  },
+  "ROMA | VIA DI CASAL MORENA, 142": {
+    "lat": 41.819205,
+    "lng": 12.617912,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "882",
+    "sourceName": "La Piccola Tribù",
+    "sourceAddress": "Via di Casal Morena, 142"
+  },
+  "ROMA | VIA DEL QUADRARETTO, 31": {
+    "lat": 41.863409,
+    "lng": 12.546376,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "712",
+    "sourceName": "La Trottola",
+    "sourceAddress": "Via del Quadraretto, 31"
+  },
+  "ROMA | VIA LUGNANO IN TEVERINA, 57": {
+    "lat": 41.877989,
+    "lng": 12.532654,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "713",
+    "sourceName": "L'accademia della Briciola",
+    "sourceAddress": "Via Lugnano in Teverina, 57"
+  },
+  "ROMA | VIA RUGANTINO, 99": {
+    "lat": 41.864511,
+    "lng": 12.578595,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "694",
+    "sourceName": "L'arca di Noè",
+    "sourceAddress": "Via Rugantino, 99"
+  },
+  "ROMA | VIA IRSINA, 31": {
+    "lat": 41.847562,
+    "lng": 12.547052,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "714",
+    "sourceName": "L'arco",
+    "sourceAddress": "Via Irsina, 31"
+  },
+  "ROMA | VIA LICIA, 10": {
+    "lat": 41.879571,
+    "lng": 12.503525,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "715",
+    "sourceName": "Le Marionette",
+    "sourceAddress": "Via Licia, 10"
+  },
+  "ROMA | VIA TOMMASO FORTIFIOCCA, 11": {
+    "lat": 41.872486,
+    "lng": 12.520993,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "883",
+    "sourceName": "Luba",
+    "sourceAddress": "Via Tommaso Fortifiocca, 11"
+  },
+  "ROMA | VIA DEL VELODROMO, 13": {
+    "lat": 41.87033,
+    "lng": 12.534948,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "884",
+    "sourceName": "Luba 2",
+    "sourceAddress": "Via del Velodromo, 13"
+  },
+  "ROMA | VIA SANTE VANDI, 1": {
+    "lat": 41.844261,
+    "lng": 12.605717,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "716",
+    "sourceName": "Melodilla",
+    "sourceAddress": "Via Sante Vandi, 1"
+  },
+  "ROMA | VIA CALPURNIO PISONE, 41": {
+    "lat": 41.86098,
+    "lng": 12.563918,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "717",
+    "sourceName": "Mondo Fatato",
+    "sourceAddress": "Via Calpurnio Pisone, 41"
+  },
+  "ROMA | VIA ALBERTO BURRI, 45": {
+    "lat": 41.830892,
+    "lng": 12.581228,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "563",
+    "sourceName": "Nidi Nel Verde - Via A. Burri – Osteria del Curato",
+    "sourceAddress": "Via Alberto Burri, 45"
+  },
+  "ROMA | VIA VOGHERA, 35": {
+    "lat": 41.886567,
+    "lng": 12.519926,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "885",
+    "sourceName": "Noi Ci Divertiamo 2",
+    "sourceAddress": "Via Voghera, 35"
+  },
+  "ROMA | VIA MARCO DINO ROSSI, 38": {
+    "lat": 41.854791,
+    "lng": 12.581529,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "886",
+    "sourceName": "Piccino Picciò",
+    "sourceAddress": "Via Marco Dino Rossi, 38"
+  },
+  "ROMA | VIA GIULIANELLO, 25": {
+    "lat": 41.866349,
+    "lng": 12.539467,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "719",
+    "sourceName": "Pollicino",
+    "sourceAddress": "Via Giulianello, 25"
+  },
+  "ROMA | VIA LUSITANIA, 20": {
+    "lat": 41.876911,
+    "lng": 12.504544,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "701",
+    "sourceName": "Arcobaleno",
+    "sourceAddress": "Via Lusitania, 20"
+  },
+  "ROMA | VIA TARANTO, 89": {
+    "lat": 41.883685,
+    "lng": 12.520326,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "720",
+    "sourceName": "Scarabocchio",
+    "sourceAddress": "Via Taranto, 89"
+  },
+  "ROMA | VIA LIBERO LEONARDI, SNC": {
+    "lat": 41.84956,
+    "lng": 12.594259,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "721",
+    "sourceName": "Uno, Due, Tre... Stella!",
+    "sourceAddress": "Via Libero Leonardi"
+  },
+  "ROMA | VIA MARCO TABARRINI, 16": {
+    "lat": 41.874032,
+    "lng": 12.513524,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "574",
+    "sourceName": "Dopo la Cicogna",
+    "sourceAddress": "Via Marco Tabarrini, 16"
+  },
+  "ROMA | VIA GIUSEPPE CERBARA, 95": {
+    "lat": 41.855274,
+    "lng": 12.505252,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "722",
+    "sourceName": "Il Bruco Verde",
+    "sourceAddress": "Via Giuseppe Cerbara, 95"
+  },
+  "ROMA | VIA DEI GRANAI DI NERVA, 16": {
+    "lat": 41.834957,
+    "lng": 12.51007,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "723",
+    "sourceName": "Il Chicco di Grano",
+    "sourceAddress": "Via dei Granai di Nerva, 16"
+  },
+  "ROMA | VIA DELL'ACCADEMIA ALDINA, 30": {
+    "lat": 41.850751,
+    "lng": 12.488741,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "724",
+    "sourceName": "Il Ciliegio Rosa",
+    "sourceAddress": "Via dell'Accademia Aldina, 30"
+  },
+  "ROMA | VIALE ALDO BALLARIN, 56": {
+    "lat": 41.838881,
+    "lng": 12.492892,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "596",
+    "sourceName": "Il Girotondo - C/O Inpdap",
+    "sourceAddress": "Viale Aldo Ballarin, 56"
+  },
+  "ROMA | VIA S. NEMESIO, 28": {
+    "lat": 41.858463,
+    "lng": 12.487525,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "597",
+    "sourceName": "Marameo Asilo Nido Aziendale c/o CTO",
+    "sourceAddress": "Via S. Nemesio, 28"
+  },
+  "ROMA | VIALE CARLO TOMMASO ODESCALCHI, 67": {
+    "lat": 41.855862,
+    "lng": 12.501027,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "891",
+    "sourceName": "Orsetto Baloo",
+    "sourceAddress": "Viale Carlo Tommaso Odescalchi, 67"
+  },
+  "ROMA | VIA DELLA DIVISIONE TORINO, 157": {
+    "lat": 41.818736,
+    "lng": 12.488998,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "725",
+    "sourceName": "Allegra Arca Di Noè",
+    "sourceAddress": "Via della Divisione Torino, 157"
+  },
+  "ROMA | LARGO AMALIA CAMBONI, 8": {
+    "lat": 41.797017,
+    "lng": 12.429117,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "810",
+    "sourceName": "Calimero",
+    "sourceAddress": "Largo Amalia Camboni, 8"
+  },
+  "ROMA | VIA ILDEBRANDO VIVANTI, 81": {
+    "lat": 41.803944,
+    "lng": 12.443341,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "811",
+    "sourceName": "Dolci Sorrisi",
+    "sourceAddress": "Via Ildebrando Vivanti, 81"
+  },
+  "ROMA | VIALE CITTA' D'EUROPA, 345": {
+    "lat": 41.820663,
+    "lng": 12.446051,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "727",
+    "sourceName": "Giardino d'Europa - Nido",
+    "sourceAddress": "Viale Città d'Europa, 345"
+  },
+  "ROMA | VIA GIUSEPPE ARMELLINI, 35": {
+    "lat": 41.824093,
+    "lng": 12.48743,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "895",
+    "sourceName": "I Giardini Di Zeus - Eur",
+    "sourceAddress": "Via Giuseppe Armellini, 35"
+  },
+  "ROMA | VIALE DELLA CIVILTA' DEL LAVORO, 71": {
+    "lat": 41.835812,
+    "lng": 12.469576,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "600",
+    "sourceName": "I Nostri Piccoli Sorrisi - I.N.P.S.",
+    "sourceAddress": "Viale della Civiltà del Lavoro, 71"
+  },
+  "ROMA | PIAZZALE DELL'UMANESIMO, 10": {
+    "lat": 41.821981,
+    "lng": 12.471417,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "601",
+    "sourceName": "Isola Che Non C'è - S. Eugenio",
+    "sourceAddress": "Piazzale dell'Umanesimo, 10"
+  },
+  "ROMA | VIA VITALIANO BRANCATI, 20": {
+    "lat": 41.817032,
+    "lng": 12.466733,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "896",
+    "sourceName": "Mondo di Bimbi",
+    "sourceAddress": "Via Vitaliano Brancati, 20"
+  },
+  "ROMA | PIAZZALE GIULIO PASTORE, 6": {
+    "lat": 41.83041,
+    "lng": 12.475604,
+    "quality": "storico-ufficiale-via-e-nome-senza-civico",
+    "sourceYear": 2019,
+    "sourceId": "602",
+    "sourceName": "Naso All'Insù - Inail",
+    "sourceAddress": "Piazzale Giulio Pastore"
+  },
+  "ROMA | VIALE EGEO, 130": {
+    "lat": 41.829122,
+    "lng": 12.453743,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "728",
+    "sourceName": "Oceano",
+    "sourceAddress": "Viale Egeo, 130"
+  },
+  "ROMA | VIA BEPPE FENOGLIO, 20": {
+    "lat": 41.815202,
+    "lng": 12.477647,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "729",
+    "sourceName": "Orsetto Goloso",
+    "sourceAddress": "Via Beppe Fenoglio, 20"
+  },
+  "ROMA | VIA FIUME GIALLO, 390": {
+    "lat": 41.811683,
+    "lng": 12.43117,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "730",
+    "sourceName": "Papero Giallo",
+    "sourceAddress": "Via Fiume Giallo, 390"
+  },
+  "ROMA | VIA MATTEO BARTOLI, 72": {
+    "lat": 41.817609,
+    "lng": 12.487056,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "731",
+    "sourceName": "Pulcino Ballerino",
+    "sourceAddress": "Via Matteo Bartoli, 72"
+  },
+  "ROMA | VIA GIUSEPPE MAROTTA, 35": {
+    "lat": 41.815546,
+    "lng": 12.483773,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "732",
+    "sourceName": "Riccio Capriccio",
+    "sourceAddress": "Via Giuseppe Marotta, 35"
+  },
+  "ROMA | VIA MICHELE SAPONARO, 10": {
+    "lat": 41.813965,
+    "lng": 12.47202,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "900",
+    "sourceName": "Sirio",
+    "sourceAddress": "Via Michele Saponaro, 10"
+  },
+  "ROMA | VIA BRUNO DE FINETTI, 170": {
+    "lat": 41.791769,
+    "lng": 12.484444,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "733",
+    "sourceName": "Sorgente",
+    "sourceAddress": "Via Bruno De Finetti, 170"
+  },
+  "ROMA | VIA ORAZIO CONSOLE, 35": {
+    "lat": 41.779601,
+    "lng": 12.43736,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "735",
+    "sourceName": "Tenero Germoglio",
+    "sourceAddress": "Via Orazio Console, 35"
+  },
+  "ROMA | VIA TAGASTE, 10": {
+    "lat": 41.736263,
+    "lng": 12.271525,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "736",
+    "sourceName": "Acquamarina",
+    "sourceAddress": "Via Tagaste, 10"
+  },
+  "ROMA | VIA DI SAPONARA, 37": {
+    "lat": 41.780772,
+    "lng": 12.3651,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "902",
+    "sourceName": "C'era Due Volte",
+    "sourceAddress": "Via di Saponara, 37"
+  },
+  "ROMA | VIA MAR DEI CORALLI, SNC": {
+    "lat": 41.73001,
+    "lng": 12.303421,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "737",
+    "sourceName": "Coralli",
+    "sourceAddress": "Via Mar dei Coralli"
+  },
+  "ROMA | VIA DI MACCHIA SAPONARA, 247": {
+    "lat": 41.759349,
+    "lng": 12.36466,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "918",
+    "sourceName": "Il Mondo Che Vorrei",
+    "sourceAddress": "Via di Macchia Saponara, 247"
+  },
+  "ROMA | VIA DI PIANA BELLA, 30": {
+    "lat": 41.756689,
+    "lng": 12.305749,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "905",
+    "sourceName": "Dire Fare Giocare",
+    "sourceAddress": "Via di Piana Bella, 30"
+  },
+  "ROMA | VIA FRANCESCO ORIOLI, 48": {
+    "lat": 41.771024,
+    "lng": 12.305002,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "906",
+    "sourceName": "Giocando Si Impara",
+    "sourceAddress": "Via Francesco Orioli, 48"
+  },
+  "ROMA | VIA ERNESTO BOEZI, 102": {
+    "lat": 41.738104,
+    "lng": 12.367529,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "907",
+    "sourceName": "Giochi e Coccole",
+    "sourceAddress": "Via Ernesto Boezi, 102"
+  },
+  "ROMA | VIA DEI PALOMBARI, 16": {
+    "lat": 41.722346,
+    "lng": 12.300269,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "908",
+    "sourceName": "Giochi e Fiabe",
+    "sourceAddress": "Via dei Palombari, 16"
+  },
+  "ROMA | VIA GIUSEPPE FIORELLI, 31": {
+    "lat": 41.767809,
+    "lng": 12.311999,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "909",
+    "sourceName": "Gioco Con Te",
+    "sourceAddress": "Via Giuseppe Fiorelli, 31"
+  },
+  "ROMA | VIA GIOVANNI BATTISTA DA PESARO, 7": {
+    "lat": 41.784053,
+    "lng": 12.342238,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "739",
+    "sourceName": "Gli Ulivi",
+    "sourceAddress": "Via Giovanni Battista da Pesaro, 7"
+  },
+  "ROMA | VIA GUIDO CANTELLI, 16": {
+    "lat": 41.745179,
+    "lng": 12.360729,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "911",
+    "sourceName": "Grandi Dentro",
+    "sourceAddress": "Via Guido Cantelli, 16"
+  },
+  "ROMA | VIA ANTERIVO, 31": {
+    "lat": 41.728523,
+    "lng": 12.375251,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "912",
+    "sourceName": "Il Bianconiglio",
+    "sourceAddress": "Via Anterivo, 31"
+  },
+  "ROMA | VIA DOMENICO PURIFICATO, 441": {
+    "lat": 41.773196,
+    "lng": 12.368596,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "913",
+    "sourceName": "Il Casale dei Piccoli",
+    "sourceAddress": "Via Domenico Purificato, 441"
+  },
+  "ROMA | VIA MARTINO MARTINI, 32": {
+    "lat": 41.784523,
+    "lng": 12.333158,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "916",
+    "sourceName": "Il Giardino dei Bimbi",
+    "sourceAddress": "Via Martino Martini, 32"
+  },
+  "ROMA | VIA CESARE MACCARI, 151": {
+    "lat": 41.773295,
+    "lng": 12.358397,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "919",
+    "sourceName": "Il Mondo di Cocco e Drilli",
+    "sourceAddress": "Via Cesare Maccari, 151"
+  },
+  "ROMA | VIA PIETRO BENEDETTI, 85": {
+    "lat": 41.778426,
+    "lng": 12.343463,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "920",
+    "sourceName": "Il Segreto dell'Infanzia",
+    "sourceAddress": "Via Pietro Benedetti, 85"
+  },
+  "ROMA | VIA GIOVANNI BATTISTA SAMMARTINI, 59": {
+    "lat": 41.73835,
+    "lng": 12.365419,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "922",
+    "sourceName": "Kinder Happy 2",
+    "sourceAddress": "Via Giovanni Battista Sammartini, 59"
+  },
+  "ROMA | VIA MAURICE RAVEL, 408": {
+    "lat": 41.752018,
+    "lng": 12.369455,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "923",
+    "sourceName": "La Caracolita",
+    "sourceAddress": "Via Maurice Ravel, 408"
+  },
+  "ROMA | VIA CALAVINO, 45": {
+    "lat": 41.723204,
+    "lng": 12.358489,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "924",
+    "sourceName": "La Carica dei 101",
+    "sourceAddress": "Via Calavino, 45"
+  },
+  "ROMA | VIA GIAMBATTISTA BASSANI, 10": {
+    "lat": 41.746993,
+    "lng": 12.363337,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "925",
+    "sourceName": "La Casa di Alice",
+    "sourceAddress": "Via Giambattista Bassani, 10"
+  },
+  "ROMA | VIA DELLA FELCE, 31": {
+    "lat": 41.787991,
+    "lng": 12.364485,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "741",
+    "sourceName": "La Felce",
+    "sourceAddress": "Via della Felce, 31"
+  },
+  "ROMA | VIA GIOVANNI BECATTI, 18": {
+    "lat": 41.766957,
+    "lng": 12.313654,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "927",
+    "sourceName": "La Valle Incantata",
+    "sourceAddress": "Via Giovanni Becatti, 18"
+  },
+  "ROMA | VIALE FRA' ANDREA DI GIOVANNI, 150": {
+    "lat": 41.784105,
+    "lng": 12.342233,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "929",
+    "sourceName": "Le Coccole",
+    "sourceAddress": "Viale Fra' Andrea Di Giovanni 150"
+  },
+  "ROMA | VIALE VEGA, 103": {
+    "lat": 41.724661,
+    "lng": 12.296705,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "744",
+    "sourceName": "Le Piccole Dune",
+    "sourceAddress": "Viale Vega, 103"
+  },
+  "ROMA | VIA MAIERATO, 95": {
+    "lat": 41.793344,
+    "lng": 12.375712,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "745",
+    "sourceName": "Le Pratoline",
+    "sourceAddress": "Via Maierato, 95"
+  },
+  "ROMA | VIA ERNESTO BOEZI, 158": {
+    "lat": 41.740878,
+    "lng": 12.371812,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "746",
+    "sourceName": "Le Querce",
+    "sourceAddress": "Via Ernesto Boezi, 158"
+  },
+  "ROMA | VIA DEL FOSSO DI DRAGONCELLO, 201": {
+    "lat": 41.753925,
+    "lng": 12.331062,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "931",
+    "sourceName": "L'Orsetto",
+    "sourceAddress": "Via del Fosso di Dragoncello, 201"
+  },
+  "ROMA | VIA FRANCESCO DONATI, 86": {
+    "lat": 41.779984,
+    "lng": 12.34153,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "932",
+    "sourceName": "Madonna degli Angeli",
+    "sourceAddress": "Via Francesco Donati, 86"
+  },
+  "ROMA | VIA BEDOLLO, 27": {
+    "lat": 41.730417,
+    "lng": 12.366952,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "934",
+    "sourceName": "Mano Nella Mano",
+    "sourceAddress": "Via Bedollo, 27"
+  },
+  "ROMA | VIA GIOVANNI MINOZZI, 21": {
+    "lat": 41.768396,
+    "lng": 12.354492,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "935",
+    "sourceName": "Meraviglia",
+    "sourceAddress": "Via Giovanni Minozzi, 21"
+  },
+  "ROMA | VIA GIUSEPPE MICALI, 72": {
+    "lat": 41.756487,
+    "lng": 12.325129,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "937",
+    "sourceName": "Papaveri e Papere",
+    "sourceAddress": "Via Giuseppe Micali, 72"
+  },
+  "ROMA | VIA DEI MONTI DI S. PAOLO, 140": {
+    "lat": 41.794172,
+    "lng": 12.361733,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "939",
+    "sourceName": "Pixieland",
+    "sourceAddress": "Via dei Monti di S. Paolo, 140"
+  },
+  "ROMA | VIA NORA RICCI, 30": {
+    "lat": 41.783777,
+    "lng": 12.393844,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "747",
+    "sourceName": "Stelle Nascenti",
+    "sourceAddress": "Via Nora Ricci, 30"
+  },
+  "ROMA | VIA GIORGIO HINNA, 28": {
+    "lat": 41.770252,
+    "lng": 12.331254,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "942",
+    "sourceName": "Teneramente Insieme",
+    "sourceAddress": "Via Giorgio Hinna, 28"
+  },
+  "ROMA | VIA DELLA VERBENA, 16": {
+    "lat": 41.786746,
+    "lng": 12.361958,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "945",
+    "sourceName": "Viole al Polo Nord",
+    "sourceAddress": "Via della Verbena, 16"
+  },
+  "ROMA | VIA GINO BONICHI, 17": {
+    "lat": 41.780288,
+    "lng": 12.356872,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "944",
+    "sourceName": "Uno Due Tre...Via!",
+    "sourceAddress": "Via Gino Bonichi, 17"
+  },
+  "ROMA | VIA RODOLFO GRIMALDI CASTA, 14": {
+    "lat": 41.726781,
+    "lng": 12.288478,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "581",
+    "sourceName": "Baby School.it",
+    "sourceAddress": "Via Rodolfo Grimaldi Casta, 14"
+  },
+  "ROMA | VIA VINCENZO BRUNACCI, 42": {
+    "lat": 41.86237,
+    "lng": 12.467723,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "748",
+    "sourceName": "Aquilone Blu",
+    "sourceAddress": "Via Vincenzo Brunacci, 42"
+  },
+  "ROMA | VIA DEL TRULLO, 139": {
+    "lat": 41.848018,
+    "lng": 12.436266,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "750",
+    "sourceName": "Bussola d'oro",
+    "sourceAddress": "Via del Trullo, 139"
+  },
+  "ROMA | VIA CAMILLO MONTALCINI, 19": {
+    "lat": 41.848849,
+    "lng": 12.452424,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "752",
+    "sourceName": "Coccole e Colori",
+    "sourceAddress": "Via Camillo Montalcini, 19"
+  },
+  "ROMA | VIA ANTONIO ROITI, 63": {
+    "lat": 41.86184,
+    "lng": 12.467978,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "947",
+    "sourceName": "Crescere Insieme",
+    "sourceAddress": "Via Antonio Roiti, 63"
+  },
+  "ROMA | VIA GIOVANNI VOLPATO, 20": {
+    "lat": 41.871263,
+    "lng": 12.466854,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "754",
+    "sourceName": "Fantasia",
+    "sourceAddress": "Via Giovanni Volpato, 20"
+  },
+  "ROMA | LARGO CITTA' DEI RAGAZZI, 1": {
+    "lat": 41.842667,
+    "lng": 12.35959,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "948",
+    "sourceName": "Gira Girasole",
+    "sourceAddress": "Largo Città dei Ragazzi, 1"
+  },
+  "ROMA | VIA PORTUENSE, 1635": {
+    "lat": 41.808109,
+    "lng": 12.326081,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "757",
+    "sourceName": "Il Lirio d'Oro",
+    "sourceAddress": "Via Portuense, 1635"
+  },
+  "ROMA | VIA CRISTOFORO SABBADINO, 86": {
+    "lat": 41.823455,
+    "lng": 12.307565,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "949",
+    "sourceName": "La Via Lattea",
+    "sourceAddress": "Via Cristoforo Sabbadino, 86"
+  },
+  "ROMA | VIA LUIGI CANDONI, SNC": {
+    "lat": 41.835239,
+    "lng": 12.409435,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "606",
+    "sourceName": "Magliana",
+    "sourceAddress": "Via Luigi Candoni"
+  },
+  "ROMA | VIA LAMPORECCHIO, 20": {
+    "lat": 41.849848,
+    "lng": 12.436899,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "763",
+    "sourceName": "Nidoidea",
+    "sourceAddress": "Via Lamporecchio, 20"
+  },
+  "ROMA | VIA DEI CHIARAMONTI, SNC": {
+    "lat": 41.858175,
+    "lng": 12.42131,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "751",
+    "sourceName": "Chiaramonti",
+    "sourceAddress": "Via dei Chiaramonti"
+  },
+  "ROMA | VIALE VENTIMIGLIA, 15": {
+    "lat": 41.842399,
+    "lng": 12.437714,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "755",
+    "sourceName": "Giò e Giò",
+    "sourceAddress": "Viale Ventimiglia, 15"
+  },
+  "ROMA | VIA GIUSEPPE BELLUZZO, 100": {
+    "lat": 41.859206,
+    "lng": 12.458968,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "756",
+    "sourceName": "Il Ciclamino",
+    "sourceAddress": "Via Giuseppe Belluzzo, 100"
+  },
+  "ROMA | VIA DEGLI IRLANDESI, 47": {
+    "lat": 41.856816,
+    "lng": 12.44987,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "758",
+    "sourceName": "Irlandesi",
+    "sourceAddress": "Via degli Irlandesi, 47"
+  },
+  "ROMA | VIA GIOVANNI PORZIO, 30": {
+    "lat": 41.84168,
+    "lng": 12.442435,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "759",
+    "sourceName": "Loris Malaguzzi - Mattina",
+    "sourceAddress": "Via Giovanni Porzio, 30"
+  },
+  "ROMA | VIA CASTIGLION FIBOCCHI, 13": {
+    "lat": 41.848553,
+    "lng": 12.463453,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "761",
+    "sourceName": "Mais & Girasole",
+    "sourceAddress": "Via Castiglion Fibocchi, 13"
+  },
+  "ROMA | VIA PESCAGLIA, 75": {
+    "lat": 41.847634,
+    "lng": 12.461232,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "762",
+    "sourceName": "Mandorlo Rosa",
+    "sourceAddress": "Via Pescaglia, 75"
+  },
+  "ROMA | VIA QUIRINO MAJORANA, 139": {
+    "lat": 41.867979,
+    "lng": 12.461929,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "764",
+    "sourceName": "Stella Stellina",
+    "sourceAddress": "Via Quirino Majorana, 139"
+  },
+  "ROMA | VIA LEONARDO FIBONACCI, 83": {
+    "lat": 41.864818,
+    "lng": 12.365,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "951",
+    "sourceName": "Anghingò",
+    "sourceAddress": "Via Leonardo Fibonacci, 83"
+  },
+  "ROMA | VIA DEGLI ANTELMINELLI, 22": {
+    "lat": 41.864703,
+    "lng": 12.420945,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "765",
+    "sourceName": "Aquilone",
+    "sourceAddress": "Via degli Antelminelli, 22"
+  },
+  "ROMA | VIA DEI CONCINI, 51": {
+    "lat": 41.877321,
+    "lng": 12.413411,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "953",
+    "sourceName": "Castello Monello",
+    "sourceAddress": "Via dei Concini, 51"
+  },
+  "ROMA | VIA DEL CASALETTO, 441": {
+    "lat": 41.863305,
+    "lng": 12.438283,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "766",
+    "sourceName": "Cocco e Drilli",
+    "sourceAddress": "Via del Casaletto, 441"
+  },
+  "ROMA | VIA DEI DAMASCENI, 15": {
+    "lat": 41.879139,
+    "lng": 12.41557,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "767",
+    "sourceName": "I Folletti",
+    "sourceAddress": "Via dei Damasceni, 15"
+  },
+  "ROMA | VIALE DEI COLLI PORTUENSI, 656": {
+    "lat": 41.858057,
+    "lng": 12.442898,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "812",
+    "sourceName": "Il Bruco e la Mela",
+    "sourceAddress": "Viale dei Colli Portuensi, 656"
+  },
+  "ROMA | VIA RAIMONDO D'ARONCO, 24": {
+    "lat": 41.873523,
+    "lng": 12.39996,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "768",
+    "sourceName": "Il Grillo Canterillo",
+    "sourceAddress": "Via Raimondo D'Aronco, 24"
+  },
+  "ROMA | VIA FRANCESCO DURANTE, 26": {
+    "lat": 41.868752,
+    "lng": 12.441233,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "769",
+    "sourceName": "La Coccinella",
+    "sourceAddress": "Via Francesco Durante, 26"
+  },
+  "ROMA | PIAZZA VINCENZO CERESI, 11": {
+    "lat": 41.878876,
+    "lng": 12.446759,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "770",
+    "sourceName": "La Freccia Azzurra",
+    "sourceAddress": "Piazza Vincenzo Ceresi, 11"
+  },
+  "ROMA | VIA LICIO GIORGIERI, 58": {
+    "lat": 41.884811,
+    "lng": 12.386988,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "771",
+    "sourceName": "Licio Giorgieri",
+    "sourceAddress": "Via Licio Giorgieri ,58"
+  },
+  "ROMA | VIA DEI LAMPUGNANI, 35": {
+    "lat": 41.871894,
+    "lng": 12.420151,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "772",
+    "sourceName": "Lo Scarabocchio",
+    "sourceAddress": "Via dei Lampugnani, 35"
+  },
+  "ROMA | VIALE DEI COLLI PORTUENSI, 473": {
+    "lat": 41.863065,
+    "lng": 12.444087,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "774",
+    "sourceName": "Morgana la Rana",
+    "sourceAddress": "Viale dei Colli Portuensi, 473"
+  },
+  "ROMA | VIA GIUSEPPE D'AVARNA, 30": {
+    "lat": 41.856009,
+    "lng": 12.444377,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "775",
+    "sourceName": "Parco Flora",
+    "sourceAddress": "Via Giuseppe D'Avarna, 30"
+  },
+  "ROMA | VIA PORTUENSE, 290": {
+    "lat": 41.865287,
+    "lng": 12.458428,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "957",
+    "sourceName": "Punto Verde Crescere Insieme",
+    "sourceAddress": "Via Portuense, 290"
+  },
+  "ROMA | VIA DELLA PISANA, 974": {
+    "lat": 41.855194,
+    "lng": 12.391166,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "583",
+    "sourceName": "La Pisanella",
+    "sourceAddress": "Via della Pisana, 974"
+  },
+  "ROMA | VIA FRANCESCO MASSI, 12": {
+    "lat": 41.873096,
+    "lng": 12.460166,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "584",
+    "sourceName": "Piccoli e Grandi",
+    "sourceAddress": "Via Francesco Massi, 12"
+  },
+  "ROMA | VIA AGOSTINO RICHELMY, 6": {
+    "lat": 41.898383,
+    "lng": 12.442388,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "958",
+    "sourceName": "Asso Nido 1",
+    "sourceAddress": "Via Agostino Richelmy, 6"
+  },
+  "ROMA | CIRCONVALLAZIONE CORNELIA, 36": {
+    "lat": 41.899769,
+    "lng": 12.427189,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "961",
+    "sourceName": "Cocchi di Mamma",
+    "sourceAddress": "Circonvallazione Cornelia, 36"
+  },
+  "ROMA | VIA DI MONTESPACCATO, 26": {
+    "lat": 41.907618,
+    "lng": 12.393172,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "962",
+    "sourceName": "Crescere Insieme",
+    "sourceAddress": "Via di Montespaccato, 26"
+  },
+  "ROMA | VIA DOMENICO SILVERI, 6": {
+    "lat": 41.896735,
+    "lng": 12.456136,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "778",
+    "sourceName": "I Cuccioli di Via Silveri",
+    "sourceAddress": "Via Domenico Silveri, 6"
+  },
+  "ROMA | VIA BELVEDERE MONTELLO, 70": {
+    "lat": 41.915645,
+    "lng": 12.39543,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "963",
+    "sourceName": "Il Bambino nel Mondo",
+    "sourceAddress": "Via Belvedere Montello, 70"
+  },
+  "ROMA | VIA S. SECONDA, 21": {
+    "lat": 41.917607,
+    "lng": 12.367215,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "779",
+    "sourceName": "Il Fantabosco",
+    "sourceAddress": "Via S. Seconda, 21"
+  },
+  "ROMA | VIA GIUSEPPE LAZZATI, 213": {
+    "lat": 41.90817,
+    "lng": 12.340951,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "780",
+    "sourceName": "Il Glicine",
+    "sourceAddress": "Via Giuseppe Lazzati, 213"
+  },
+  "ROMA | VIA FRANCESCO SCADUTO, 67": {
+    "lat": 41.900744,
+    "lng": 12.432811,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "781",
+    "sourceName": "Il Nido del Parco",
+    "sourceAddress": "Via Francesco Scaduto, 67"
+  },
+  "ROMA | VIA BISTAGNO, 5": {
+    "lat": 41.907748,
+    "lng": 12.396223,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "964",
+    "sourceName": "Il Nido di Li.Sa.",
+    "sourceAddress": "Via Bistagno, 5"
+  },
+  "ROMA | VIA DIVIGNANO, 22": {
+    "lat": 41.921982,
+    "lng": 12.368782,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "782",
+    "sourceName": "Il Piccolo Principe",
+    "sourceAddress": "Via Divignano, 22"
+  },
+  "ROMA | VIA SCANDELUZZA, 10": {
+    "lat": 41.927805,
+    "lng": 12.375381,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "965",
+    "sourceName": "Il Tappeto Volante",
+    "sourceAddress": "Via Scandeluzza, 10"
+  },
+  "ROMA | VIA GAMALERO, 14": {
+    "lat": 41.918113,
+    "lng": 12.374289,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "966",
+    "sourceName": "La Bacchetta Magica",
+    "sourceAddress": "Via Gamalero, 14"
+  },
+  "ROMA | VIA LUCA PASSI, 55": {
+    "lat": 41.895106,
+    "lng": 12.412941,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "783",
+    "sourceName": "La Girandola d’Oro",
+    "sourceAddress": "Via Luca Passi, 55"
+  },
+  "ROMA | PIAZZA FRANCESCO BORGONGINI DUCA, 11": {
+    "lat": 41.894515,
+    "lng": 12.448797,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "784",
+    "sourceName": "L'albero d’Oro",
+    "sourceAddress": "Piazza Francesco Borgongini Duca, 11"
+  },
+  "ROMA | VIA GATTICO, 7": {
+    "lat": 41.915672,
+    "lng": 12.369878,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "967",
+    "sourceName": "Lo Stregatto",
+    "sourceAddress": "Via Gattico, 7"
+  },
+  "ROMA | VIA BEVERINO, 73": {
+    "lat": 41.910773,
+    "lng": 12.402964,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "785",
+    "sourceName": "L'orizzonte",
+    "sourceAddress": "Via Beverino, 73"
+  },
+  "ROMA | VIA DECIO AZZOLINO, 33": {
+    "lat": 41.915664,
+    "lng": 12.405296,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "545",
+    "sourceName": "Momo",
+    "sourceAddress": "Via Decio Azzolino, 33"
+  },
+  "ROMA | VIA AURELIA, 1410": {
+    "lat": 41.883495,
+    "lng": 12.341059,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "546",
+    "sourceName": "Only Kids",
+    "sourceAddress": "Via Aurelia 1410"
+  },
+  "ROMA | VIA TOMMASO PRELA', 37": {
+    "lat": 41.908218,
+    "lng": 12.398243,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "777",
+    "sourceName": "Gianburrasca",
+    "sourceAddress": "Via Tommaso Prelà, 37"
+  },
+  "ROMA | VIA GIOVANNI CIRAOLO, 13": {
+    "lat": 41.914013,
+    "lng": 12.398022,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "547",
+    "sourceName": "Qui Quo Qua",
+    "sourceAddress": "Via Giovanni Ciraolo, 13"
+  },
+  "ROMA | VIA DI VAL CANNUTA, 235": {
+    "lat": 41.893728,
+    "lng": 12.404201,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "813",
+    "sourceName": "Valcannuta M2",
+    "sourceAddress": "Via di Val Cannuta, 235"
+  },
+  "ROMA | VIA NOASCA, 61": {
+    "lat": 41.92773,
+    "lng": 12.385905,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "548",
+    "sourceName": "Vivilasilo",
+    "sourceAddress": "Via Noasca, 61"
+  },
+  "ROMA | VIA ENRICO BONDI, 273": {
+    "lat": 41.897438,
+    "lng": 12.38545,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "959",
+    "sourceName": "Azalea",
+    "sourceAddress": "Via Enrico Bondi, 273"
+  },
+  "ROMA | VIA FERRANTE RUIZ, 17": {
+    "lat": 41.927797,
+    "lng": 12.415217,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "550",
+    "sourceName": "Azalea",
+    "sourceAddress": "Via Ferrante Ruiz, 17"
+  },
+  "ROMA | VIA GIORGIO FRANCESCHI, 26": {
+    "lat": 41.91825,
+    "lng": 12.440677,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "551",
+    "sourceName": "Bimbi a Bordo",
+    "sourceAddress": "Via Giorgio Franceschi, 26"
+  },
+  "ROMA | VIA MATTIA BATTISTINI, 155": {
+    "lat": 41.910653,
+    "lng": 12.418027,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "786",
+    "sourceName": "Cuccioli e Coccole",
+    "sourceAddress": "Via Mattia Battistini, 155"
+  },
+  "ROMA | VIA ROMEO RODRIGUEZ PEREIRA, 97": {
+    "lat": 41.915092,
+    "lng": 12.438723,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "787",
+    "sourceName": "Giallo Verde e Blù",
+    "sourceAddress": "Via Romeo Rodriguez Pereira, 97"
+  },
+  "ROMA | VIA CARENTINO, 60": {
+    "lat": 41.929846,
+    "lng": 12.362187,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "788",
+    "sourceName": "Giocoimparo",
+    "sourceAddress": "Via Carentino, 60"
+  },
+  "ROMA | VIA GARLENDA, SNC": {
+    "lat": 41.933324,
+    "lng": 12.417812,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "789",
+    "sourceName": "I Cuccioli dell'Arca di Noè",
+    "sourceAddress": "Via Garlenda,"
+  },
+  "ROMA | VIA CAMILLA RAVERA, 38": {
+    "lat": 41.959267,
+    "lng": 12.39629,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "790",
+    "sourceName": "I Tesori di Gulliver",
+    "sourceAddress": "Via Camilla Ravera, 38"
+  },
+  "ROMA | VIA ALFONSO GALLO, 15": {
+    "lat": 41.958501,
+    "lng": 12.404122,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "791",
+    "sourceName": "Il Gallo Alfonso",
+    "sourceAddress": "Via Alfonso Gallo, 15"
+  },
+  "ROMA | VIA PAOLO EMILIO CASTAGNOLA, SNC": {
+    "lat": 41.948536,
+    "lng": 12.419331,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "608",
+    "sourceName": "Il Giardino dei Cuccioli",
+    "sourceAddress": "Via Paolo Emilio Castagnola"
+  },
+  "ROMA | VIA ERMENEGILDO PISTELLI, 16": {
+    "lat": 41.934873,
+    "lng": 12.441028,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "555",
+    "sourceName": "Il Mappamondo",
+    "sourceAddress": "Via Ermenegildo Pistelli, 16"
+  },
+  "ROMA | VIA PIETRO BEMBO, 244": {
+    "lat": 41.918709,
+    "lng": 12.417104,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "792",
+    "sourceName": "Il Paese dei Balocchi",
+    "sourceAddress": "Via Pietro Bembo, 244"
+  },
+  "ROMA | VIA GIROLAMO CASANATE, SNC": {
+    "lat": 41.917759,
+    "lng": 12.414218,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "793",
+    "sourceName": "Il Tempo dei Bambini",
+    "sourceAddress": "Via Girolamo Casanate"
+  },
+  "ROMA | VIA ANDREA BARBATO, 31": {
+    "lat": 41.929302,
+    "lng": 12.400383,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "556",
+    "sourceName": "Jasmine",
+    "sourceAddress": "Via Andrea Barbato, 31"
+  },
+  "ROMA | VIA DELLE BENEDETTINE, 50": {
+    "lat": 41.948778,
+    "lng": 12.431412,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "557",
+    "sourceName": "La Mongolfiera",
+    "sourceAddress": "Via delle Benedettine, 50"
+  },
+  "ROMA | VIA GIUSEPPE TAVERNA, 147": {
+    "lat": 41.940683,
+    "lng": 12.428863,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "794",
+    "sourceName": "La Taverna dei Piccoli",
+    "sourceAddress": "Via Giuseppe Taverna, 147"
+  },
+  "ROMA | VIA SAN BASILIDE, 19": {
+    "lat": 41.95058,
+    "lng": 12.375773,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "814",
+    "sourceName": "Monsignor Antonino Spina",
+    "sourceAddress": "Via San Basilide, 19"
+  },
+  "ROMA | VIA PAOLO EMILIO CASTAGNOLA, 15": {
+    "lat": 41.946357,
+    "lng": 12.419003,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "795",
+    "sourceName": "Nido di Peter Pan",
+    "sourceAddress": "Via Paolo Emilio Castagnola, 15"
+  },
+  "ROMA | VIA S. IGINO PAPA, 294": {
+    "lat": 41.918709,
+    "lng": 12.417104,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "796",
+    "sourceName": "Tondogiro",
+    "sourceAddress": "Via S. Igino Papa, 294"
+  },
+  "ROMA | PIAZZA GINO PALLOTTA, 1": {
+    "lat": 41.930598,
+    "lng": 12.395341,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "565",
+    "sourceName": "Torresina",
+    "sourceAddress": "Piazza Gino Pallotta, 1"
+  },
+  "ROMA | VIA BENEDETTO ALOISI MASELLA, 79": {
+    "lat": 41.915888,
+    "lng": 12.409515,
+    "quality": "storico-ufficiale-via-e-nome-senza-civico",
+    "sourceYear": 2019,
+    "sourceId": "558",
+    "sourceName": "1 2 3 Stella",
+    "sourceAddress": "Via Benedetto Aloisi Masella"
+  },
+  "ROMA | VIA BELLAGIO, 25": {
+    "lat": 41.98962,
+    "lng": 12.492528,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "797",
+    "sourceName": "Bellagio",
+    "sourceAddress": "Via Bellagio, 25"
+  },
+  "ROMA | VIA CASSIA, 7": {
+    "lat": 41.939198,
+    "lng": 12.465899,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "798",
+    "sourceName": "Cassiopea",
+    "sourceAddress": "Via Cassia, 7"
+  },
+  "ROMA | LARGO FOPPOLO, 12": {
+    "lat": 41.995876,
+    "lng": 12.476665,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "799",
+    "sourceName": "Colli d'Oro",
+    "sourceAddress": "Largo Foppolo, 12"
+  },
+  "ROMA | VIA DELLA FARNESINA, 182": {
+    "lat": 41.942654,
+    "lng": 12.461243,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "800",
+    "sourceName": "Farnesina",
+    "sourceAddress": "Via della Farnesina, 182"
+  },
+  "ROMA | VIA GIUSEPPE PECCHIO, 16": {
+    "lat": 41.94643,
+    "lng": 12.470087,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "559",
+    "sourceName": "Fate e Folletti",
+    "sourceAddress": "Via Giuseppe Pecchio, 16"
+  },
+  "ROMA | VIA BACCANO, 5": {
+    "lat": 41.997088,
+    "lng": 12.493118,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "801",
+    "sourceName": "Galline Bianche",
+    "sourceAddress": "Via Baccano, 5"
+  },
+  "ROMA | VIA PIO SPACCAMELA, 10": {
+    "lat": 41.98218,
+    "lng": 12.409098,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "560",
+    "sourceName": "Il Fiore sulla Nuvoletta",
+    "sourceAddress": "Via Pio Spaccamela, 10"
+  },
+  "ROMA | VIA ANGUILLARESE, 171": {
+    "lat": 42.035907,
+    "lng": 12.307134,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "803",
+    "sourceName": "La Filastrocca Allegra",
+    "sourceAddress": "Via Anguillarese, 171"
+  },
+  "ROMA | LARGO DELLA GIUSTINIANA, SNC": {
+    "lat": 41.984385,
+    "lng": 12.405045,
+    "quality": "storico-ufficiale-via-e-nome",
+    "sourceYear": 2019,
+    "sourceId": "804",
+    "sourceName": "La Pagina Magica",
+    "sourceAddress": "Largo della Giustiniana"
+  },
+  "ROMA | VIA AL SESTO MIGLIO, 78": {
+    "lat": 41.969167,
+    "lng": 12.443647,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "805",
+    "sourceName": "L'albero delle Noci",
+    "sourceAddress": "Via al Sesto Miglio, 78"
+  },
+  "ROMA | VIA FOSSO DEL POGGIO, 71": {
+    "lat": 41.975708,
+    "lng": 12.439656,
+    "quality": "storico-ufficiale-indirizzo",
+    "sourceYear": 2019,
+    "sourceId": "806",
+    "sourceName": "Trilly",
+    "sourceAddress": "Via Fosso del Poggio, 71"
+  }
+}

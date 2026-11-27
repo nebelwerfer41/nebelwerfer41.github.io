@@ -1,0 +1,95 @@
+{
+  "source": "https://www.comune.roma.it/web-resources/cms/documents/PPC2024_1_InformazioneGenerale_Allegati.pdf",
+  "sourceDatasetYear": 2019,
+  "sourceCount": 424,
+  "catalogCount": 453,
+  "geolocated": 316,
+  "remaining": 137,
+  "ambiguous": [],
+  "samples": [
+    {
+      "2026": "ASSONIDO CLODIA",
+      "at": "CIRCONVALLAZIONE CLODIA, 133",
+      "2019": "Assonido Clodia",
+      "reference": "Circonvallazione Clodia, 133",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "IL MAGGIOLINO",
+      "at": "VIA NOVENIO BUCCHI, 2",
+      "2019": "Il Maggiolino",
+      "reference": "Via Novenio Bucchi, 2",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "IL NIDO DI IQBAL",
+      "at": "VIA ANGELO EMO, 13",
+      "2019": "Il Nido di Iqbal",
+      "reference": "Via Angelo Emo, 13",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "MAMELI",
+      "at": "VIA GOFFREDO MAMELI, 31",
+      "2019": "Mameli",
+      "reference": "Via Goffredo Mameli, 31",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "MICRONIDO COLOMBO",
+      "at": "VIA SILVIO PELLICO, 9",
+      "2019": "Micronido Colombo",
+      "reference": "Via Silvio Pellico, 9",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "PINOCCHIO",
+      "at": "PIAZZALE DEGLI EROI, 12",
+      "2019": "Pinocchio",
+      "reference": "Piazzale degli Eroi, 12",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "POLO 0/6 COCCOLE & CO",
+      "at": "VIA DEL MONTE OPPIO, 34",
+      "2019": "Coccole & Co",
+      "reference": "Via Del Monte Oppio, 34",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "POLO 0/6 I COCCETTI",
+      "at": "VIA NICOLA ZABAGLIA, 27",
+      "2019": "I Coccetti",
+      "reference": "Via Nicola Zabaglia, 27",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "POLO 0/6 LA PORTA MAGICA",
+      "at": "VIA BIXIO, 87",
+      "2019": "La Porta Magica",
+      "reference": "Via Bixio, 87",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "POLO 0/6 L'ANGOLO DEI PICCOLI",
+      "at": "VIA MENTANA, 1",
+      "2019": "L'angolo dei Piccoli",
+      "reference": "Via Mentana, 1",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "SAN GREGORIO AL CELIO",
+      "at": "SALITA DI S. GREGORIO, 3",
+      "2019": "San Gregorio al Celio",
+      "reference": "Salita di S. Gregorio, 3",
+      "match": "indirizzo"
+    },
+    {
+      "2026": "GRILLO JO",
+      "at": "VIA DI VILLA NARDUCCI, SNC",
+      "2019": "Grillo Jo",
+      "reference": "Via di Villa Narducci",
+      "match": "via-e-nome"
+    }
+  ]
+}
