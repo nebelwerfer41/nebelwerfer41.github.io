@@ -1,0 +1,37 @@
+name: Geocode Nidi Roma from official city coordinates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/geocode-nidi.yml"
+      - "tools/geocode_nidi.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install PDF extraction
+        run: python -m pip install pdfplumber==0.11.8
+      - name: Extract and match city coordinates
+        run: python tools/geocode_nidi.py
+      - name: Commit verified coordinate dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add nidi-roma/coordinates.json nidi-roma/coordinates-report.json
+          if git diff --cached --quiet; then
+            echo "No coordinate changes"
+            exit 0
+          fi
+          git commit -m "data: geolocate Roma nidi from 2019 official SC6 positions"
+          git push
