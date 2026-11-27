@@ -138,6 +138,31 @@ const municipi = ['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XI
 const esc = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sleep = ms=>new Promise(res=>setTimeout(res,ms));
 function toast(message){const e=$('error');e.textContent=message;e.style.display='block';clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>e.style.display='none',6500)}
+let officialGeoStatus='Caricamento coordinate da Roma Capitale…';
+async function loadMunicipalCoordinates(){
+ try{
+  const response=await fetch('./coordinates.json',{cache:'no-store'});
+  if(!response.ok)throw Error('dati geografici non disponibili (HTTP '+response.status+')');
+  const data=await response.json();
+  let merged=0;
+  for(const [k,g] of Object.entries(data)){
+   if(!g||!Number.isFinite(g.lat)||!Number.isFinite(g.lng))continue;
+   if(g.lat<41.4||g.lat>42.4||g.lng<11.5||g.lng>13.2)continue;
+   const existing=cache[k];
+   if(existing&&Number.isFinite(existing.lat)&&Number.isFinite(existing.lng)
+      &&existing.quality==='manuale')continue;
+   cache[k]=g;geofailed.delete(k);merged++;
+  }
+  saveCache();
+  const total=STRUCTURES.filter(coordFor).length;
+  officialGeoStatus=total+' strutture posizionate. Fonte: Roma Capitale, Piano Protezione Civile 2024 (coordinate 2019), con indirizzi confrontati col bando 2026. '+(TOTAL-total)+' ancora da verificare.';
+  renderAll();
+ }catch(e){
+  console.warn('Coordinate precompilate:',e);
+  officialGeoStatus='Coordinate precompilate non disponibili: '+e.message+'. L’elenco completo resta consultabile.';
+  renderAll();
+ }
+}
 function readCache(){try{const v=JSON.parse(localStorage.getItem(key)||'{}');if(v&&typeof v==='object')cache=v}catch(e){cache={}}for(const [k,v] of Object.entries(cache))if(v?.unresolved)geofailed.add(k)}
 function saveCache(){try{localStorage.setItem(key,JSON.stringify(cache))}catch(e){}}
 function coordFor(r){const g=cache[encodeKey(r)];return g&&Number.isFinite(g.lat)&&Number.isFinite(g.lng)?g:null}
@@ -159,7 +184,7 @@ function updateProgress(){
  $('geoCount').textContent=located+' / '+TOTAL;
  $('barFill').style.width=(located/TOTAL*100)+'%';
  $('geoLabel').textContent=located===TOTAL?'Tutte le coordinate disponibili':'Posizioni localizzate sulla mappa';
- $('geoNote').textContent='Elenco completo: '+TOTAL+' strutture. Per cercare un punto, seleziona un asilo dall’elenco; le coordinate non sono ancora complete.';
+ $('geoNote').textContent=officialGeoStatus;
 }
 
 function geodesicCircle(centerPos,meters){
@@ -491,6 +516,7 @@ function init(){
  toggle.textContent='Riduci elenco';
  toggle.onclick=()=>{sidebar.classList.toggle('collapsed');toggle.textContent=sidebar.classList.contains('collapsed')?'Apri elenco':'Riduci elenco';setTimeout(()=>{if(mapReady)map.resize()},320)};
  renderAll();
+ void loadMunicipalCoordinates();
  initMap();
 }
 
