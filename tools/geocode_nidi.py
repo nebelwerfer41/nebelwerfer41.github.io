@@ -22,23 +22,23 @@ def clean(s):
     s = unicodedata.normalize("NFKD", str(s or ""))
     s = "".join(c for c in s if not unicodedata.combining(c)).upper()
     s = s.replace("’", "'").replace("'", " ")
-    s = re.sub(r"\\bS[.]\\s+", "SAN ", s)
+    s = re.sub(r"\bS[.]\s+", "SAN ", s)
     s = re.sub(r"[^A-Z0-9 ]+", " ", s)
-    return re.sub(r"\\s+", " ", s).strip()
+    return re.sub(r"\s+", " ", s).strip()
 
 
 STREET_TYPES = {"VIA", "VIALE", "LARGO", "LARG0", "PIAZZA", "PIAZZALE", "SALITA",
                 "CIRCONVALLAZIONE", "VICOLO", "STRADA", "LUNGOTEVERE", "PZA", "PZZA"}
 ARTICLES = {"DI", "DEL", "DELLA", "DELL", "DEI", "DEGLI", "DELLE", "DA", "D", "LA", "LE"}
-ROAD_RE = re.compile(r"\\b(?:VIA|VIALE|PIAZZALE|PIAZZA|LARGO|SALITA|CIRCONVALLAZIONE|STRADA|LUNGOTEVERE|VICOLO)\\b", re.I)
+ROAD_RE = re.compile(r"\b(?:VIA|VIALE|PIAZZALE|PIAZZA|LARGO|SALITA|CIRCONVALLAZIONE|STRADA|LUNGOTEVERE|VICOLO)\b", re.I)
 
 
 def address(s):
     raw = str(s or "").upper()
-    raw = re.sub(r",?\\s*(?:SNC|S\\.N\\.C\\.)\\s*$", "", raw)
+    raw = re.sub(r",?\s*(?:SNC|S\.N\.C\.)\s*$", "", raw)
     house = ""
     # Only the trailing house number counts; numerals in street names do not.
-    match = re.search(r"(?:,|\\s)(\\d{1,4}[A-Z]?)(?:\\s*[/\\-]\\s*\\d+[A-Z]?)?\\s*$", raw)
+    match = re.search(r"(?:,|\s)(\d{1,4}[A-Z]?)(?:\s*[/\-]\s*\d+[A-Z]?)?\s*$", raw)
     if match:
         house = match.group(1)
         raw = raw[:match.start()].strip(" ,")
@@ -66,11 +66,11 @@ def name_score(a, b):
 
 def load_original():
     html = (ROOT / "nidi-roma" / "index.html").read_text(encoding="utf-8")
-    m = re.search(r"const STRUCTURES = (\\[[^\\n]+\\]);", html)
+    m = re.search(r"const STRUCTURES = (\[[^\n]+\]);", html)
     if not m:
         raise RuntimeError("STRUCTURES not found in HTML")
     rows = json.loads(m.group(1))
-    e = re.search(r"const EXTRA_ROWS=(\"[^\\n]*\");", html)
+    e = re.search(r"const EXTRA_ROWS=(\"[^\n]*\");", html)
     if not e:
         raise RuntimeError("EXTRA_ROWS not found in HTML")
     for n, line in enumerate(json.loads(e.group(1)).splitlines(), 1):
@@ -191,12 +191,12 @@ def main():
     matches,examples,ambiguous=reconcile(targets,records)
     if len(matches) < 100:
         raise RuntimeError("Too few confident matches: "+str(len(matches)))
-    OUT.write_text(json.dumps(matches, ensure_ascii=False, indent=2)+"\\n",encoding="utf-8")
+    OUT.write_text(json.dumps(matches, ensure_ascii=False, indent=2)+"\n",encoding="utf-8")
     summary={"source":SOURCE,"sourceDatasetYear":2019,"sourceCount":len(records),
              "catalogCount":len(targets),"geolocated":len(matches),
              "remaining":len(targets)-len(matches),
              "ambiguous":ambiguous,"samples":examples}
-    REPORT.write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    REPORT.write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("OUTPUT",json.dumps({k:v for k,v in summary.items() if k not in ("ambiguous","samples")},ensure_ascii=False))
     for example in examples: print("MATCH",example)
 
