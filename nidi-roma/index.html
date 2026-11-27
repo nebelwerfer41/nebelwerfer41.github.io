@@ -20,6 +20,15 @@
   .bar{background:#dde6e9;height:5px;border-radius:20px;margin:8px 0 7px;overflow:hidden}.bar>div{height:100%;width:0;background:#198b84;transition:width .3s}
   .mini-row{display:flex;gap:10px;align-items:center;justify-content:space-between}.mini{color:var(--ink3);font-size:11px}.link-btn{border:0;padding:0;background:transparent;color:var(--teal);font-weight:650;font-size:11px}
   .filters{padding:15px 19px 13px;border-bottom:1px solid var(--line);flex:none}
+  .filters-panel{flex:none;border-bottom:1px solid var(--line);background:#fff;min-height:0}
+  .filters-panel>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 19px;cursor:pointer;font-size:13px;font-weight:720;color:#1b3c42;user-select:none;list-style:none}
+  .filters-panel>summary::-webkit-details-marker{display:none}
+  .filters-panel>summary::after{content:"▾";color:#087f74;font-size:14px;transition:transform .15s}
+  .filters-panel[open]>summary::after{transform:rotate(180deg)}
+  .filters-panel>summary small{font-size:11px;font-weight:550;color:#64818a;margin-left:auto;max-width:52%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .filters-panel>.filters{border-bottom:0;max-height:min(38dvh,330px);overflow-y:auto;padding-top:5px}
+  .filters-panel>.progress-wrap{margin:3px 15px 12px}
+  .result-scroll{min-height:0}
   .field-label{display:block;margin-bottom:5px;font-weight:690;font-size:12px;color:#3c5360}
   .control{width:100%;height:39px;border:1px solid #d4e0e5;border-radius:9px;background:#fff;padding:0 10px;min-width:0;color:var(--ink)}
   .control:focus{border-color:#67a7c5;outline:none;box-shadow:0 0 0 3px #bfe3f359}
@@ -66,7 +75,7 @@
  .location-status{position:absolute;z-index:480;top:137px;left:15px;max-width:330px;background:#effaf5f2;color:#176350;border:1px solid #c5e0d3;border-radius:10px;padding:8px 11px;font-size:12px;box-shadow:0 6px 20px #0001}
  @media(max-width:800px){.location-status{top:120px;left:12px;right:12px;max-width:none}.map-hint{display:none}}
   #mobileToggle{display:none}
-  @media(max-width:800px){.app{grid-template-columns:1fr;position:relative}aside{position:absolute;bottom:0;left:0;width:100%;height:46%;min-height:220px;z-index:600;border-right:0;border-top:1px solid var(--line);border-radius:17px 17px 0 0;box-shadow:0 -5px 20px #243f4822;transition:height .25s}aside.collapsed{height:76px;min-height:76px}.sidebar-top{padding:12px 16px 11px}.sidebar-top .subtitle,.sidebar-top .progress-wrap{display:none}aside.collapsed .filters,aside.collapsed .result-head,aside.collapsed .result-scroll,aside.collapsed .bottom{display:none}h1{font-size:16px}.identity{gap:8px}.logo{height:32px;width:32px;flex-basis:32px}#mobileToggle{display:block;position:absolute;right:13px;top:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;color:#234;z-index:8;font-weight:650;font-size:12px}.map-toolbar{top:14px;width:calc(100% - 24px)}.map-style{top:70px;right:12px}.map-hint{bottom:calc(46% + 13px);right:9px;padding:7px 9px;font-size:11px;max-width:170px}.legend{display:none}.maplibregl-ctrl-bottom-right{bottom:68%}aside{height:68%;min-height:260px}aside.collapsed{height:72px;min-height:72px}.filters{padding:9px 15px 8px}.radius-top{margin-top:6px}.result-head{padding:8px 14px}.result-scroll{padding-bottom:20px}}
+  @media(max-width:800px){.app{grid-template-columns:1fr;position:relative}aside{position:absolute;bottom:0;left:0;width:100%;height:46%;min-height:220px;z-index:600;border-right:0;border-top:1px solid var(--line);border-radius:17px 17px 0 0;box-shadow:0 -5px 20px #243f4822;transition:height .25s}aside.collapsed{height:76px;min-height:76px}.sidebar-top{padding:12px 16px 11px}.sidebar-top .subtitle,.sidebar-top .progress-wrap{display:none}aside.collapsed .filters-panel,aside.collapsed .filters,aside.collapsed .result-head,aside.collapsed .result-scroll,aside.collapsed .bottom{display:none}h1{font-size:16px}.identity{gap:8px}.logo{height:32px;width:32px;flex-basis:32px}#mobileToggle{display:block;position:absolute;right:13px;top:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;color:#234;z-index:8;font-weight:650;font-size:12px}.map-toolbar{top:14px;width:calc(100% - 24px)}.map-style{top:70px;right:12px}.map-hint{bottom:calc(46% + 13px);right:9px;padding:7px 9px;font-size:11px;max-width:170px}.legend{display:none}.maplibregl-ctrl-bottom-right{bottom:68%}aside{height:68%;min-height:260px}aside.collapsed{height:72px;min-height:72px}.filters{padding:9px 15px 8px}.filters-panel>summary{padding:10px 15px}.filters-panel>.filters{padding-top:5px;max-height:35dvh}.radius-top{margin-top:6px}.result-head{padding:8px 14px}.result-scroll{padding-bottom:20px}}
 </style>
 </head>
 <body>
@@ -77,13 +86,11 @@
     <div class="identity"><div class="logo" aria-hidden="true"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
       <div><div class="eyebrow">Iscrizioni 2026–2027</div><h1>Nidi e servizi 0–3 · Roma e provincia</h1></div></div>
     <p class="subtitle">Bando Roma Capitale 11 agosto 2026 + 25 strutture aggiuntive da verificare · <b id="totalCount">453 strutture</b>.</p>
-    <div class="progress-wrap">
-      <div class="status-line"><b id="geoLabel">Coordinate disponibili</b><span id="geoCount">0 / 453</span></div>
-      <div class="bar"><div id="barFill"></div></div>
-      <div class="mini-row"><div class="mini" id="geoNote">L’elenco completo è qui sotto. Seleziona una struttura per cercarne la posizione.</div></div>
-    </div>
+
   </div>
-  <div class="filters">
+  <details class="filters-panel" id="filtersPanel">
+    <summary class="filters-toggle"><span>Filtri e raggio</span><small id="filtersCompact">Apri i filtri</small></summary>
+    <div class="filters">
     <label class="field-label" for="quickSearch">Cerca una struttura</label>
     <input id="quickSearch" class="control" type="search" autocomplete="off" placeholder="Nome o via…">
     <details class="more-filters"><summary>Filtri opzionali</summary>
@@ -99,7 +106,13 @@
     <input class="range" id="radiusInput" type="range" min="250" max="15000" step="250" value="2000">
     <div class="range-notes"><span>250 m</span><span>7,5 km</span><span>15 km</span></div>
     <div class="selected-bar"><span id="pointStatus" class="mini">Clicca sulla mappa per scegliere un centro</span><button class="text-btn" id="clearCenter" disabled>Rimuovi</button></div>
-  </div>
+    </div>
+    <div class="progress-wrap">
+      <div class="status-line"><b id="geoLabel">Coordinate disponibili</b><span id="geoCount">0 / 453</span></div>
+      <div class="bar"><div id="barFill"></div></div>
+      <div class="mini-row"><div class="mini" id="geoNote">L’elenco completo è qui sotto. Seleziona una struttura per cercarne la posizione.</div></div>
+    </div>
+  </details>
   <div class="result-head"><strong id="resultCount">453 strutture</strong><span id="distanceLegend">Roma e provincia</span></div>
   <div class="result-scroll" id="resultScroll"><div class="empty">Caricamento dell’elenco…</div></div>
   <div class="bottom"><button class="text-btn primary" id="csvBtn">Esporta risultati CSV</button><button class="text-btn" id="geojsonBtn" title="Esporta anche le coordinate già trovate">GeoJSON</button><button class="text-btn" id="importBtn" title="Importa un precedente GeoJSON con coordinate">Importa punti</button><input id="importFile" type="file" accept=".geojson,.json,application/geo+json,application/json" hidden></div>
@@ -273,6 +286,7 @@ function renderMarkers(){
 function renderList(){
  currentFiltered=filteredRecords();const count=currentFiltered.length, located=STRUCTURES.filter(coordFor).length, pending=TOTAL-located;
  $('resultCount').textContent=center?count+' '+(count===1?'nido':'nidi')+' entro '+formatDist(radius()):count+' '+(count===1?'struttura':'strutture');
+ $('filtersCompact').textContent=center?count+' '+(count===1?'nido':'nidi')+' · '+formatDist(radius()):'Apri per cercare e filtrare';
  $('distanceLegend').textContent=center?pending+' senza coordinate':$('munSelect').value?(Number($('munSelect').value)===0?'Provincia':'Municipio '+municipi[Number($('munSelect').value)]):'Elenco completo';
  const viewport=$('resultScroll');viewport.replaceChildren();
   if(!count){const e=document.createElement('div');e.className='empty';e.textContent=center&&pending?'Nessun nido localizzato entro questo raggio. Aumentalo oppure premi “Rimuovi” per vedere tutti i nidi.':'Nessuna struttura corrisponde ai filtri.';viewport.append(e);return}
@@ -400,6 +414,9 @@ function init(){
    setCenter({lat:pos.coords.latitude,lng:pos.coords.longitude})
   },()=>toast('Posizione non disponibile. Prova a cercare un indirizzo.'),{enableHighAccuracy:false,timeout:10000})
  };
+ $('filtersPanel').addEventListener('toggle',()=>{
+  if(!$('filtersPanel').open)$('resultScroll').scrollTop=0;
+ });
  const toggle=$('mobileToggle'),sidebar=$('sidebar');
  toggle.textContent='Riduci elenco';
  toggle.onclick=()=>{sidebar.classList.toggle('collapsed');toggle.textContent=sidebar.classList.contains('collapsed')?'Apri elenco':'Riduci elenco';setTimeout(()=>{if(mapReady)map.resize()},320)};
