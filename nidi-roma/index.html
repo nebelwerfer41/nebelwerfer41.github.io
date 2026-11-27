@@ -25,6 +25,10 @@
   .control:focus{border-color:#67a7c5;outline:none;box-shadow:0 0 0 3px #bfe3f359}
   .filter-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:11px}
   .filter-row-2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+  .more-filters{margin-top:7px}
+  .more-filters summary{font-size:11px;font-weight:650;color:#176b61;cursor:pointer;padding:7px 0}
+  .more-filters[open] summary{margin-bottom:4px}
+  .result-head{background:#f7fbfa}
   .radius-top{display:flex;align-items:baseline;justify-content:space-between;margin-top:14px;gap:10px}
   .radius-value{font-size:18px;font-weight:780;color:#087f74;letter-spacing:-.5px}
   .range{width:100%;accent-color:#078c80;margin:5px 0 4px;cursor:pointer}.range-notes{display:flex;justify-content:space-between;color:var(--ink3);font-size:10px}
@@ -62,7 +66,7 @@
  .location-status{position:absolute;z-index:480;top:137px;left:15px;max-width:330px;background:#effaf5f2;color:#176350;border:1px solid #c5e0d3;border-radius:10px;padding:8px 11px;font-size:12px;box-shadow:0 6px 20px #0001}
  @media(max-width:800px){.location-status{top:120px;left:12px;right:12px;max-width:none}.map-hint{display:none}}
   #mobileToggle{display:none}
-  @media(max-width:800px){.app{grid-template-columns:1fr;position:relative}aside{position:absolute;bottom:0;left:0;width:100%;height:46%;min-height:220px;z-index:600;border-right:0;border-top:1px solid var(--line);border-radius:17px 17px 0 0;box-shadow:0 -5px 20px #243f4822;transition:height .25s}aside.collapsed{height:76px;min-height:76px}.sidebar-top{padding:12px 16px 11px}.sidebar-top .subtitle,.sidebar-top .progress-wrap{display:none}aside.collapsed .filters,aside.collapsed .result-head,aside.collapsed .result-scroll,aside.collapsed .bottom{display:none}h1{font-size:16px}.identity{gap:8px}.logo{height:32px;width:32px;flex-basis:32px}#mobileToggle{display:block;position:absolute;right:13px;top:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;color:#234;z-index:8;font-weight:650;font-size:12px}.map-toolbar{top:14px;width:calc(100% - 24px)}.map-style{top:70px;right:12px}.map-hint{bottom:calc(46% + 13px);right:9px;padding:7px 9px;font-size:11px;max-width:170px}.legend{display:none}.maplibregl-ctrl-bottom-right{bottom:46%}}
+  @media(max-width:800px){.app{grid-template-columns:1fr;position:relative}aside{position:absolute;bottom:0;left:0;width:100%;height:46%;min-height:220px;z-index:600;border-right:0;border-top:1px solid var(--line);border-radius:17px 17px 0 0;box-shadow:0 -5px 20px #243f4822;transition:height .25s}aside.collapsed{height:76px;min-height:76px}.sidebar-top{padding:12px 16px 11px}.sidebar-top .subtitle,.sidebar-top .progress-wrap{display:none}aside.collapsed .filters,aside.collapsed .result-head,aside.collapsed .result-scroll,aside.collapsed .bottom{display:none}h1{font-size:16px}.identity{gap:8px}.logo{height:32px;width:32px;flex-basis:32px}#mobileToggle{display:block;position:absolute;right:13px;top:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;color:#234;z-index:8;font-weight:650;font-size:12px}.map-toolbar{top:14px;width:calc(100% - 24px)}.map-style{top:70px;right:12px}.map-hint{bottom:calc(46% + 13px);right:9px;padding:7px 9px;font-size:11px;max-width:170px}.legend{display:none}.maplibregl-ctrl-bottom-right{bottom:68%}aside{height:68%;min-height:260px}aside.collapsed{height:72px;min-height:72px}.filters{padding:9px 15px 8px}.radius-top{margin-top:6px}.result-head{padding:8px 14px}.result-scroll{padding-bottom:20px}}
 </style>
 </head>
 <body>
@@ -82,14 +86,15 @@
   <div class="filters">
     <label class="field-label" for="quickSearch">Cerca una struttura</label>
     <input id="quickSearch" class="control" type="search" autocomplete="off" placeholder="Nome o via…">
+    <details class="more-filters"><summary>Filtri opzionali</summary>
     <div class="filter-row">
       <div><label class="field-label" for="munSelect">Municipio</label><select class="control" id="munSelect"><option value="">Tutti</option></select></div>
       <div><label class="field-label" for="typeSelect">Tipologia</label><select class="control" id="typeSelect"><option value="">Tutte</option><option value="Nido">Nidi</option><option value="Ponte">Sezioni ponte</option><option value="Spazio gioco">Spazi gioco</option><option value="Aggiuntivo">Altri nidi</option></select></div>
     </div>
     <div class="filter-row-2">
       <div><label class="field-label" for="gestSelect">Gestione</label><select class="control" id="gestSelect"><option value="">Tutte</option><option value="CAPITOLINA">Capitolina</option><option value="PRIVATA">Privata</option><option value="COMUNALE">Comunale</option><option value="DA VERIFICARE">Da verificare</option></select></div>
-      <div><label class="field-label" for="viewSelect">Mostra</label><select class="control" id="viewSelect"><option value="all" selected>Tutte le strutture</option><option value="inside">Solo nel raggio (localizzate)</option></select></div>
     </div>
+    </details>
     <div class="radius-top"><label class="field-label" for="radiusInput">Raggio dal punto scelto</label><span id="radiusValue" class="radius-value">2 km</span></div>
     <input class="range" id="radiusInput" type="range" min="250" max="15000" step="250" value="2000">
     <div class="range-notes"><span>250 m</span><span>7,5 km</span><span>15 km</span></div>
@@ -102,7 +107,7 @@
 <main id="map" role="region" aria-label="Mappa navigabile dei nidi di Roma">
   <form class="map-toolbar" id="addressForm"><input id="addressSearch" placeholder="Cerca indirizzo da usare come centro…" aria-label="Indirizzo da cercare sulla mappa"><button type="submit" id="addressSubmit">Cerca</button><button class="secondary" id="gpsBtn" type="button" title="Usa la tua posizione" aria-label="Usa posizione GPS">◎</button></form>
   <div class="map-style"><label for="styleSelect">Sfondo</label><select id="styleSelect" aria-label="Stile della mappa"><option value="liberty">Strade</option><option value="bright">Colori</option><option value="positron">Chiaro</option><option value="dark">Scuro</option></select></div>
-  <div class="map-hint">Clicca sulla mappa per scegliere un centro. L’elenco completo resta visibile; scegli “Solo nel raggio” per filtrare le strutture già localizzate.</div>
+  <div class="map-hint">Clicca sulla mappa o usa il GPS per filtrare l’elenco. Con “Rimuovi” torni a vedere tutti i nidi.</div>
   <div class="legend"><span><i class="nido"></i>Nidi</span><span><i class="ponteColor"></i>Ponte</span><span><i class="spazioColor"></i>Spazi gioco</span><span><i class="spazioColor"></i>Altri nidi</span><span><i class="inradius"></i>Nel raggio</span></div>
   <div id="locationStatus" class="location-status" role="status" hidden></div><div id="error" role="status"></div>
 </main>
@@ -154,9 +159,9 @@ function hav(a,b){const d=Math.PI/180,R=6371000,dlat=(b.lat-a.lat)*d,dlon=(b.lng
 function radius(){return Number($('radiusInput').value)}
 function inRadius(r){const g=coordFor(r);return !!(center&&g&&hav(center,g)<=radius())}
 function filteredRecords(){
- const query=$('quickSearch').value.trim().toLocaleLowerCase('it'),mun=$('munSelect').value,ty=$('typeSelect').value,gst=$('gestSelect').value,mode=$('viewSelect').value;
+ const query=$('quickSearch').value.trim().toLocaleLowerCase('it'),mun=$('munSelect').value,ty=$('typeSelect').value,gst=$('gestSelect').value;
  let all=STRUCTURES.filter(r=>(!mun||String(r.municipio)===mun)&&(!ty||r.tipo===ty)&&(!gst||r.gestione.startsWith(gst))&&(!query||[r.nome,r.indirizzo,r.codice,r.comune||''].some(s=>s.toLocaleLowerCase('it').includes(query))));
- if(center&&mode==='inside')all=all.filter(inRadius);
+ if(center)all=all.filter(inRadius);
  if(center){all.sort((a,b)=>{const ca=coordFor(a),cb=coordFor(b);if(ca&&!cb)return -1;if(!ca&&cb)return 1;return ca&&cb?hav(center,ca)-hav(center,cb):a.municipio-b.municipio||a.nome.localeCompare(b.nome,'it')})}
  else all.sort((a,b)=>a.municipio-b.municipio||a.nome.localeCompare(b.nome,'it'));
  return all;
@@ -207,7 +212,7 @@ function updateCenter(){
 function setCenter(latlng,move=true){
  const lat=Number(latlng.lat),lng=Number(latlng.lng);
  if(!Number.isFinite(lat)||!Number.isFinite(lng))return;
- center={lat,lng};$('viewSelect').value='inside';updateCenter();
+ center={lat,lng};updateCenter();
  if(window.innerWidth<=800){
   $('sidebar').classList.remove('collapsed');
   $('mobileToggle').textContent='Riduci elenco';
@@ -215,6 +220,7 @@ function setCenter(latlng,move=true){
  }
  if(mapReady&&move)map.flyTo({center:[center.lng,center.lat],zoom:Math.min(15,Math.max(11,Math.round(15-Math.log2(Math.max(250,radius())/250))))});
  renderAll();
+ $('resultScroll').scrollTop=0;
 }
 function typeColor(r){return r.tipo==='Ponte'?'#9954c8':r.tipo==='Spazio gioco'?'#d9962f':r.tipo==='Aggiuntivo'?'#cf702e':'#3b76d9'}
 function popupFor(ids){
@@ -253,6 +259,7 @@ function renderMarkers(){
  for(const {g,rows} of grouped.values()){
   const relevant=rows.filter(r=>visible.has(r.id));if(!relevant.length)continue;
   const inside=center&&relevant.some(inRadius),outside=center&&!inside;
+  if(outside)continue;
   const color=typeColor(relevant[0]);
   const ids=relevant.map(r=>r.id);
   features.push({type:'Feature',geometry:{type:'Point',coordinates:[g.lng,g.lat]},
@@ -265,11 +272,10 @@ function renderMarkers(){
 }
 function renderList(){
  currentFiltered=filteredRecords();const count=currentFiltered.length, located=STRUCTURES.filter(coordFor).length, pending=TOTAL-located;
- $('resultCount').textContent=count+' '+(count===1?'struttura':'strutture');
- $('distanceLegend').textContent=center?'Distanza in linea d’aria':$('munSelect').value?(Number($('munSelect').value)===0?'Provincia':'Municipio '+municipi[Number($('munSelect').value)]):'Tutti i municipi';
+ $('resultCount').textContent=center?count+' '+(count===1?'nido':'nidi')+' entro '+formatDist(radius()):count+' '+(count===1?'struttura':'strutture');
+ $('distanceLegend').textContent=center?pending+' senza coordinate':$('munSelect').value?(Number($('munSelect').value)===0?'Provincia':'Municipio '+municipi[Number($('munSelect').value)]):'Elenco completo';
  const viewport=$('resultScroll');viewport.replaceChildren();
- if(center&&$('viewSelect').value==='inside'&&pending){const explain=document.createElement('div');explain.className='mini';explain.style.cssText='padding:8px 12px;color:#906a1f;background:#fff9ed;border:1px solid #f1e2c3;border-radius:9px;margin:4px 6px 12px 0';explain.textContent='Risultati parziali: '+pending+' asili del catalogo sono senza coordinate e non possono essere inclusi nel raggio. Seleziona “Tutte le strutture” per consultarli.';viewport.append(explain)}
- if(!count){const e=document.createElement('div');e.className='empty';e.textContent=center&&pending?'Nessuna struttura con coordinate disponibili entro il raggio. Puoi aumentarlo oppure scegliere “Tutte le strutture”.':'Nessuna struttura corrisponde ai filtri.';viewport.append(e);return}
+  if(!count){const e=document.createElement('div');e.className='empty';e.textContent=center&&pending?'Nessun nido localizzato entro questo raggio. Aumentalo oppure premi “Rimuovi” per vedere tutti i nidi.':'Nessuna struttura corrisponde ai filtri.';viewport.append(e);return}
  const fragment=document.createDocumentFragment();
  for(const r of currentFiltered.slice(0,showCount)){
   const g=coordFor(r),m=center&&g?hav(center,g):null;
@@ -370,10 +376,10 @@ function init(){
  readCache();
  for(let i=1;i<=15;i++){const o=document.createElement('option');o.value=i;o.textContent='Roma '+municipi[i];$('munSelect').append(o)}
  const op=document.createElement('option');op.value='0';op.textContent='Provincia (altri comuni)';$('munSelect').append(op);
- $('quickSearch').addEventListener('input',()=>{showCount=TOTAL;renderAll()});
- for(const id of ['munSelect','typeSelect','gestSelect','viewSelect'])$(id).addEventListener('change',()=>{showCount=TOTAL;renderAll()});
- $('radiusInput').addEventListener('input',()=>{updateCenter();renderAll()});
- $('clearCenter').onclick=()=>{center=null;updateCenter();renderAll()};
+ $('quickSearch').addEventListener('input',()=>{showCount=TOTAL;renderAll();$('resultScroll').scrollTop=0});
+ for(const id of ['munSelect','typeSelect','gestSelect'])$(id).addEventListener('change',()=>{showCount=TOTAL;renderAll();$('resultScroll').scrollTop=0});
+ $('radiusInput').addEventListener('input',()=>{updateCenter();renderAll();$('resultScroll').scrollTop=0});
+ $('clearCenter').onclick=()=>{center=null;updateCenter();renderAll();$('resultScroll').scrollTop=0};
  $('csvBtn').onclick=exportCsv;
  $('geojsonBtn').onclick=exportGeoJson;
  $('importBtn').onclick=()=>$('importFile').click();
