@@ -60,13 +60,6 @@
   .map-style select{border:0;background:transparent;max-width:120px;font-weight:650;color:var(--ink);outline-offset:3px;cursor:pointer}
 
  .location-status{position:absolute;z-index:480;top:137px;left:15px;max-width:330px;background:#effaf5f2;color:#176350;border:1px solid #c5e0d3;border-radius:10px;padding:8px 11px;font-size:12px;box-shadow:0 6px 20px #0001}
- .nearby-panel{background:#edf8f2;border:1px solid #c3dfcf;border-radius:10px;padding:11px;margin:0 4px 12px 0}
- .nearby-panel h3{font-size:13px;margin:0 0 4px;color:#186856}
- .nearby-panel p{font-size:11px;color:#44695b;margin:0 0 7px}
- .nearby-panel .nearby-entry{padding:7px 0;border-top:1px solid #cfe5d6}
- .nearby-entry button{border:0;background:transparent;color:#145d46;font-weight:650;font-size:12px;text-align:left;padding:0}
- .nearby-entry small{display:block;color:#56766b;font-size:11px;margin-top:3px}
- .nearby-scroll{max-height:190px;overflow:auto}
  @media(max-width:800px){.location-status{top:120px;left:12px;right:12px;max-width:none}.map-hint{display:none}}
   #mobileToggle{display:none}
   @media(max-width:800px){.app{grid-template-columns:1fr;position:relative}aside{position:absolute;bottom:0;left:0;width:100%;height:46%;min-height:220px;z-index:600;border-right:0;border-top:1px solid var(--line);border-radius:17px 17px 0 0;box-shadow:0 -5px 20px #243f4822;transition:height .25s}aside.collapsed{height:76px;min-height:76px}.sidebar-top{padding:12px 16px 11px}.sidebar-top .subtitle,.sidebar-top .progress-wrap{display:none}aside.collapsed .filters,aside.collapsed .result-head,aside.collapsed .result-scroll,aside.collapsed .bottom{display:none}h1{font-size:16px}.identity{gap:8px}.logo{height:32px;width:32px;flex-basis:32px}#mobileToggle{display:block;position:absolute;right:13px;top:14px;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;color:#234;z-index:8;font-weight:650;font-size:12px}.map-toolbar{top:14px;width:calc(100% - 24px)}.map-style{top:70px;right:12px}.map-hint{bottom:calc(46% + 13px);right:9px;padding:7px 9px;font-size:11px;max-width:170px}.legend{display:none}.maplibregl-ctrl-bottom-right{bottom:46%}}
@@ -133,7 +126,7 @@ const byId = new Map(STRUCTURES.map(r=>[r.id,r]));
 const $ = id => document.getElementById(id);
 const key = 'roma_nidi_2026_coordinate_pagina_maplibre_v1';
 let cache = {}, geofailed = new Set(), pause = false, busy = false, center = null, centerMarker = null, map = null;
-let mapReady = false, markerById = new Map(), currentFiltered = [], showCount = TOTAL, searchQueue = [], lastRequestTime = 0, activeId=null; let osmNearby=[],osmStatus="",osmSeq=0,osmAbort=null,osmTimer=null;
+let mapReady = false, markerById = new Map(), currentFiltered = [], showCount = TOTAL, searchQueue = [], lastRequestTime = 0, activeId=null;
 const MIN_WAIT_MS = 1200;
 const municipi = ['','I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV'];
 const esc = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -191,6 +184,12 @@ function updateCenter(){
  $('radiusValue').textContent=formatDist(radius());
  $('pointStatus').textContent=center?'Centro impostato · '+center.lat.toFixed(4)+', '+center.lng.toFixed(4):'Clicca sulla mappa per scegliere un centro';
  $('clearCenter').disabled=!center;
+ const notice=$('locationStatus');
+ notice.hidden=!center;
+ if(center){
+   const count=STRUCTURES.filter(inRadius).length;
+   notice.textContent='Raggio '+formatDist(radius())+' · '+count+' '+(count===1?'struttura':'strutture')+' del catalogo';
+ }
  if(!mapReady)return;
  const src=map.getSource('selected-radius');
  if(src)src.setData(center?geodesicCircle(center,radius()):emptyGeo());
@@ -215,11 +214,7 @@ function setCenter(latlng,move=true){
   setTimeout(()=>{if(mapReady)map.resize()},320);
  }
  if(mapReady&&move)map.flyTo({center:[center.lng,center.lat],zoom:Math.min(15,Math.max(11,Math.round(15-Math.log2(Math.max(250,radius())/250))))});
- osmNearby=[];osmStatus='Ricerca geografica in corso…';
- $('locationStatus').hidden=false;
- $('locationStatus').textContent='Centro selezionato · raggio '+formatDist(radius())+' · controllo punti nelle vicinanze…';
  renderAll();
- loadOsmNearby();
 }
 function typeColor(r){return r.tipo==='Ponte'?'#9954c8':r.tipo==='Spazio gioco'?'#d9962f':r.tipo==='Aggiuntivo'?'#cf702e':'#3b76d9'}
 function popupFor(ids){
@@ -272,7 +267,7 @@ function renderList(){
  currentFiltered=filteredRecords();const count=currentFiltered.length, located=STRUCTURES.filter(coordFor).length, pending=TOTAL-located;
  $('resultCount').textContent=count+' '+(count===1?'struttura':'strutture');
  $('distanceLegend').textContent=center?'Distanza in linea d’aria':$('munSelect').value?(Number($('munSelect').value)===0?'Provincia':'Municipio '+municipi[Number($('munSelect').value)]):'Tutti i municipi';
- const viewport=$('resultScroll');viewport.replaceChildren();if(center)displayOsmNearby(viewport);
+ const viewport=$('resultScroll');viewport.replaceChildren();
  if(center&&$('viewSelect').value==='inside'&&pending){const explain=document.createElement('div');explain.className='mini';explain.style.cssText='padding:8px 12px;color:#906a1f;background:#fff9ed;border:1px solid #f1e2c3;border-radius:9px;margin:4px 6px 12px 0';explain.textContent='Risultati parziali: '+pending+' asili del catalogo sono senza coordinate e non possono essere inclusi nel raggio. Seleziona “Tutte le strutture” per consultarli.';viewport.append(explain)}
  if(!count){const e=document.createElement('div');e.className='empty';e.textContent=center&&pending?'Nessuna struttura con coordinate disponibili entro il raggio. Puoi aumentarlo oppure scegliere “Tutte le strutture”.':'Nessuna struttura corrisponde ai filtri.';viewport.append(e);return}
  const fragment=document.createDocumentFragment();
@@ -294,103 +289,7 @@ function renderList(){
  if(count>showCount){const btn=document.createElement('button');btn.className='text-btn';btn.style.cssText='display:block;width:calc(100% - 6px);margin:10px 3px 20px';btn.textContent='Mostra altri '+Math.min(70,count-showCount)+' risultati';btn.onclick=()=>{showCount+=70;renderList()};viewport.append(btn)}
 }
 
-function osmAddress(x){
- const t=x.tags||{};
- return [t['addr:street'],t['addr:housenumber']].filter(Boolean).join(' ')||t['addr:full']||'Indirizzo non indicato';
-}
-function displayOsmNearby(root){
- const panel=document.createElement('section');panel.className='nearby-panel';
- const heading=document.createElement('h3');
- const visible=osmNearby.filter(x=>hav(center,x)<=radius());
- heading.textContent='Nidi nei dintorni · '+visible.length;panel.append(heading);
- const source=document.createElement('p');
- source.textContent='Punti OpenStreetMap: separati dal catalogo ufficiale di '+TOTAL+' strutture, da verificare.';
- panel.append(source);
- if(osmStatus){const p=document.createElement('p');p.textContent=osmStatus;panel.append(p)}
- const inner=document.createElement('div');inner.className='nearby-scroll';
- for(const x of visible.slice(0,40)){
-  const item=document.createElement('div');item.className='nearby-entry';
-  const btn=document.createElement('button');btn.textContent=x.name;
-  btn.onclick=()=>{if(mapReady)map.flyTo({center:[x.lng,x.lat],zoom:15});else toast('Coordinate: '+x.lat.toFixed(5)+', '+x.lng.toFixed(5))};
-  const info=document.createElement('small');info.textContent=formatDist(hav(center,x))+' · '+osmAddress(x);
-  item.append(btn,info);inner.append(item);
- }
- panel.append(inner);root.append(panel);
-}
-
-async function overpassFetch(endpoint,query,parentSignal,timeoutMs){
- const ctrl=new AbortController();
- const timer=setTimeout(()=>ctrl.abort(),timeoutMs);
- const cancel=()=>ctrl.abort();
- parentSignal.addEventListener('abort',cancel,{once:true});
- try{
-  const response=await fetch(endpoint,{method:'POST',
-   body:new URLSearchParams({data:query}),
-   headers:{Accept:'application/json'},signal:ctrl.signal});
-  if(!response.ok)throw Error('HTTP '+response.status);
-  return await response.json();
- }finally{
-  clearTimeout(timer);
-  parentSignal.removeEventListener('abort',cancel);
- }
-}
-function renderOsmMarkers(){
- if(!mapReady)return;
- const features=[];
- if(center)for(const x of osmNearby.filter(o=>hav(center,o)<=radius())){
-  features.push({type:'Feature',geometry:{type:'Point',coordinates:[x.lng,x.lat]},properties:{name:x.name,address:osmAddress(x)}});
- }
- const source=map.getSource('osm-nearby');
- if(source)source.setData({type:'FeatureCollection',features});
-}
-async function loadOsmNearby(){
- if(!center)return;
- const seq=++osmSeq;
- if(osmAbort)osmAbort.abort();
- const ctrl=new AbortController();osmAbort=ctrl;
- const pos={...center},r=radius();
- osmStatus='Ricerca dei punti su OpenStreetMap (massimo 12 secondi)…';renderList();
- const area='(around:'+Math.round(r)+','+pos.lat.toFixed(6)+','+pos.lng.toFixed(6)+')';
- const q='[out:json][timeout:22];('+
-  'nwr'+area+'["amenity"="childcare"];'+
-  'nwr'+area+'["amenity"="kindergarten"]["name"~"nido|micronido|nursery",i];'+
-  'nwr'+area+'["name"~"asilo nido|micronido",i];'+
-  ');out center tags;';
- const endpoints=['https://overpass.kumi.systems/api/interpreter','https://overpass-api.de/api/interpreter'];
- try{
-  let result=null,failed=null;
-  for(const [i,ep] of endpoints.entries()){
-   try{
-    result=await overpassFetch(ep,q,ctrl.signal,i===0?5500:6500);
-    break;
-   }catch(e){
-    if(ctrl.signal.aborted)throw e;
-    failed=e;
-   }
-  }
-  if(!result)throw failed||Error('servizio non disponibile');
-  if(seq!==osmSeq)return;
-  const seen=new Set(),rows=[];
-  for(const el of result.elements||[]){
-   const lat=Number(el.lat??el.center?.lat),lng=Number(el.lon??el.center?.lon),tags=el.tags||{};
-   if(!Number.isFinite(lat)||!Number.isFinite(lng)||!tags.name)continue;
-   const name=String(tags.name).trim();
-   if(!name||(!/nido|micronido|nursery|asilo/i.test(name)&&tags.amenity!=='childcare'))continue;
-   const id=el.type+':'+el.id;if(seen.has(id))continue;seen.add(id);
-   rows.push({id,lat,lng,name,tags});
-  }
-  osmNearby=rows.sort((a,b)=>hav(pos,a)-hav(pos,b));
-  osmStatus=rows.length?'Sorgente: OpenStreetMap · denominazioni da verificare':'Nessun nido identificato nei dati OpenStreetMap per quest’area';
-  $('locationStatus').textContent='Centro impostato · '+formatDist(r)+' · '+rows.length+' punti trovati su OpenStreetMap';
-  renderAll();
- }catch(e){
-  if(seq!==osmSeq||ctrl.signal.aborted)return;
-  osmStatus='Servizio di ricerca geografica non disponibile o troppo lento. Il catalogo resta consultabile; puoi continuare a usare la mappa e correggere manualmente le posizioni.';
-  $('locationStatus').textContent='Centro impostato · raggio '+formatDist(r)+' · ricerca online non disponibile';
-  renderAll();
- }
-}
-function renderAll(){updateProgress();renderMarkers();renderOsmMarkers();renderList()}
+function renderAll(){updateProgress();renderMarkers();renderList()}
 function focusRow(r){
  activeId=r.id;const g=coordFor(r);
  if(g){
@@ -473,14 +372,8 @@ function init(){
  const op=document.createElement('option');op.value='0';op.textContent='Provincia (altri comuni)';$('munSelect').append(op);
  $('quickSearch').addEventListener('input',()=>{showCount=TOTAL;renderAll()});
  for(const id of ['munSelect','typeSelect','gestSelect','viewSelect'])$(id).addEventListener('change',()=>{showCount=TOTAL;renderAll()});
- $('radiusInput').addEventListener('input',()=>{
- updateCenter();renderAll();
- if(center){$('locationStatus').textContent='Raggio '+formatDist(radius())+' · aggiorno la ricerca…';clearTimeout(osmTimer);osmTimer=setTimeout(loadOsmNearby,900)}
-});
- $('clearCenter').onclick=()=>{
- ++osmSeq;if(osmAbort)osmAbort.abort();clearTimeout(osmTimer);
- center=null;osmNearby=[];osmStatus='';$('locationStatus').hidden=true;updateCenter();renderAll();
-};
+ $('radiusInput').addEventListener('input',()=>{updateCenter();renderAll()});
+ $('clearCenter').onclick=()=>{center=null;updateCenter();renderAll()};
  $('csvBtn').onclick=exportCsv;
  $('geojsonBtn').onclick=exportGeoJson;
  $('importBtn').onclick=()=>$('importFile').click();
@@ -520,13 +413,9 @@ function setupMapSources(){
  map.addLayer({id:'catalog-dots',type:'circle',source:'catalog',
   paint:{'circle-radius':['get','rad'],'circle-color':['get','fill'],
   'circle-opacity':['get','alpha'],'circle-stroke-width':2,'circle-stroke-color':['get','stroke']}});
- map.addSource('osm-nearby',{type:'geojson',data:emptyGeo()});
- map.addLayer({id:'osm-dots',type:'circle',source:'osm-nearby',
-  paint:{'circle-radius':6,'circle-color':'#66c995','circle-opacity':.95,
-   'circle-stroke-color':'#13644d','circle-stroke-width':2}});
  mapReady=true;
  if(center)map.jumpTo({center:[center.lng,center.lat],zoom:Math.max(map.getZoom(),12)});
- updateCenter();renderMarkers();renderOsmMarkers();
+ updateCenter();renderMarkers();
 }
 function handleMapClick(e){
  if(!mapReady)return;
@@ -536,21 +425,14 @@ function handleMapClick(e){
   geofailed.delete(k);saveCache();correctionId=null;renderAll();toast('Posizione salvata per '+r.nome);
   return;
  }
- const rendered=map.queryRenderedFeatures(e.point,{layers:['catalog-dots','osm-dots']});
+ const rendered=map.queryRenderedFeatures(e.point,{layers:['catalog-dots']});
  if(rendered.length){
   const f=rendered[0];
   activePopup?.remove();
-  if(f.layer.id==='catalog-dots'){
-   const ids=JSON.parse(f.properties.ids);
-   activeId=ids[0];
-   activePopup=new maplibregl.Popup({maxWidth:'340px'}).setLngLat(f.geometry.coordinates).setDOMContent(popupFor(ids)).addTo(map);
-   renderList();
-  }else{
-   const wrap=document.createElement('div'),heading=document.createElement('strong'),meta=document.createElement('p');
-   heading.textContent=f.properties.name;meta.textContent=f.properties.address+' · OpenStreetMap, dati da verificare';
-   wrap.append(heading,meta);
-   activePopup=new maplibregl.Popup({maxWidth:'300px'}).setLngLat(f.geometry.coordinates).setDOMContent(wrap).addTo(map);
-  }
+  const ids=JSON.parse(f.properties.ids);
+  activeId=ids[0];
+  activePopup=new maplibregl.Popup({maxWidth:'340px'}).setLngLat(f.geometry.coordinates).setDOMContent(popupFor(ids)).addTo(map);
+  renderList();
   return;
  }
  setCenter({lat:e.lngLat.lat,lng:e.lngLat.lng},false);
@@ -573,7 +455,7 @@ async function initMap(){
   map.on('click',handleMapClick);
   map.on('mousemove',e=>{
    if(!mapReady)return;
-   const hit=map.queryRenderedFeatures(e.point,{layers:['catalog-dots','osm-dots']});
+   const hit=map.queryRenderedFeatures(e.point,{layers:['catalog-dots']});
    map.getCanvas().style.cursor=hit.length?'pointer':'';
   });
   map.on('error',e=>console.warn('Errore cartografia MapLibre:',e.error||e));
