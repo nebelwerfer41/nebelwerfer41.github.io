@@ -318,7 +318,13 @@ function renderList(){
   const note=document.createElement('div');note.className='result-meta';note.textContent=r.aggiuntivo?(r.sottotipo+' · '+r.fonte+' · posti da verificare'):(r.gestione||'Servizio ponte')+' · '+r.orario;main.append(note);
   main.onclick=()=>focusRow(r);
   const side=document.createElement('div');side.className=g&&m!=null?'distance':'unlocated';side.textContent=m!=null?formatDist(m):g?'✓':'Da posizionare';
-  if(!g){const place=document.createElement('button');place.type='button';place.className='text-btn';place.style.cssText='font-size:10px;margin-top:5px;padding:4px 6px;text-align:center;border:1px solid #d4e0e5';place.textContent='Sulla mappa';place.title='Seleziona questa struttura e clicca il punto corretto sulla mappa';place.onclick=()=>{correctionId=r.id;toast('Posiziona «'+r.nome+'»: clicca il punto esatto sulla mappa. Per annullare, scegli un’altra struttura.');if(window.innerWidth<=800)document.getElementById('sidebar').classList.add('collapsed')};side.append(document.createElement('br'),place)}
+  if(!g){const place=document.createElement('button');place.type='button';place.className='text-btn';place.style.cssText='font-size:10px;margin-top:5px;padding:4px 6px;text-align:center;border:1px solid #d4e0e5';place.textContent='Sulla mappa';place.title='Seleziona questa struttura e clicca il punto corretto sulla mappa';place.onclick=()=>{correctionId=r.id;toast('Posiziona «'+r.nome+'»: clicca il punto esatto sulla mappa. Per annullare, scegli un’altra struttura.');if(window.innerWidth<=800)document.getElementById('sidebar').classList.add('collapsed')};side.append(document.createElement('br'),place);
+   const google=document.createElement('a');
+   google.textContent='Verifica su Google Maps';
+   google.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(r.nome+', '+r.indirizzo+', '+(r.comune||'Roma')+', Italia');
+   google.target='_blank';google.rel='noopener noreferrer';
+   google.style.cssText='display:block;margin-top:5px;color:#527d85;font-size:10px;font-weight:600;white-space:normal;text-decoration:underline';
+   side.append(google)}
   card.append(main,side);fragment.append(card)
  }
  viewport.append(fragment);
