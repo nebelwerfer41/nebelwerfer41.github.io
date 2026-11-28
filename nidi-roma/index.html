@@ -285,7 +285,20 @@ function popupFor(ids){
   const meta=document.createElement('div');meta.className='popup-meta';meta.innerHTML=esc(r.indirizzo)+', '+esc(r.comune||'Roma')+'<br>'+esc(r.municipio?'Municipio '+municipi[r.municipio]:'Provincia di Roma')+' · '+esc(r.tipo)+' · '+esc(r.gestione||'Sezione ponte')+'<br>'+esc(r.orario||'Orario n.d.')+(g&&center?'<br><strong>'+esc(formatDist(hav(center,g)))+' in linea d’aria'+(inside?' · nel raggio':' · fuori raggio')+'</strong>':'');wrap.appendChild(meta);
   const stats=document.createElement('div');stats.className='popup-stats';let pp=r.posti;
   for(const [k,v] of Object.entries(pp)){const sp=document.createElement('span');sp.textContent=({'p':'Piccoli','m':'Medi','g':'Grandi','posti':'Posti','mm':'Medi mattina','gm':'Grandi mattina','mp':'Medi pomeriggio','gp':'Grandi pomeriggio'}[k]||k)+': '+v;stats.appendChild(sp)}wrap.appendChild(stats);
-  if(g&&g.quality!=='civico'&&g.quality!=='manuale'){const warn=document.createElement('div');warn.style.cssText='color:#93651b;font-size:11px;margin-top:7px';warn.textContent='Posizione indicativa: civico non verificato';wrap.appendChild(warn)}
+  if(g&&g.quality!=='manuale'){
+    const warn=document.createElement('div');
+    warn.style.cssText='color:#93651b;font-size:11px;margin-top:7px';
+    const quality=String(g.quality||'');
+    if(quality.includes('scuola')||quality.includes('fonte-ufficiale-indirizzo'))
+      warn.textContent='Posizione del plesso scolastico: l’ingresso del nido potrebbe essere diverso.';
+    else if(quality.includes('storico-ufficiale'))
+      warn.textContent='Posizione da archivio comunale storico (2019): verifica prima della visita.';
+    else if(quality.includes('osm')||quality.includes('Photon'))
+      warn.textContent='Coordinate da dati cartografici aperti: ingresso non confermato sul posto.';
+    else
+      warn.textContent='Coordinate da fonte pubblica: posizione da confermare sul posto.';
+    wrap.appendChild(warn);
+   }
   const actions=document.createElement('div');actions.className='popup-actions';const btn=document.createElement('button');btn.textContent='Usa come centro';btn.addEventListener('click',()=>{const geo=coordFor(r);if(geo)setCenter(geo);activePopup?.remove()});actions.appendChild(btn);
   const ext=document.createElement('a');ext.textContent='Indicazioni ↗';ext.target='_blank';ext.rel='noopener';ext.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(r.indirizzo+', '+(r.comune||'Roma')+', Italia');actions.appendChild(ext);
   const fix=document.createElement('button');fix.textContent='Correggi punto';fix.title='Clicca sulla mappa per collocare questa struttura, senza alterare il PDF';fix.onclick=()=>{correctionId=id;activePopup?.remove();toast('Clicca sul punto corretto della mappa per: '+r.nome)};actions.appendChild(fix);wrap.appendChild(actions);container.appendChild(wrap)
