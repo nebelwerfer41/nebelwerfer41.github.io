@@ -1,0 +1,32 @@
+{
+  "ROMA | VIA RUGGERO BONGHI, 30": {
+    "lat": 41.890482,
+    "lng": 12.500848,
+    "quality": "official-2020-school-name-address",
+    "source": "Roma Capitale Protezione Civile 2020, SC1"
+  },
+  "ROMA | VIA GIOVANNI CONTI, 58": {
+    "lat": 41.952636,
+    "lng": 12.52987,
+    "quality": "official-2020-school-name-address",
+    "source": "Roma Capitale Protezione Civile 2020, SC1"
+  },
+  "ROMA | VIALE ALESSANDRINO, 390": {
+    "lat": 41.878123,
+    "lng": 12.579469,
+    "quality": "official-2020-school-name-address",
+    "source": "Roma Capitale Protezione Civile 2020, SC1; scuola campus indicative"
+  },
+  "ROMA | VIA FOSSO DEL FONTANILETTO, 29": {
+    "lat": 41.974583,
+    "lng": 12.436776,
+    "quality": "official-2020-school-name-address",
+    "source": "Roma Capitale Protezione Civile 2020, SC1; scuola campus indicative"
+  },
+  "POMEZIA | VIA MAR LIBICO, 6": {
+    "lat": 41.62347,
+    "lng": 12.4997,
+    "quality": "business-listing-name-house-number",
+    "source": "ReteImprese Il Pargoletto Via Mar Libico 6 (listing coordinate)"
+  }
+}
