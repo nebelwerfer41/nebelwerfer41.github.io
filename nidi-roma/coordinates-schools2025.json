@@ -1,0 +1,98 @@
+{
+  "ROMA | VIA DELLA RONDINELLA, 2": {
+    "lat": 41.901113,
+    "lng": 12.468222,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "A. Cadlolo",
+    "referenceAddress": "Via della Rondinella 2"
+  },
+  "ROMA | VIA GIORDANO BRUNO, 2": {
+    "lat": 41.910278,
+    "lng": 12.453244,
+    "quality": "municipal-school-exact-address",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Adelaide Cairoli",
+    "referenceAddress": "Via Giordano Bruno 2"
+  },
+  "ROMA | VIA LOVANIO, 13": {
+    "lat": 41.921738,
+    "lng": 12.497967,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Principessa Mafalda",
+    "referenceAddress": "Via Lovanio 13"
+  },
+  "ROMA | VIA STAMIRA, 55": {
+    "lat": 41.911264,
+    "lng": 12.522024,
+    "quality": "municipal-school-exact-address",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Fratelli Bandiera",
+    "referenceAddress": "Via Stamira 55"
+  },
+  "ROMA | VIA COMANO, 9": {
+    "lat": 41.955734,
+    "lng": 12.516306,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Comano - Ada Chini",
+    "referenceAddress": "Via Comano 9"
+  },
+  "ROMA | VIA SORELLE TETRAZZINI, 55": {
+    "lat": 41.966497,
+    "lng": 12.524009,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Sorelle Tetrazzini",
+    "referenceAddress": "Via Sorelle Tetrazzini 55"
+  },
+  "ROMA | VIA CARTESIO, 3": {
+    "lat": 41.940739,
+    "lng": 12.55924,
+    "quality": "municipal-school-exact-address",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Cecchina Aguzzano",
+    "referenceAddress": "Via Cartesio 3"
+  },
+  "ROMA | VIALE DELLA VENEZIA GIULIA, 72": {
+    "lat": 41.89614,
+    "lng": 12.554559,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Il Giardino dei Colori",
+    "referenceAddress": "Viale della Venezia Giulia 72"
+  },
+  "ROMA | VIA DEL FOSSO DI S. ANDREA, 67": {
+    "lat": 41.81132,
+    "lng": 12.631077,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Centroni",
+    "referenceAddress": "Via del Fosso di S. Andrea 67"
+  },
+  "ROMA | VIA MONDOVI', 16": {
+    "lat": 41.877897,
+    "lng": 12.515193,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Giuseppe Garibaldi",
+    "referenceAddress": "Via Mondovì 16"
+  },
+  "ROMA | VIA ANDREA DEL CASTAGNO, 175": {
+    "lat": 41.835185,
+    "lng": 12.489079,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Il Castagno",
+    "referenceAddress": "Via Andrea del Castagno 175"
+  },
+  "ROMA | VIA GIACOMO MALVANO, 20": {
+    "lat": 41.940264,
+    "lng": 12.46481,
+    "quality": "municipal-school-exact-address-and-name",
+    "source": "Roma Capitale / GeoRoma / Scuole comunali 2025-26",
+    "referenceName": "Merelli",
+    "referenceAddress": "Via Giacomo Malvano 20"
+  }
+}
