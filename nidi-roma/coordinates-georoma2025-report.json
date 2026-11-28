@@ -1,0 +1,699 @@
+{
+  "count": 69,
+  "exact": 57,
+  "named": 12,
+  "ambiguous": [],
+  "otherRemaining": 41,
+  "report": [
+    {
+      "name": "UN FIUME DI EMOZIONI",
+      "address": "PIAZZALE DEI PARTIGIANI, 2",
+      "referenceName": "Ponteponentepontepi",
+      "referenceAddress": "Piazzale dei Partigiani 2",
+      "quality": "address-exact",
+      "lat": 41.87435,
+      "lng": 12.48426,
+      "type": "Nido privato"
+    },
+    {
+      "name": "MICRONIDO CASA DEGLI GNOMI",
+      "address": "VIA UMBERTO BOCCIONI, 14",
+      "referenceName": "Micronido Casa degli Gnomi",
+      "referenceAddress": "Via Umberto Boccioni 14",
+      "quality": "address-exact",
+      "lat": 41.92733,
+      "lng": 12.48789,
+      "type": "Micronido comunale"
+    },
+    {
+      "name": "IL CASTELLO",
+      "address": "VIA DI CASTEL GIUBILEO, 33",
+      "referenceName": "Il Castello",
+      "referenceAddress": "Via di Castel Giubileo 33",
+      "quality": "address-exact",
+      "lat": 41.986,
+      "lng": 12.50638,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "PICCOLO BLU E PICCOLO GIALLO",
+      "address": "LARGO PORTO SAN GIORGIO, 5",
+      "referenceName": "Piccolo Blu e Piccolo Giallo",
+      "referenceAddress": "Largo Porto San Giorgio 5",
+      "quality": "address-exact",
+      "lat": 41.98199,
+      "lng": 12.51858,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "TANALIBERAMONDO",
+      "address": "VIA CAVRIGLIA, 8",
+      "referenceName": "Tanaliberamondo",
+      "referenceAddress": "Via Cavriglia 8",
+      "quality": "address-exact",
+      "lat": 41.94697,
+      "lng": 12.51701,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "NANNA BELLA",
+      "address": "VIA TIBURTINA, 1231",
+      "referenceName": "Nanna Bella",
+      "referenceAddress": "Via Tiburtina 1231",
+      "quality": "address-exact",
+      "lat": 41.93394,
+      "lng": 12.60411,
+      "type": "Nido privato"
+    },
+    {
+      "name": "POPPEA SABINA",
+      "address": "VIA POPPEA SABINA, 73",
+      "referenceName": "Poppea Sabina",
+      "referenceAddress": "Via Poppea Sabina 73",
+      "quality": "address-exact",
+      "lat": 41.94868,
+      "lng": 12.60243,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "BECCADELLI",
+      "address": "PIAZZA GIUSEPPE CARDINALI, 3",
+      "referenceName": "Beccadelli",
+      "referenceAddress": "Piazza Giuseppe Cardinali 3",
+      "quality": "address-exact",
+      "lat": 41.87371,
+      "lng": 12.54702,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "CHICCHI D'ORO",
+      "address": "VIA RIOFREDDO, 30",
+      "referenceName": "Chicchi D'Oro",
+      "referenceAddress": "Via Riofreddo 30",
+      "quality": "address-exact",
+      "lat": 41.87612,
+      "lng": 12.5618,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "GOGHLIGO SPENCER",
+      "address": "VIA HERBERT SPENCER, 82",
+      "referenceName": "Goghligo Spencer",
+      "referenceAddress": "Via Herbert Spencer 82",
+      "quality": "address-exact",
+      "lat": 41.89996,
+      "lng": 12.5602,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "L'ALLEGRA COMPAGNIA DEI BAMBINI",
+      "address": "VIA ANDREA NOALE, 331",
+      "referenceName": "L'Allegra Compagnia dei Bambini",
+      "referenceAddress": "Via Andrea Noale 331",
+      "quality": "address-exact",
+      "lat": 41.9149,
+      "lng": 12.62026,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "PRAMPOLINI",
+      "address": "VIA ALFREDO COVELLI, 24",
+      "referenceName": "Prampolini",
+      "referenceAddress": "Via Alfredo Covelli 24",
+      "quality": "address-exact",
+      "lat": 41.89636,
+      "lng": 12.56729,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "ROSALBA CARRIERA",
+      "address": "VIA ROSALBA CARRIERA, 25",
+      "referenceName": "Rosalba Carriera",
+      "referenceAddress": "Via Rosalba Carriera 25",
+      "quality": "address-exact",
+      "lat": 41.90667,
+      "lng": 12.59826,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "CRESCERE INSIEME 2",
+      "address": "VIA DI TOR BELLA MONACA, 475",
+      "referenceName": "Crescere Insieme 2",
+      "referenceAddress": "Via di Tor Bella Monaca 475",
+      "quality": "address-exact",
+      "lat": 41.87182,
+      "lng": 12.63332,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "CRESCERE INSIEME-VIA MALVAGNA",
+      "address": "VIA MALVAGNA, 13",
+      "referenceName": "Crescere Insieme-Via Malvagna",
+      "referenceAddress": "Via Malvagna 13",
+      "quality": "address-exact",
+      "lat": 41.86656,
+      "lng": 12.68712,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "IL CESTO DEI TESORI",
+      "address": "VIA ROCCALUMERA, 80",
+      "referenceName": "Il Cesto dei Tesori",
+      "referenceAddress": "Via Roccalumera 80",
+      "quality": "address-exact",
+      "lat": 41.88297,
+      "lng": 12.6625,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "IL NIDO DELLA TARTARUGA",
+      "address": "VIA LICATA, 20",
+      "referenceName": "Il Nido della Tartaruga - I Bimbi di Elsa",
+      "referenceAddress": "Via Licata 20",
+      "quality": "address-exact",
+      "lat": 41.86183,
+      "lng": 12.66839,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "LA CASA DEI BAMBINI",
+      "address": "VIA ANDRIA, 43",
+      "referenceName": "La Casa dei Bambini",
+      "referenceAddress": "Via Andria 43",
+      "quality": "address-exact",
+      "lat": 41.89046,
+      "lng": 12.66424,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "LA FATA BUFFA",
+      "address": "VIA SANTA MARIA DI LICODIA, 46",
+      "referenceName": "La Fata Buffa",
+      "referenceAddress": "Via Santa Maria di Licodia 46",
+      "quality": "address-exact",
+      "lat": 41.87154,
+      "lng": 12.65157,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "MICRONIDO MONDOLANDIA",
+      "address": "VIA DELLA TENUTA DI TORRENOVA, 134",
+      "referenceName": "Micronido Mondolandia",
+      "referenceAddress": "Via della Tenuta di Torrenova 134",
+      "quality": "address-exact",
+      "lat": 41.85833,
+      "lng": 12.62028,
+      "type": "Micronido comunale"
+    },
+    {
+      "name": "PICCOLO NIDO",
+      "address": "VIA DEI CORIBANTI , 42",
+      "referenceName": "Piccolo Nido",
+      "referenceAddress": "Via dei Coribanti 42",
+      "quality": "address-exact",
+      "lat": 41.87523,
+      "lng": 12.61729,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "POLO 0/6 LA TARTARUGA",
+      "address": "VIA DON PRIMO MAZZOLARI, 79",
+      "referenceName": "Polo 0/6 La Tartaruga",
+      "referenceAddress": "Via Don Primo Mazzolari 79",
+      "quality": "address-exact",
+      "lat": 41.89282,
+      "lng": 12.67455,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "AGRIASILO",
+      "address": "VIA DI TOR VERGATA, 319",
+      "referenceName": "Agriasilo Meravigliamoci",
+      "referenceAddress": "Via di Tor Vergata 319",
+      "quality": "address-exact",
+      "lat": 41.83427,
+      "lng": 12.62573,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "GREGNA S. ANDREA",
+      "address": "VIA ALESSANDRO DELLA SETA, 8",
+      "referenceName": "Gregna S. Andrea",
+      "referenceAddress": "Via Alessandro della Seta 8",
+      "quality": "address-exact",
+      "lat": 41.82532,
+      "lng": 12.58605,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "IL GIRASOLE",
+      "address": "VIA MACEDONIA, 17",
+      "referenceName": "Il Girasole",
+      "referenceAddress": "Via Macedonia 17",
+      "quality": "address-exact",
+      "lat": 41.8726,
+      "lng": 12.51254,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "PAN DI ZUCCHERO",
+      "address": "VIA DEPORTATI DEL QUADRARO, 15",
+      "referenceName": "Pan di Zucchero",
+      "referenceAddress": "Via Deportati del Quadraro 15",
+      "quality": "address-exact",
+      "lat": 41.85935,
+      "lng": 12.56779,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "STELLA STELLINA",
+      "address": "VIA GIUSEPPE GREGORACI, 64",
+      "referenceName": "Stella Stellina",
+      "referenceAddress": "Via Giuseppe Gregoraci 64",
+      "quality": "address-exact",
+      "lat": 41.84425,
+      "lng": 12.59998,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "ARMONIA",
+      "address": "VIA DEI GRANAI DI NERVA, 18",
+      "referenceName": "Armonia",
+      "referenceAddress": "Via dei Granai di Nerva 18",
+      "quality": "address-exact",
+      "lat": 41.83471,
+      "lng": 12.50964,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "FIABE E COLORI",
+      "address": "VIA DI GROTTA PERFETTA, 607",
+      "referenceName": "Fiabe e Colori",
+      "referenceAddress": "Via di Grotta Perfetta 607",
+      "quality": "address-exact",
+      "lat": 41.83443,
+      "lng": 12.51429,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "PICCOLI MONELLI",
+      "address": "VIA GIUSEPPE CASALINUOVO, 1",
+      "referenceName": "Piccoli Monelli",
+      "referenceAddress": "Via Giuseppe Casalinuovo 1",
+      "quality": "address-exact",
+      "lat": 41.84349,
+      "lng": 12.48908,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "FIABA...CONTINUA",
+      "address": "VIA MAROCCO, 22",
+      "referenceName": "Fiaba...Continua",
+      "referenceAddress": "Via Marocco 22",
+      "quality": "address-exact",
+      "lat": 41.82033,
+      "lng": 12.46606,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "IL GIARDINO DELLE STELLE",
+      "address": "LARGO GIANNI DE LUCA, 8",
+      "referenceName": "Il Giardino delle Stelle",
+      "referenceAddress": "Largo Gianni de Luca 8",
+      "quality": "address-exact",
+      "lat": 41.80482,
+      "lng": 12.42142,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "IL GIARDINO FATATO",
+      "address": "VIA DEL COLLE DELLA STREGA, 34",
+      "referenceName": "Il Giardino Fatato",
+      "referenceAddress": "Via del Colle della Strega 34",
+      "quality": "address-exact",
+      "lat": 41.82294,
+      "lng": 12.48572,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "LA FIABA NEL BOSCO",
+      "address": "VIA DI VALLERANO, 162",
+      "referenceName": "La Fiaba Nel Bosco",
+      "referenceAddress": "Via di Vallerano 162",
+      "quality": "address-exact",
+      "lat": 41.78719,
+      "lng": 12.45786,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "LA TANA DEI MONELLI",
+      "address": "VIA DELLE TESTUGGINI, 9",
+      "referenceName": "La Tana dei Monelli",
+      "referenceAddress": "Via delle Testuggini 9",
+      "quality": "address-exact",
+      "lat": 41.77334,
+      "lng": 12.48569,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "PRIMAVERA DEL CAMPUS",
+      "address": "VIA REGDO SCODRO, 35",
+      "referenceName": "Primavera del Campus",
+      "referenceAddress": "Via Regdo Scodro 35",
+      "quality": "address-exact",
+      "lat": 41.77157,
+      "lng": 12.47272,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "IL CASTELLO DI PICCOLE SCINTILLE",
+      "address": "VIA GIUSEPPE NICOLINI, 84",
+      "referenceName": "Il Castello di Piccole Scintille",
+      "referenceAddress": "Via Giuseppe Nicolini 84",
+      "quality": "address-exact",
+      "lat": 41.72983,
+      "lng": 12.3536,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "IL COLIBRI'",
+      "address": "VIA MARTINO MARTINI, 91/93",
+      "referenceName": "Il Colibrì",
+      "referenceAddress": "Via Martino Martini 91/93",
+      "quality": "address-exact",
+      "lat": 41.78542,
+      "lng": 12.33494,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "LA MAGNOLIA",
+      "address": "VIA DI DRAGONE, 97",
+      "referenceName": "La Magnolia",
+      "referenceAddress": "Via di Dragone 97",
+      "quality": "address-exact",
+      "lat": 41.77746,
+      "lng": 12.33739,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "L'ALBERO DELLE GIRANDOLE",
+      "address": "VIA SUOR CESARINA D'ANGELO, 82",
+      "referenceName": "L'Albero delle Girandole",
+      "referenceAddress": "Via Suor Cesarina D'Angelo 82",
+      "quality": "address-exact",
+      "lat": 41.78044,
+      "lng": 12.38016,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "L'AURORA NIDI",
+      "address": "VIA TOMMASO TRAETTA, 68",
+      "referenceName": "L'Aurora Nidi",
+      "referenceAddress": "Via Tommaso Traetta 68",
+      "quality": "address-exact",
+      "lat": 41.75208,
+      "lng": 12.3858,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "POLO 0/6 ARGENTOVIVO",
+      "address": "VIA MONVALLE, 61",
+      "referenceName": "Polo 0/6 Argentovivo",
+      "referenceAddress": "Via Monvalle 61",
+      "quality": "address-exact",
+      "lat": 41.787,
+      "lng": 12.32694,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "POLO 0/6 NIDO LO SCARABOCCHIO",
+      "address": "VIA DOMENICO LUPATELLI, 5",
+      "referenceName": "Polo 0/6 Nido Lo Scarabocchio",
+      "referenceAddress": "Via Domenico Lupatelli 5",
+      "quality": "address-exact",
+      "lat": 41.85078,
+      "lng": 12.45415,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "POLO 0/6 VACCARI",
+      "address": "VIALE DI VIGNA PIA, 120",
+      "referenceName": "Polo 0/6 Vaccari",
+      "referenceAddress": "Viale di Vigna Pia 120",
+      "quality": "address-exact",
+      "lat": 41.86195,
+      "lng": 12.45934,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "MASSIMINA",
+      "address": "VIA FRANCESCO AQUILANTI, 31",
+      "referenceName": "Massimina",
+      "referenceAddress": "Via Francesco Aquilanti 31",
+      "quality": "address-exact",
+      "lat": 41.87079,
+      "lng": 12.36121,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "ABRACADABRA",
+      "address": "VIA BRA, 39",
+      "referenceName": "Abracadabra",
+      "referenceAddress": "Via Bra 39",
+      "quality": "address-exact",
+      "lat": 41.90151,
+      "lng": 12.41382,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "GIANBURRASCA",
+      "address": "VIA ANTONIO MAGLIO, 21",
+      "referenceName": "Gianburrasca",
+      "referenceAddress": "Via Antonio Maglio 21",
+      "quality": "address-exact",
+      "lat": 41.90596,
+      "lng": 12.3876,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "LA PUNTA",
+      "address": "VIA PIETRO DE FRANCISCI, 737",
+      "referenceName": "La Punta",
+      "referenceAddress": "Via Pietro de Francisci 737",
+      "quality": "address-exact",
+      "lat": 41.89059,
+      "lng": 12.41433,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "BUBU SETTETE",
+      "address": "VIA DELLA TENUTA DI S. AGATA, 8",
+      "referenceName": "Bubu Settete",
+      "referenceAddress": "Via della Tenuta di S. Agata 8",
+      "quality": "address-exact",
+      "lat": 41.93786,
+      "lng": 12.42888,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "L'ISOLA DEI MONELLI",
+      "address": "VIA BRUNO SEROTINI, 49",
+      "referenceName": "Aristobimbi / L'Isola dei Monelli",
+      "referenceAddress": "Via Bruno Serotini 49",
+      "quality": "address-exact",
+      "lat": 41.97892,
+      "lng": 12.41053,
+      "type": "Nido privato · Nido in convenzione"
+    },
+    {
+      "name": "THE GIVING TREE",
+      "address": "VIA ORIOLO ROMANO, 240",
+      "referenceName": "The Giving Tree",
+      "referenceAddress": "Via Oriolo Romano 240",
+      "quality": "address-exact",
+      "lat": 41.96267,
+      "lng": 12.46446,
+      "type": "Nido in convenzione"
+    },
+    {
+      "name": "BABY CLUB - I BAMBINI DEL CIRCO MASSIMO",
+      "address": "Via del Circo Massimo, 9",
+      "referenceName": "Baby Club - I Bambini del Circo Massimo",
+      "referenceAddress": "Via del Circo Massimo 9",
+      "quality": "address-exact",
+      "lat": 41.88377,
+      "lng": 12.48711,
+      "type": "Nido privato"
+    },
+    {
+      "name": "C'ERA UNA VOLTA IL CIELO",
+      "address": "Via Levanna, 15",
+      "referenceName": "C'Era Una Volta Il Cielo",
+      "referenceAddress": "Via Levanna 15",
+      "quality": "address-exact",
+      "lat": 41.93672,
+      "lng": 12.54055,
+      "type": "Micronido privato"
+    },
+    {
+      "name": "GOCCIA DOPO GOCCIA",
+      "address": "Via Nomentana, 905",
+      "referenceName": "Goccia Dopo Goccia",
+      "referenceAddress": "Via Nomentana 905",
+      "quality": "address-exact",
+      "lat": 41.94295,
+      "lng": 12.5566,
+      "type": "Micronido privato"
+    },
+    {
+      "name": "SHERAZADE",
+      "address": "Via Dino Frescobaldi, 7",
+      "referenceName": "Sherazade",
+      "referenceAddress": "Via Dino Frescobaldi 7",
+      "quality": "address-exact",
+      "lat": 41.94743,
+      "lng": 12.54938,
+      "type": "Nido privato"
+    },
+    {
+      "name": "I BIMBI TRA GLI ULIVI",
+      "address": "Via Pietraferrazzana, 22/26",
+      "referenceName": "Bimbi Tra Gli Ulivi",
+      "referenceAddress": "Via Pietraferrazzana 22/26",
+      "quality": "address-exact",
+      "lat": 41.93758,
+      "lng": 12.64802,
+      "type": "Nido privato"
+    },
+    {
+      "name": "LA MAISONETTE",
+      "address": "Via del Monte Oppio, 7",
+      "referenceName": "La Maisonette",
+      "referenceAddress": "Via del Monte Oppio 7",
+      "quality": "address-exact",
+      "lat": 41.89416,
+      "lng": 12.49904,
+      "type": "Nido privato"
+    },
+    {
+      "name": "L'ALBERO AZZURRO",
+      "address": "VIA DELLE MANDRAGORE, SNC",
+      "referenceName": "L'Albero Azzurro",
+      "referenceAddress": "Via delle Mandragore",
+      "quality": "name-street-checked",
+      "lat": 41.88487,
+      "lng": 12.57159,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "ACERO ROSSO",
+      "address": "VIA LUIGI CROCCO, 2",
+      "referenceName": "Acero Rosso",
+      "referenceAddress": "Via Luigi Crocco",
+      "quality": "name-street-checked",
+      "lat": 41.91813,
+      "lng": 12.6557,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "AVVENTURA DI CRESCERE",
+      "address": "VIA MONTAGANO, 13",
+      "referenceName": "Avventura di Crescere",
+      "referenceAddress": "Via Montagano",
+      "quality": "name-street-checked",
+      "lat": 41.90398,
+      "lng": 12.68268,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "FIORI DI MELOGRANO",
+      "address": "VIA OSCAR ARNULFO ROMERO, 91",
+      "referenceName": "Fiori di Melograno",
+      "referenceAddress": "Via Oscar Arnulfo Romero",
+      "quality": "name-street-checked",
+      "lat": 41.89876,
+      "lng": 12.66863,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "CAMELOT",
+      "address": "VIA LUCA ANTONIO CRACAS, 3",
+      "referenceName": "Camelot",
+      "referenceAddress": "Via Luca Antonio Cracas",
+      "quality": "name-street-checked",
+      "lat": 41.87394,
+      "lng": 12.51775,
+      "type": "Spazio gioco privato"
+    },
+    {
+      "name": "L'ISOLA DI PETER PAN",
+      "address": "VIA DELLA VILLA DI LUCINA, SNC",
+      "referenceName": "L'Isola di Peter Pan",
+      "referenceAddress": "Via della Villa di Lucina",
+      "quality": "name-street-checked",
+      "lat": 41.85863,
+      "lng": 12.48513,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "GIRASOLI",
+      "address": "VIA CESARE MACCARI, SNC",
+      "referenceName": "Girasoli",
+      "referenceAddress": "Via Cesare Maccari",
+      "quality": "name-street-checked",
+      "lat": 41.77284,
+      "lng": 12.35807,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "ELENA GIANINI BELOTTI (EX SAN MARCELLO PISTOIESE)",
+      "address": "VIA SAN MARCELLO PISTOIESE, SNC",
+      "referenceName": "Elena Gianini Belotti",
+      "referenceAddress": "Via San Marcello Pistoiese",
+      "quality": "name-street-checked",
+      "lat": 41.84845,
+      "lng": 12.42317,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "IL MAGO DI OZ",
+      "address": "VIA CASSIA, KM 17.200",
+      "referenceName": "Il Mago di Oz",
+      "referenceAddress": "Via Cassia 17.200",
+      "quality": "name-street-checked",
+      "lat": 42.00872,
+      "lng": 12.37954,
+      "type": "Nido comunale"
+    },
+    {
+      "name": "LA SCATOLA MAGICA",
+      "address": "Via Alfredo Catalani, 31/35",
+      "referenceName": "La Scatola Magica",
+      "referenceAddress": "Via A. Catalani 31/35",
+      "quality": "name-street-checked",
+      "lat": 41.93683,
+      "lng": 12.50999,
+      "type": "Micronido privato"
+    },
+    {
+      "name": "LA CASA DI MAYA / CASA DELL'APE MAIA",
+      "address": "Via Alessandro Scarlatti, 9/A",
+      "referenceName": "Casa dell'Ape Maia",
+      "referenceAddress": "Via Scarlatti 9a",
+      "quality": "name-street-checked",
+      "lat": 41.91847,
+      "lng": 12.49606,
+      "type": "Micronido privato"
+    },
+    {
+      "name": "IL GIARDINO DI VALENTINA",
+      "address": "Via Vetulonia, 61/A",
+      "referenceName": "Il Giardino di Valentina",
+      "referenceAddress": "Via Vetulonia 61a",
+      "quality": "name-street-checked",
+      "lat": 41.8753,
+      "lng": 12.50853,
+      "type": "Micronido privato"
+    }
+  ]
+}
