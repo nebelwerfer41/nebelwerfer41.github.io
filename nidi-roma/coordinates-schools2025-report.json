@@ -1,0 +1,155 @@
+{
+  "count": 12,
+  "report": [
+    {
+      "name": "A. CADLOLO",
+      "addr": "VIA DELLA RONDINELLA, 2",
+      "matched": "A. Cadlolo",
+      "referenceAddr": "Via della Rondinella 2",
+      "lat": 41.901113,
+      "lng": 12.468222,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "LUIGI PIANCIANI",
+      "addr": "VIA GIORDANO BRUNO, 2",
+      "matched": "Adelaide Cairoli",
+      "referenceAddr": "Via Giordano Bruno 2",
+      "lat": 41.910278,
+      "lng": 12.453244,
+      "quality": "municipal-school-exact-address"
+    },
+    {
+      "name": "PRINCIPESSA MAFALDA",
+      "addr": "VIA LOVANIO, 13",
+      "matched": "Principessa Mafalda",
+      "referenceAddr": "Via Lovanio 13",
+      "lat": 41.921738,
+      "lng": 12.497967,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "SEZIONE PONTE DEI COLORI",
+      "addr": "VIA STAMIRA, 55",
+      "matched": "Fratelli Bandiera",
+      "referenceAddr": "Via Stamira 55",
+      "lat": 41.911264,
+      "lng": 12.522024,
+      "quality": "municipal-school-exact-address"
+    },
+    {
+      "name": "COMANO - ADA CHINI",
+      "addr": "VIA COMANO, 9",
+      "matched": "Comano - Ada Chini",
+      "referenceAddr": "Via Comano 9",
+      "lat": 41.955734,
+      "lng": 12.516306,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "SORELLE TETRAZZINI",
+      "addr": "VIA SORELLE TETRAZZINI, 55",
+      "matched": "Sorelle Tetrazzini",
+      "referenceAddr": "Via Sorelle Tetrazzini 55",
+      "lat": 41.966497,
+      "lng": 12.524009,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "CECCHINA AGUZZANO PROGETTO PONTE",
+      "addr": "VIA CARTESIO, 3",
+      "matched": "Cecchina Aguzzano",
+      "referenceAddr": "Via Cartesio 3",
+      "lat": 41.940739,
+      "lng": 12.55924,
+      "quality": "municipal-school-exact-address"
+    },
+    {
+      "name": "IL GIARDINO DEI COLORI",
+      "addr": "VIALE DELLA VENEZIA GIULIA, 72",
+      "matched": "Il Giardino dei Colori",
+      "referenceAddr": "Viale della Venezia Giulia 72",
+      "lat": 41.89614,
+      "lng": 12.554559,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "CENTRONI",
+      "addr": "VIA DEL FOSSO DI S. ANDREA, 67",
+      "matched": "Centroni",
+      "referenceAddr": "Via del Fosso di S. Andrea 67",
+      "lat": 41.81132,
+      "lng": 12.631077,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "GIUSEPPE GARIBALDI",
+      "addr": "VIA MONDOVI', 16",
+      "matched": "Giuseppe Garibaldi",
+      "referenceAddr": "Via Mondovì 16",
+      "lat": 41.877897,
+      "lng": 12.515193,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "IL CASTAGNO",
+      "addr": "VIA ANDREA DEL CASTAGNO, 175",
+      "matched": "Il Castagno",
+      "referenceAddr": "Via Andrea del Castagno 175",
+      "lat": 41.835185,
+      "lng": 12.489079,
+      "quality": "municipal-school-exact-address-and-name"
+    },
+    {
+      "name": "MERELLI",
+      "addr": "VIA GIACOMO MALVANO, 20",
+      "matched": "Merelli",
+      "referenceAddr": "Via Giacomo Malvano 20",
+      "lat": 41.940264,
+      "lng": 12.46481,
+      "quality": "municipal-school-exact-address-and-name"
+    }
+  ],
+  "ambiguous": [
+    {
+      "name": "GUGLIELMO MARCONI",
+      "addr": "VIALE ALESSANDRINO, 390",
+      "options": [
+        {
+          "name": "Guglielmo Marconi",
+          "coordinates": [
+            41.878123,
+            12.579469
+          ]
+        },
+        {
+          "name": "Gugliemo Marconi - Comunale",
+          "coordinates": [
+            41.877473,
+            12.578822
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PARCO DI VEIO",
+      "addr": "VIA FOSSO DEL FONTANILETTO, 29",
+      "options": [
+        {
+          "name": "Parco di Veio - Comunale",
+          "coordinates": [
+            41.973823,
+            12.438229
+          ]
+        },
+        {
+          "name": "Parco-Di-Veio",
+          "coordinates": [
+            41.974467,
+            12.436877
+          ]
+        }
+      ]
+    }
+  ]
+}
