@@ -1,0 +1,150 @@
+{
+  "attempted": 24,
+  "found": 0,
+  "notFound": [
+    {
+      "name": "LA CASETTA DELLE ARTI E DEI GIOCHI",
+      "addr": "VIA TRANQUILLO CREMONA, 22",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL CAMPO DI FRAGOLE",
+      "addr": "VIA VITTORIO RAGUSA, 100",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL GERMOGLIO VERDE",
+      "addr": "VIA ADRIA, 15",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "NIDI NEL VERDE - VIA R. SALVATORI - ANAGNINA 2",
+      "addr": "VIA RENATO SALVATORI, 81",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL PICCOLO COSMO DI SIRO",
+      "addr": "VIA GIANA ANGUISSOLA, 102",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "BACCHETTA MAGICA",
+      "addr": "VIA GIAN GASPARE NAPOLITANO, 3",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "NIDO CECCHIGNOLA",
+      "addr": "VIA LINDA MALNATI, SNC",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "PICCOLO PANDA",
+      "addr": "VIA MARCELLO CONVERSI, 39",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "TAPPETO VOLANTE",
+      "addr": "VIA VINICIO CORTESE, 61",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "POLO 0/6 MARIE CURIE",
+      "addr": "VIA DEI GRADENIGO, SNC",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "NIDO BRAVETTA",
+      "addr": "VIA DI BRAVETTA, 413",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "NIDO - VIA MONTE CREMASCO",
+      "addr": "VIA MONTE CREMASCO, 10",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "SCARABOCCHIANDO",
+      "addr": "Via Luigi Luciani, 6/A",
+      "town": "Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL RANOCCHIO",
+      "addr": "Via Duca degli Abruzzi, 1",
+      "town": "Anguillara Sabazia",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "L'ISOLA DEI TESORI",
+      "addr": "Via Anguillarese, 50",
+      "town": "Anguillara Sabazia",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL GIARDINO DELLE MERAVIGLIE",
+      "addr": "Via Comunale di San Francesco, 380",
+      "town": "Anguillara Sabazia",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL PICCOLO RICCIO",
+      "addr": "Via Olmata Tre Cancelli, 7C",
+      "town": "Bracciano",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "ASILO NIDO BRACCIANO",
+      "addr": "Via San Celso, 8",
+      "town": "Bracciano",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "ASILO NIDO SENSORY",
+      "addr": "Via Luisiana, 5",
+      "town": "Ladispoli",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "ASILO NIDO GINO STRADA",
+      "addr": "Via S. Ferretti, snc",
+      "town": "Cerveteri",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "IL GIRASOLE",
+      "addr": "Via Giuseppe Fontana, 27",
+      "town": "Fiumicino",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "NIDO COCCOLANDIA",
+      "addr": "Via Veneto, 26",
+      "town": "Civitavecchia",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "ASILO NIDO BAMBI",
+      "addr": "Via Quintilio Gentili",
+      "town": "Campagnano di Roma",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "name": "AGRINIDO IL GIROTONDO",
+      "addr": "Via Portuense, 1983",
+      "town": "Fiumicino",
+      "error": "HTTP Error 400: Bad Request"
+    }
+  ]
+}
